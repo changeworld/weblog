@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Change the World!</title>
+    <link>https://changesworlds.com/blog/</link>
+    <description>Recent content in Blogs on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 02 Jul 2018 23:52:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft MVP Award renewal</title>
+      <link>https://changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり「Microsoft Azu</description>
+    </item>
+    
+  </channel>
+</rss>

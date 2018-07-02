@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Change the World!</title>
+    <link>https://changesworlds.com/tags/</link>
+    <description>Recent content in Tags on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 02 Jul 2018 23:52:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure</title>
+      <link>https://changesworlds.com/tags/azure/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://changesworlds.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mvp</title>
+      <link>https://changesworlds.com/tags/mvp/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://changesworlds.com/tags/mvp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vsts</title>
+      <link>https://changesworlds.com/tags/vsts/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://changesworlds.com/tags/vsts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
