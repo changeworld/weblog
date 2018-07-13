@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure Web Apps on Change the World!</title>
+    <link>https://changesworlds.com/tags/azure-web-apps/</link>
+    <description>Recent content in Azure Web Apps on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Fri, 13 Jul 2018 21:45:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/tags/azure-web-apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>minibird から Azure に Wordpress を移行した</title>
+      <link>https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</link>
+      <pubDate>Fri, 13 Jul 2018 21:45:21 +0900</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し</description>
+    </item>
+    
+  </channel>
+</rss>
