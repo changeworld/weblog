@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Change the World!</title>
+    <link>https://changesworlds.com/categories/event/</link>
+    <description>Recent content in Event on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 19 Jun 2018 03:00:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Insider Dev Tour Tokyoを開催 &amp; 登壇しました #insiderdevtour</title>
+      <link>https://changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</link>
+      <pubDate>Tue, 19 Jun 2018 03:00:03 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/6/17にInsider Dev Tourを開催しました。 参加していただいたみなさん、スタッフの皆</description>
+    </item>
+    
+  </channel>
+</rss>

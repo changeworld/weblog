@@ -18,13 +18,12 @@
   </url>
   
   <url>
-    <loc>https://changesworlds.com/categories/aboutme/</loc>
-    <lastmod>2018-07-02T23:52:21+09:00</lastmod>
-    <priority>0</priority>
+    <loc>https://changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</loc>
+    <lastmod>2018-06-19T03:00:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://changesworlds.com/tags/azure/</loc>
+    <loc>https://changesworlds.com/categories/aboutme/</loc>
     <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,6 +31,12 @@
   <url>
     <loc>https://changesworlds.com/categories/azure/</loc>
     <lastmod>2018-07-13T21:45:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://changesworlds.com/tags/azure/</loc>
+    <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,6 +61,12 @@
   <url>
     <loc>https://changesworlds.com/</loc>
     <lastmod>2018-07-13T21:45:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://changesworlds.com/categories/event/</loc>
+    <lastmod>2018-06-19T03:00:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
