@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mob Programming on Change the World!</title>
+    <link>https://changesworlds.com/tags/mob-programming/</link>
+    <description>Recent content in Mob Programming on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 13 Nov 2017 03:00:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/tags/mob-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TDD&#43;モブプログラミングでワイワイする会に参加しました #tddyyχ</title>
+      <link>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</link>
+      <pubDate>Mon, 13 Nov 2017 03:00:09 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 昨日開催された以下のイベントに参加しました。 主催者から「blogを書くまでが勉強会への参加なんですか</description>
+    </item>
+    
+  </channel>
+</rss>
