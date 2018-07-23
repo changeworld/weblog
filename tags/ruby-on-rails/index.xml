@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Rails on Change the World!</title>
+    <link>https://changesworlds.com/tags/ruby-on-rails/</link>
+    <description>Recent content in Ruby on Rails on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 02 Aug 2017 04:15:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ActiveRecord::Enum の使い方と重複エラーの避け方</title>
+      <link>https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</link>
+      <pubDate>Wed, 02 Aug 2017 04:15:11 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方</description>
+    </item>
+    
+  </channel>
+</rss>

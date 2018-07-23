@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
+<link rel="canonical" href="https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!</title>
+    <title>ActiveRecord::Enum の使い方と重複エラーの避け方 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方">
 
-<meta property="og:title" content="AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!">
+<meta property="og:title" content="ActiveRecord::Enum の使い方と重複エラーの避け方 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
-<meta property="og:image" content="https://changesworlds.com//images/cc-license/change-671374_1280.jpg">
+<meta property="og:url" content="https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/">
+<meta property="og:image" content="https://changesworlds.com//images/cc-license/medium_177722693.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
-<meta name="twitter:title" content="AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
-<meta name="twitter:image" content="https://changesworlds.com//images/cc-license/change-671374_1280.jpg">
+<meta name="twitter:url" content="https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/">
+<meta name="twitter:title" content="ActiveRecord::Enum の使い方と重複エラーの避け方 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方">
+<meta name="twitter:image" content="https://changesworlds.com//images/cc-license/medium_177722693.jpg">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://changesworlds.com/"
     },
-    "headline": "AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!",
+    "headline": "ActiveRecord::Enum の使い方と重複エラーの避け方 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://changesworlds.com//images/cc-license/change-671374_1280.jpg",
+      "url": "https://changesworlds.com//images/cc-license/medium_177722693.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2018-03-14T03:00:55JST",
-    "dateModified": "2018-03-14T03:00:55JST",
+    "datePublished": "2017-08-02T04:15:11JST",
+    "dateModified": "2017-08-02T04:15:11JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる"
+    "description": "このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方"
   }
 </script>
 
@@ -109,67 +109,135 @@
         
 <article class="sn">
 
-  <div class="thumb thumb-a7518a0f9e208c08dec2fade616ef04c"></div>
+  <div class="thumb thumb-c2ebbd7d586289b0fa57931af4a413b6"></div>
 
   <header class="article-header">
-    <h1 class="title">AsianPLoP 2018の日本語サイトを(勝手に)構築しました</h1>
+    <h1 class="title">ActiveRecord::Enum の使い方と重複エラーの避け方</h1>
 
     <ul class="facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-14T03:00:55JST">Mar 14, 2018</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-08-02T04:15:11JST">Aug 2, 2017</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://changesworlds.com/blog/">BLOG</a></li>
       
     </ul>
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&text=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&t=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&text=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&t=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9 https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
   </header>
 
   
 
-  <div class="article-body"><p>このブログをご覧のみなさん、こんにちは。</p>
+  <div class="article-body">
 
-<p><a href="http://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/">こちら</a>で記載した以下の件についての追加記事です。</p>
+<p>このブログをご覧のみなさん、こんにちは。</p>
+
+<p>掲題の通り、 <code>ActiveRecord::Enum</code> の使い方と重複エラーの避け方をご紹介します。</p>
+
+<h2 id="environment">Environment</h2>
 
 <ul>
-<li><a href="https://twitter.com/haradakiro">Kiroさん</a>が参加していたので、会へのKPTが出せるようになっていた
+<li>OS: macOS Sierra</li>
+<li>Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16]</li>
+<li>Gems
 
 <ul>
-<li>そこで運営部分で改善点が沢山あったので、文句を言うだけで終わらせるのではなく、次回の時は自分が対応すると主催の人たちに伝えた</li>
-<li><em>暗いと不平を言うよりも自ら進んで明かりを灯しなさい。誰かがやるだろうということは、誰もやらないということを知りなさい</em></li>
+<li>rails (5.1.2)</li>
+<li>enum_help (0.0.17)</li>
 </ul></li>
 </ul>
 
-<p>以下を見てもらえば分かる通り、AsianPLoP 2018: 7th Asian Conference on Pattern Languages of Programsの公式サイトはすべて英語で記述されています。</p>
+<h2 id="activerecord-enum-の使い方">ActiveRecord::Enum の使い方</h2>
 
-<iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="AsianPLoP 2018" src="https://hatenablog-parts.com/embed?url=http%3A%2F%2Fpl.csie.ntut.edu.tw%2Fasianplop2018%2Fdoku.php" frameborder="0" scrolling="no"></iframe>
+<p>ActiveRecord::Enum を使うと、プログラムからは名前でアクセスでき、DBには整数値で保存できます。</p>
 
-<p>学会へのKPTの中で「日本語サイトがない！」と<del datetime="2018-03-14T04:19:39+00:00">不平</del>Prblemが出されたので、<del datetime="2018-03-14T04:19:39+00:00">文句言っている暇あるなら自分で日本語サイト作れば？</del>AsianPLoP 2018運営委員会(Program Committee)に許可貰わずに勝手に以下の通り、日本語サイトを構築しました。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+  enum <span style="color:#e6db74">favorite_school_subject</span>: { <span style="color:#e6db74">math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">science</span>: <span style="color:#ae81ff">2</span> }
+<span style="color:#66d9ef">end</span></code></pre></div>
 
-<iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="AsianPLoP 2018" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fasianplop.blob.core.windows.net%2Fasianplop2018%2Findex.html" frameborder="0" scrolling="no"></iframe>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ rails console
+&gt; student = Student.create(favorite_school_subject: 1)
+=&gt; #&lt;Student …, favorite_school_subject: &#34;math&#34;, …&gt;
+&gt; student.favorite_school_subject
+=&gt; &#34;math&#34;
+&gt; student.favorite_school_subject_before_type_cast
+=&gt; 1　# レコードに設定されている値
+&gt; student.favorite_school_subject = 2
+&gt; student.favorite_school_subject
+=&gt; &#34;science&#34;</code></pre></div>
 
-<p>注意されたらすぐに公開停止する所存なのですぞ!!</p>
+<h2 id="activerecord-enum-の重複エラー">ActiveRecord::Enum の重複エラー</h2>
 
-<p><em>暗いと不平を言うよりも自ら進んで明かりを灯しなさい。誰かがやるだろうということは、誰もやらないということを知りなさい</em></p>
+<p>好きな教科があるので、嫌いな教科を追加しましょう。</p>
 
-<p>許可貰わずに勝手にやった＝怒られたら即座に廃止しなければならないこと覚悟で手軽に安くサイトを構築しようと思ったので、Azure BLOB Strage(運用コスト数十円/月)を使って構築しています。特に怒られなければ、次のAsianPLoPのサイトも勝手に日本語化しようと思っていますので、“許可なく、勝手なことすんなこのアホ！”という場合はお気軽に<a href="https://twitter.com/changeworlds">私</a>までご連絡ください。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+  enum <span style="color:#e6db74">favorite_school_subject</span>: { <span style="color:#e6db74">math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">science</span>: <span style="color:#ae81ff">2</span> }
+  enum <span style="color:#e6db74">disliked_school_subject</span>: { <span style="color:#e6db74">math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">science</span>: <span style="color:#ae81ff">2</span> }
+<span style="color:#66d9ef">end</span></code></pre></div>
+
+<p>しかし、このコードは、同じ名前(math, science)を2回使っているため、以下のエラーが発生します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">ArgumentError:
+
+You tried to define an enum named &#34;disliked_school_subject&#34; on the model &#34;Student&#34;, but this will generate a instance method &#34;math?&#34;, which is already defined by another enum.</code></pre></div>
+
+<p>従って、以下のように名前が被らないようにしなければなりません。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+  enum <span style="color:#e6db74">favorite_school_subject</span>: { <span style="color:#e6db74">favorite_math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">favorite_science</span>: <span style="color:#ae81ff">2</span> }
+  enum <span style="color:#e6db74">disliked_school_subject</span>: { <span style="color:#e6db74">disliked_math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">disliked_science</span>: <span style="color:#ae81ff">2</span> }
+<span style="color:#66d9ef">end</span></code></pre></div>
+
+<p>しかし、この方法では、以下のように理解し易いコードではなくなってしまいます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ rails console
+&gt; student = Student.create(favorite_school_subject: 1)
+=&gt; #&lt;Student …, favorite_school_subject: &#34;favorite_math&#34;, …&gt;
+&gt; student.favorite_school_subject
+=&gt; &#34;favorite_math&#34;
+&gt; student.favorite_school_subject_before_type_cast
+=&gt; 1　# レコードに設定されている値
+&gt; student.favorite_school_subject = 2
+&gt; student.favorite_school_subject
+=&gt; &#34;favorite_science&#34;</code></pre></div>
+
+<h2 id="activerecord-enum-の重複エラーの避け方">ActiveRecord::Enum の重複エラーの避け方</h2>
+
+<p><code>enum</code> には <code>_prefix</code> , <code>_suffix</code> というオプションがあり、接頭辞、接尾辞の指定が可能です。</p>
+
+<p>このオプションを使うと、以下のように理解し易く、スッキリしたコードが書けます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> <span style="color:#f92672">&lt;</span> <span style="color:#66d9ef">ActiveRecord</span><span style="color:#f92672">::</span><span style="color:#66d9ef">Base</span>
+  enum <span style="color:#e6db74">favorite_school_subject</span>: { <span style="color:#e6db74">math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">science</span>: <span style="color:#ae81ff">2</span> }, <span style="color:#e6db74">_prefix</span>: <span style="color:#66d9ef">true</span>
+  enum <span style="color:#e6db74">disliked_school_subject</span>: { <span style="color:#e6db74">math</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">science</span>: <span style="color:#ae81ff">2</span> }, <span style="color:#e6db74">_prefix</span>: <span style="color:#66d9ef">true</span>
+<span style="color:#66d9ef">end</span></code></pre></div>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ rails console
+&gt; student = Student.create(favorite_school_subject: 1)
+=&gt; #&lt;Student …, favorite_school_subject: &#34;math&#34;, …&gt;
+&gt; student.favorite_school_subject
+=&gt; &#34;math&#34;
+&gt; student.favorite_school_subject_before_type_cast
+=&gt; 1　# レコードに設定されている値
+&gt; student.favorite_school_subject = 2
+&gt; student.favorite_school_subject
+=&gt; &#34;science&#34;</code></pre></div>
 </div>
 
   <footer class="article-footer">
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&text=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&t=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&text=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&t=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9 https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
 
@@ -181,7 +249,7 @@
             
             <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
             
-            <li class="active">AsianPLoP 2018の日本語サイトを(勝手に)構築しました</li>
+            <li class="active">ActiveRecord::Enum の使い方と重複エラーの避け方</li>
           </ol>
         </nav>
       </div>
@@ -197,9 +265,7 @@
       <div>
         <ul class="terms">
           
-          <li><a href="https://changesworlds.com/categories/pattern/">Pattern</a></li>
-          
-          <li><a href="https://changesworlds.com/categories/translation/">Translation</a></li>
+          <li><a href="https://changesworlds.com/categories/programming/">Programming</a></li>
           
         </ul>
       </div>
@@ -214,7 +280,7 @@
       <div>
         <ul class="terms">
           
-          <li><a href="https://changesworlds.com/tags/pattern-language/">Pattern Language</a></li>
+          <li><a href="https://changesworlds.com/tags/ruby-on-rails/">Ruby on Rails</a></li>
           
         </ul>
       </div>
@@ -229,39 +295,18 @@
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/">
-    <div class="thumb thumb-bd1cf6ff3dbead3bbd605a2b4701f72e"></div>
-
-    <div class="inner">
-      <div class="title">AsianPLoP 2018に論文を寄稿し、参加してきました</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-13T03:00:44JST">Mar 13, 2018</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/">
-    <div class="thumb thumb-b81cc25de5c8981abd99723b3d59fb2c"></div>
+  <a href="https://changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/">
+    <div class="thumb thumb-42529ae9f67dd64dc0738b0162834e35"></div>
 
     <div class="inner">
-      <div class="title">『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo</div>
+      <div class="title">『Serverless Meetup Tokyo #6』で講演しました #serverlesstokyo</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-05-28T03:00:21JST">May 28, 2018</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-10-25T03:00:40JST">Oct 25, 2017</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
