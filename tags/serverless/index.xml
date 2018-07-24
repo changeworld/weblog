@@ -6,10 +6,19 @@
     <description>Recent content in Serverless on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 30 Oct 2017 03:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Apr 2018 02:32:19 +0000</lastBuildDate>
     
 	<atom:link href="https://changesworlds.com/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Global Azure Bootcamp 2018@Tokyo』で登壇しました #jazug</title>
+      <link>https://changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</link>
+      <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/4/21に開催されたGlobal Azure Bootcamp 2018@Tokyoに登壇しました。登壇資料は以下に公</description>
+    </item>
     
     <item>
       <title>『第8回 Tokyo Jazug Night Ignite Update 祭り』で講演しました #jazug</title>
