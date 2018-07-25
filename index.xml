@@ -128,5 +128,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方</description>
     </item>
     
+    <item>
+      <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</title>
+      <link>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</link>
+      <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先週の2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ</description>
+    </item>
+    
   </channel>
 </rss>

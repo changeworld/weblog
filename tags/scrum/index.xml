@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrum on Change the World!</title>
+    <link>https://changesworlds.com/tags/scrum/</link>
+    <description>Recent content in Scrum on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 19 Jun 2017 04:00:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://changesworlds.com/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</title>
+      <link>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</link>
+      <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先週の2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ</description>
+    </item>
+    
+  </channel>
+</rss>
