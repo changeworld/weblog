@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
+<link rel="canonical" href="https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!</title>
+    <title>AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
 
-<meta property="og:title" content="AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!">
+<meta property="og:title" content="AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
-<meta property="og:image" content="https://changesworlds.com//images/cc-license/change-671374_1280.jpg">
+<meta property="og:url" content="https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
+<meta property="og:image" content="https://changesworlds.com//images/cc-license/fake_1433834835.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/">
-<meta name="twitter:title" content="AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる">
-<meta name="twitter:image" content="https://changesworlds.com//images/cc-license/change-671374_1280.jpg">
+<meta name="twitter:url" content="https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
+<meta name="twitter:title" content="AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
+<meta name="twitter:image" content="https://changesworlds.com//images/cc-license/fake_1433834835.jpg">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://changesworlds.com/"
     },
-    "headline": "AsianPLoP 2018の日本語サイトを(勝手に)構築しました - Change the World!",
+    "headline": "AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://changesworlds.com//images/cc-license/change-671374_1280.jpg",
+      "url": "https://changesworlds.com//images/cc-license/fake_1433834835.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2018-03-14T03:00:55JST",
-    "dateModified": "2018-03-14T03:00:55JST",
+    "datePublished": "2017-04-20T07:05:44JST",
+    "dateModified": "2017-04-20T07:05:44JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる"
+    "description": "このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache そのた"
   }
 </script>
 
@@ -109,67 +109,161 @@
         
 <article class="sn">
 
-  <div class="thumb thumb-a7518a0f9e208c08dec2fade616ef04c"></div>
+  <div class="thumb thumb-efa7b669f31a3194880445e967245142"></div>
 
   <header class="article-header">
-    <h1 class="title">AsianPLoP 2018の日本語サイトを(勝手に)構築しました</h1>
+    <h1 class="title">AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</h1>
 
     <ul class="facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-14T03:00:55JST">Mar 14, 2018</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-04-20T07:05:44JST">Apr 20, 2017</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://changesworlds.com/blog/">BLOG</a></li>
       
     </ul>
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&text=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&t=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&text=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&t=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
   </header>
 
   
 
-  <div class="article-body"><p>このブログをご覧のみなさん、こんにちは。</p>
+  <div class="article-body">
 
-<p><a href="http://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/">こちら</a>で記載した以下の件についての追加記事です。</p>
+<p>このブログをご覧のみなさん、こんにちは。</p>
+
+<p>Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。</p>
+
+<p><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/GettingStarted.AuthorizeAccess.html">ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache</a></p>
+
+<p>そのため、AWS 外部から Amazon ElastiCache リソースにアクセスする方法について、以下のリンクの通り、NAT インスタンス経由でアクセスする方法が記載されていますが、メンテナンス性も悪く、手順が煩雑です。</p>
+
+<p><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a></p>
+
+<p>そこで、同一 VPC 内の EC2 上で HAProxy を動作させ、HAProxy 経由でアクセスする方法が分かったので、紹介します。</p>
+
+<h2 id="注意事項">注意事項</h2>
 
 <ul>
-<li><a href="https://twitter.com/haradakiro">Kiroさん</a>が参加していたので、会へのKPTが出せるようになっていた
-
-<ul>
-<li>そこで運営部分で改善点が沢山あったので、文句を言うだけで終わらせるのではなく、次回の時は自分が対応すると主催の人たちに伝えた</li>
-<li><em>暗いと不平を言うよりも自ら進んで明かりを灯しなさい。誰かがやるだろうということは、誰もやらないということを知りなさい</em></li>
-</ul></li>
+<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a>の「制約事項」にも記載されていますが、テストおよび開発の目的にしか使用できません</li>
 </ul>
 
-<p>以下を見てもらえば分かる通り、AsianPLoP 2018: 7th Asian Conference on Pattern Languages of Programsの公式サイトはすべて英語で記述されています。</p>
+<h2 id="前提">前提</h2>
 
-<iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="AsianPLoP 2018" src="https://hatenablog-parts.com/embed?url=http%3A%2F%2Fpl.csie.ntut.edu.tw%2Fasianplop2018%2Fdoku.php" frameborder="0" scrolling="no"></iframe>
+<p>本手順は、以下を前提としています。</p>
 
-<p>学会へのKPTの中で「日本語サイトがない！」と<del datetime="2018-03-14T04:19:39+00:00">不平</del>Prblemが出されたので、<del datetime="2018-03-14T04:19:39+00:00">文句言っている暇あるなら自分で日本語サイト作れば？</del>AsianPLoP 2018運営委員会(Program Committee)に許可貰わずに勝手に以下の通り、日本語サイトを構築しました。</p>
+<ul>
+<li>Amazon ElastiCache と EC2 を同一VPC内で構築している</li>
+<li>EC2 から Amazon ElastiCache 、クライアントマシン から EC2 は疎通できている</li>
+</ul>
 
-<iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="AsianPLoP 2018" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fasianplop.blob.core.windows.net%2Fasianplop2018%2Findex.html" frameborder="0" scrolling="no"></iframe>
+<h2 id="手順">手順</h2>
 
-<p>注意されたらすぐに公開停止する所存なのですぞ!!</p>
+<h3 id="疎通確認">疎通確認</h3>
 
-<p><em>暗いと不平を言うよりも自ら進んで明かりを灯しなさい。誰かがやるだろうということは、誰もやらないということを知りなさい</em></p>
+<p>EC2上で、EC2からAmazon ElastiCacheへの疎通確認をします。</p>
 
-<p>許可貰わずに勝手にやった＝怒られたら即座に廃止しなければならないこと覚悟で手軽に安くサイトを構築しようと思ったので、Azure BLOB Strage(運用コスト数十円/月)を使って構築しています。特に怒られなければ、次のAsianPLoPのサイトも勝手に日本語化しようと思っていますので、“許可なく、勝手なことすんなこのアホ！”という場合はお気軽に<a href="https://twitter.com/changeworlds">私</a>までご連絡ください。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc {Amazon ElastiCacheのEndpoint-URI} 6379
+ping
++PONG
+quit
++OK</code></pre></div>
+
+<h3 id="haproxyのインストールおよび設定">HAProxyのインストールおよび設定</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ sudo yum install haproxy -y
+：
+$ sudo mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy-org.cfg
+$ sudo vi /etc/haproxy/haproxy.cfg</code></pre></div>
+
+<p>以下の内容にします。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">global
+log 127.0.0.1 local2 notice
+maxconn 4096
+chroot /var/lib/haproxy
+user nobody
+group nobody
+daemon
+defaults
+log global
+mode tcp
+retries 3
+option redispatch
+maxconn 2000
+timeout connect 2s
+timeout client 120s
+timeout server 120s
+frontend monitor
+bind :80
+mode http
+stats enable
+stats show-legends
+stats uri /haproxy?stats
+stats auth {認証ID}:{Password}
+frontend redis
+bind :6379
+default_backend redis_backend
+backend redis_backend
+option tcp-check
+tcp-check send PING
+tcp-check expect string +PONG
+tcp-check send INFO REPLICATION
+tcp-check expect string role:master
+tcp-check send QUIT
+tcp-check expect string +OK
+server redis1 {Amazon ElastiCacheのEndpoint-URI}:6379 check inter 1s</code></pre></div>
+
+<h3 id="haproxyの起動および動作確認">HAProxyの起動および動作確認</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ sudo service haproxy start
+：
+$ sudo netstat -antp
+：
+tcp 0 0 0.0.0.0:6379 0.0.0.0:* LISTEN 2751/haproxy
+：</code></pre></div>
+
+<p>HAProxy が <code>TCP:6379</code> で <code>LISTEN</code> していることを確認します。</p>
+
+<p>EC2 上で以下のコマンドを実行し、自分自身の <code>6379</code> に接続し、 Amazon ElastiCache に対して接続できるか確認します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc localhost 6379
+ping
++PONG
+quit
++OK</code></pre></div>
+
+<p>クライアントマシン上で以下のコマンドを実行し、 Amazon ElastiCache に対して接続できるか確認します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc {EC2のEndpoint-URI} 6379
+ping
++PONG
+quit
++OK</code></pre></div>
+
+<h2 id="参考資料">参考資料</h2>
+
+<ul>
+<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/GettingStarted.AuthorizeAccess.html">ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache</a></li>
+<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a></li>
+<li><a href="https://blog.1q77.com/2015/02/redis-ha/">Redis の冗長化を考える (keepalived, HAProxy, Redis Sentinel) – 1Q77</a></li>
+</ul>
 </div>
 
   <footer class="article-footer">
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&text=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&t=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f&title=AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AsianPLoP%202018%e3%81%ae%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%28%e5%8b%9d%e6%89%8b%e3%81%ab%29%e6%a7%8b%e7%af%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f03%2fbuilt-a-japanese-website-of-asian-plop-2018%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&text=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&t=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
 
@@ -181,7 +275,7 @@
             
             <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
             
-            <li class="active">AsianPLoP 2018の日本語サイトを(勝手に)構築しました</li>
+            <li class="active">AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</li>
           </ol>
         </nav>
       </div>
@@ -197,28 +291,13 @@
       <div>
         <ul class="terms">
           
-          <li><a href="https://changesworlds.com/categories/pattern/">Pattern</a></li>
-          
-          <li><a href="https://changesworlds.com/categories/translation/">Translation</a></li>
+          <li><a href="https://changesworlds.com/categories/cloud/">Cloud</a></li>
           
         </ul>
       </div>
     </section>
     
     
-    
-    <section class="footer">
-      <header>
-        <a href="https://changesworlds.com/tags/">TAGS</a>
-      </header>
-      <div>
-        <ul class="terms">
-          
-          <li><a href="https://changesworlds.com/tags/pattern-language/">Pattern Language</a></li>
-          
-        </ul>
-      </div>
-    </section>
     
     
   </footer>
@@ -229,39 +308,18 @@
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/">
-    <div class="thumb thumb-bd1cf6ff3dbead3bbd605a2b4701f72e"></div>
-
-    <div class="inner">
-      <div class="title">AsianPLoP 2018に論文を寄稿し、参加してきました</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-03-13T03:00:44JST">Mar 13, 2018</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/">
-    <div class="thumb thumb-2bed5376fc2491ee961855c622ab64ea"></div>
+  <a href="https://changesworlds.com/blog/2017/06/decode-2017-done/">
+    <div class="thumb thumb-5e90d687d41da688a6cdc5b88ea33b10"></div>
 
     <div class="inner">
-      <div class="title">『Global Azure Bootcamp 2018@Tokyo』で登壇しました #jazug</div>
+      <div class="title">『de:code 2017』で講演しました #decode17</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-04-22T02:32:19JST">Apr 22, 2018</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-06-05T01:00:41JST">Jun 5, 2017</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

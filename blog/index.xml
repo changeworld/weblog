@@ -155,5 +155,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 de:code 2017 [TL12] &amp;quot;炎上案件ストッパー&amp;quot;はかく語りき 「プロジェ</description>
     </item>
     
+    <item>
+      <title>AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</title>
+      <link>https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</link>
+      <pubDate>Thu, 20 Apr 2017 07:05:44 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた</description>
+    </item>
+    
   </channel>
 </rss>
