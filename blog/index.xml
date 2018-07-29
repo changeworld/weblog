@@ -164,5 +164,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた</description>
     </item>
     
+    <item>
+      <title>（なんちゃって）モブ・プログラミング（もどき）の違い</title>
+      <link>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</link>
+      <pubDate>Tue, 11 Apr 2017 03:41:18 +0000</pubDate>
+      
+      <guid>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 同僚のモブ・プログラミングと自分の（なんちゃって）モブ・プログラミング（もどき）が予想以上に違うもの</description>
+    </item>
+    
   </channel>
 </rss>
