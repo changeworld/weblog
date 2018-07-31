@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/">
+<link rel="canonical" href="https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/">
 
 
     
@@ -19,27 +19,27 @@
     
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>minibird から Azure に WordPress を移行した - Change the World!</title>
+    <title>（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた - Change the World!</title>
     
 
-<link rel="amphtml" type="text/html" href="https://changesworlds.com/amp/blog/2018/07/migrate-wordpress-from-minibird-to-azure/">
+<link rel="amphtml" type="text/html" href="https://changesworlds.com/amp/blog/2017/03/transfer-skills-with-mob-programming/">
 
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ">
 
-<meta property="og:title" content="minibird から Azure に WordPress を移行した - Change the World!">
+<meta property="og:title" content="（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/">
-<meta property="og:image" content="https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/images/data-export.jpg">
+<meta property="og:url" content="https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/">
+<meta property="og:image" content="https://changesworlds.com//images/cc-license/team_work_1443977529.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/">
-<meta name="twitter:title" content="minibird から Azure に WordPress を移行した - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し">
-<meta name="twitter:image" content="https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/images/data-export.jpg">
+<meta name="twitter:url" content="https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/">
+<meta name="twitter:title" content="（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ">
+<meta name="twitter:image" content="https://changesworlds.com//images/cc-license/team_work_1443977529.jpg">
 
 
 <script type="application/ld+json">
@@ -50,15 +50,15 @@
       "@type": "WebPage",
       "@id":"https://changesworlds.com/"
     },
-    "headline": "minibird から Azure に WordPress を移行した - Change the World!",
+    "headline": "（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/images/data-export.jpg",
+      "url": "https://changesworlds.com//images/cc-license/team_work_1443977529.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2018-07-13T21:45:21JST",
-    "dateModified": "2018-07-13T21:45:21JST",
+    "datePublished": "2017-03-13T02:55:28JST",
+    "dateModified": "2017-03-13T02:55:28JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -73,7 +73,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し"
+    "description": "このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ"
   }
 </script>
 
@@ -126,24 +126,24 @@ if (!doNotTrack) {
 
     <article class="sn">
 
-  <div class="thumb thumb-7513f7cb0998a6d10740082cb504f095"></div>
+  <div class="thumb thumb-091e91d3ac240be38dd3173c07887c37"></div>
 
   <header class="article-header">
-    <h1 class="title">minibird から Azure に WordPress を移行した</h1>
+    <h1 class="title">（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた</h1>
 
     <ul class="facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-07-13T21:45:21JST">Jul 13, 2018</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-13T02:55:28JST">Mar 13, 2017</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://changesworlds.com/blog/">BLOG</a></li>
       
     </ul>
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&title=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&text=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&t=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&title=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&title=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&text=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&t=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&title=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
   </header>
@@ -154,84 +154,100 @@ if (!doNotTrack) {
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。</p>
+<h2 id="切欠">切欠</h2>
 
-<ol>
-<li>請求周りが分散していて面倒</li>
-<li>設置元サーバ管理</li>
-</ol>
+<p>切欠は<a href="http://at-grandpa.hatenablog.jp/entry/2017/03/10/084658">こちら</a>。</p>
 
-<h2 id="請求周りが分散していて面倒">請求周りが分散していて面倒</h2>
+<h2 id="モブ-プログラミングとは">モブ・プログラミングとは？</h2>
 
-<p>ドメインと設置元サーバを別契約しており、ID/Password管理や請求タイミングのズレなどが地味に面倒でした。</p>
+<p>モブ・プログラミングは1台のPCを全員で共有して一つのプログラムを作成する手法のようだ。</p>
 
-<h2 id="設置元サーバ管理">設置元サーバ管理</h2>
+<p>自分がモブ・プログラミングを知ったのは2017/1/12-13に行われた<a href="http://2017.scrumgatheringtokyo.org/">Reginal Scrum Gathering Tokyo 2017</a>のキーノート内での紹介。</p>
 
-<p>破格の安さで minibird を選択していたのですが、ssh できないとか大して使い易くもないGUIでポチポチしないといけないというのがこれまた地味に面倒でした。</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/p_pvslS4gEI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-<h2 id="で-どうするか">で、どうするか？</h2>
 
-<p>ドメインと同じところにするか、はたまた別のレンタルサーバを借りるか数刹那悩み、 Azure に移行することにしました。</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/dVqUcNKVbYg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
 
-<p>移行方法としては多分最も簡単で一般的な方法であろう、 WordPress のエクスポート・インポートを使用しました。</p>
+<h2 id="実践">実践</h2>
 
-<h2 id="wordpress-のエクスポート-インポートを使用して-移行する方法">WordPress のエクスポート・インポートを使用して、移行する方法</h2>
+<p>ちょうど、昨日、偶然に実践する機会があったので、モブ・プログラミングだとどうなるのかな？と思い、実践してみた。</p>
 
-<ol>
-<li>移行元の WordPress での作業
+<h2 id="環境">環境</h2>
 
-<ol>
-<li>WordPress管理画面左メニューの「ツール」から「エクスポート」を選択します。</li>
-<li>「すべてのコンテンツ」にチェックが入っているのを確認し「エクスポートファイルをダウンロード」をクリックすると、 <code>xmlファイル</code> がダウンロードされます。<br />
-<figure>
-    
-        <img src="images/data-export.jpg" />
-    
-    
-    <figcaption>
-        <h4>Data Export</h4>
-        
-    </figcaption>
-    
-</figure>
-</li>
-</ol></li>
-<li>移行先の WordPress での作業
+<ul>
+<li>人数: 3名(学生2名、自分)
 
-<ol>
-<li>WordPress管理画面左メニューの「ツール」から「インポート」を選択します。</li>
-<li>「WordPress インポートツール」がインストールされていない場合(デフォルトではインストールされません)、ここでプラグインのインストールを行います。「今すぐインストール」をクリックします。<br />
-<figure>
-    
-        <img src="images/data-import.jpg" />
-    
-    
-    <figcaption>
-        <h4>Data Import</h4>
-        
-    </figcaption>
-    
-</figure>
-</li>
-<li>インストールが完了したら「プラグインを有効化してインポートツールを実行」をクリックします。</li>
-<li>「ファイルを選択」をクリックし、先ほどエクスポートでダウンロードした <code>xmlファイル</code> を読み込みます。</li>
-<li>「ファイルをアップロードしてインポート」をクリックします。</li>
-<li>記事やメディアの読み込みと同時に移行前のユーザーのインポートもここで行うことができます。移行後サイトのユーザに置き換えることも可能です。「添付ファイルをダウンロードしてインポートする」にチェックを入れ「実行」をクリックします。</li>
-</ol></li>
-</ol>
+<ul>
+<li>学生1名は自分の知り合い、もう1名は初対面</li>
+<li>自分の知り合いの学生は以前一緒にペアプロをしており、ある程度プログラミング能力はある</li>
+<li>もう1名はプログラミングが苦手で、書籍などを“読んで”学んでいる</li>
+</ul></li>
+<li>場所: Starbucks</li>
+<li>機器: MacBook Air 1台、大型ディスプレイなし</li>
+</ul>
 
-<p>この方法の場合、テーマやプラグインの情報はインポートされません。移行を契機に色々見直しをしようと思ったので、私は上記の方法で移行しました。</p>
+<h2 id="やり方">やり方</h2>
+
+<ul>
+<li>Driver
+
+<ul>
+<li>自分がいまやろうとしていることを話ながらコードを書く</li>
+</ul></li>
+<li>Navigator
+
+<ul>
+<li>Driver のやろうとしていることについて議論する
+
+<ul>
+<li>それいいね！</li>
+<li>そこはこうした方が良いんじゃない？</li>
+<li>それの意図を教えてもらえる？</li>
+</ul></li>
+<li>言葉で意図を伝えられない時は紙に書いたり、コードで表現したりする</li>
+</ul></li>
+</ul>
+
+<h2 id="実践した感想">実践した感想</h2>
+
+<ul>
+<li>ペアプロと異なり、人数が奇数でも実施できる</li>
+<li>情報共有がし易い
+
+<ul>
+<li>以前ペアプロをした時よりも短時間で学生のレベルが向上した(ように見えた)</li>
+</ul></li>
+<li>一人で作業するのに比べて疲労度が高い
+
+<ul>
+<li>特にペアプロもしたことない人は疲労度が高かったので、適切なタイミングで休憩を挟むのが良いと感じた</li>
+</ul></li>
+<li>時間当たりの成果物の品質がよい
+
+<ul>
+<li>別途コードレビューや Pull Request でレビューする場合、「いまからそこ修正するの！？」みたいなことが起こるので、そう考えると全員で作り、 CI さえ通ればマージして良いというのは時間当たりの成果物の品質は良いなと感じた</li>
+</ul></li>
+</ul>
+
+<p>自分自身がまだモブ・プログラミングというやり方に慣れていない影響か、毎日モブ・プログラミングでやるのはしんどそうだなぁと感じた。</p>
 </div>
 
   <footer class="article-footer">
 
     <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&title=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&text=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&t=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f&title=minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?minibird%20%e3%81%8b%e3%82%89%20Azure%20%e3%81%ab%20WordPress%20%e3%82%92%e7%a7%bb%e8%a1%8c%e3%81%97%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2018%2f07%2fmigrate-wordpress-from-minibird-to-azure%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&title=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&text=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&t=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f&title=%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?%ef%bc%88%e3%81%aa%e3%82%93%e3%81%a1%e3%82%83%e3%81%a3%e3%81%a6%ef%bc%89%e3%83%a2%e3%83%96%e3%83%bb%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%ef%bc%88%e3%82%82%e3%81%a9%e3%81%8d%ef%bc%89%e3%81%a7%e3%82%b9%e3%82%ad%e3%83%ab%e3%82%92%e4%bc%9d%e6%8e%88%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f https%3a%2f%2fchangesworlds.com%2fblog%2f2017%2f03%2ftransfer-skills-with-mob-programming%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
 
@@ -243,7 +259,7 @@ if (!doNotTrack) {
             
             <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
             
-            <li class="active">minibird から Azure に WordPress を移行した</li>
+            <li class="active">（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた</li>
           </ol>
         </nav>
       </div>
@@ -259,7 +275,7 @@ if (!doNotTrack) {
       <div>
         <ul class="terms">
           
-          <li><a href="https://changesworlds.com/categories/azure/">Azure</a></li>
+          <li><a href="https://changesworlds.com/categories/programming/">Programming</a></li>
           
         </ul>
       </div>
@@ -274,7 +290,7 @@ if (!doNotTrack) {
       <div>
         <ul class="terms">
           
-          <li><a href="https://changesworlds.com/tags/azure-web-apps/">Azure Web Apps</a></li>
+          <li><a href="https://changesworlds.com/tags/mob-programming/">Mob programming</a></li>
           
         </ul>
       </div>
@@ -289,17 +305,18 @@ if (!doNotTrack) {
     <div class="adj">
       <div class="mrow">
         
+        
         <div class="mcol c6">
-          <header>Previous Article</header>
+          <header>Next Article</header>
           <article class="lism">
-  <a href="https://changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/">
-    <div class="thumb thumb-969442b985f846087abfcf989d00f54c"></div>
+  <a href="https://changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/">
+    <div class="thumb thumb-c5061a4c7cfee9d0197e69a8d67cc82f"></div>
 
     <div class="inner">
-      <div class="title">Surface Meets Windows Mixed Reality</div>
+      <div class="title">（なんちゃって）モブ・プログラミング（もどき）を何回か実践しての気づき</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-07-11T22:32:54JST">Jul 11, 2018</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-04-04T03:00:06JST">Apr 4, 2017</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
@@ -309,7 +326,6 @@ if (!doNotTrack) {
 </article>
 
         </div>
-        
         
       </div>
     </div>
