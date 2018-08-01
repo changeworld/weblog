@@ -2,193 +2,202 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Change the World!</title>
-    <link>https://changesworlds.com/</link>
+    <link>https://www.changesworlds.com/</link>
     <description>Recent content on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 13 Jul 2018 21:45:21 +0900</lastBuildDate>
     
-	<atom:link href="https://changesworlds.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.changesworlds.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>minibird から Azure に WordPress を移行した</title>
-      <link>https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</link>
+      <link>https://www.changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</link>
       <pubDate>Fri, 13 Jul 2018 21:45:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/07/migrate-wordpress-from-minibird-to-azure/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 決して、 minibird をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 請求周りが分散し</description>
     </item>
     
     <item>
       <title>Surface Meets Windows Mixed Reality</title>
-      <link>https://changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/</link>
+      <link>https://www.changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/</link>
       <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 Surface Pro(1st) with Windows Mixed Reality Surface Pro(1st) に Acer Windows Mixed Reality ヘッドセットを接続した結果が以下になります。 Surface Pro(1st) with Windows Mixed Reality 要求スペックの確認</description>
     </item>
     
     <item>
       <title>Microsoft MVP Award renewal</title>
-      <link>https://changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
+      <link>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
       <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり「Microsoft Azu</description>
     </item>
     
     <item>
       <title>Insider Dev Tour Tokyoを開催 &amp; 登壇しました #insiderdevtour</title>
-      <link>https://changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</link>
+      <link>https://www.changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</link>
       <pubDate>Tue, 19 Jun 2018 03:00:03 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 2018/6/17にInsider Dev Tourを開催しました。 参加していただいたみなさん、スタッフの皆</description>
     </item>
     
     <item>
       <title>『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo</title>
-      <link>https://changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</link>
+      <link>https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</link>
       <pubDate>Mon, 28 May 2018 03:00:21 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 2018/4/24-25に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公</description>
     </item>
     
     <item>
       <title>『Global Azure Bootcamp 2018@Tokyo』で登壇しました #jazug</title>
-      <link>https://changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</link>
+      <link>https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</link>
       <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 2018/4/21に開催されたGlobal Azure Bootcamp 2018@Tokyoに登壇しました。登壇資料は以下に公</description>
     </item>
     
     <item>
       <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました</title>
-      <link>https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</link>
+      <link>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</link>
       <pubDate>Wed, 14 Mar 2018 03:00:55 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる</description>
     </item>
     
     <item>
       <title>AsianPLoP 2018に論文を寄稿し、参加してきました</title>
-      <link>https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</link>
+      <link>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</link>
       <pubDate>Tue, 13 Mar 2018 03:00:44 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 3&amp;frasl;1-3/2に開催された AsianPLoP 2018: 7th Asian Conference on Pattern Languages of Programs に論文を寄稿し、参加してきました。 TL;DR 国際学</description>
     </item>
     
     <item>
       <title>Bitbucket &#43; Rocro ハンズオンセミナーに参加しました #RocroAtlassian</title>
-      <link>https://changesworlds.com/blog/2017/12/bitbucket-rocro-hands-on-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/12/bitbucket-rocro-hands-on-done/</link>
       <pubDate>Mon, 25 Dec 2017 03:25:46 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/12/bitbucket-rocro-hands-on-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/12/bitbucket-rocro-hands-on-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 11/1に開催された以下のイベントに参加しました。 なんで一ヶ月以上も経ってから書いたのかというと、「</description>
     </item>
     
     <item>
       <title>TDD&#43;モブプログラミングでワイワイする会に参加しました #tddyyχ</title>
-      <link>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</link>
       <pubDate>Mon, 13 Nov 2017 03:00:09 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 昨日開催された以下のイベントに参加しました。 主催者から「blogを書くまでが勉強会への参加なんですか</description>
     </item>
     
     <item>
       <title>『第8回 Tokyo Jazug Night Ignite Update 祭り』で講演しました #jazug</title>
-      <link>https://changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</link>
       <pubDate>Mon, 30 Oct 2017 03:00:18 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 先週の2017/10/18に開催された以下のイベントで登壇しました。 今回のテーマは Ignite Update ！！ と書いてあ</description>
     </item>
     
     <item>
       <title>『Serverless Meetup Tokyo #6』で講演しました #serverlesstokyo</title>
-      <link>https://changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</link>
       <pubDate>Wed, 25 Oct 2017 03:00:40 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 先週の2017/10/16に開催された以下のイベントで登壇しました。 募集サイト上では Serverless に Azure も含まれて</description>
     </item>
     
     <item>
       <title>ActiveRecord::Enum の使い方と重複エラーの避け方</title>
-      <link>https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</link>
+      <link>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</link>
       <pubDate>Wed, 02 Aug 2017 04:15:11 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方</description>
     </item>
     
     <item>
       <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</title>
-      <link>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/</link>
       <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/06/37th-tfsug-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ</description>
     </item>
     
     <item>
       <title>『第37回 TFSUG東京 de:code 2017再演』で講演します #alm #tfsug</title>
-      <link>https://changesworlds.com/blog/2017/06/37th-tfsug/</link>
+      <link>https://www.changesworlds.com/blog/2017/06/37th-tfsug/</link>
       <pubDate>Tue, 06 Jun 2017 01:00:12 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/06/37th-tfsug/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/06/37th-tfsug/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 来週、2017/06/14に開催される以下のイベントで講演します。 講演は20:00 - 20:50で、 de:code</description>
     </item>
     
     <item>
       <title>『de:code 2017』で講演しました #decode17</title>
-      <link>https://changesworlds.com/blog/2017/06/decode-2017-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</link>
       <pubDate>Mon, 05 Jun 2017 01:00:41 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/06/decode-2017-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 de:code 2017 [TL12] &amp;quot;炎上案件ストッパー&amp;quot;はかく語りき 「プロジェ</description>
     </item>
     
     <item>
       <title>AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</title>
-      <link>https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</link>
+      <link>https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</link>
       <pubDate>Thu, 20 Apr 2017 07:05:44 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）の違い</title>
-      <link>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</link>
+      <link>https://www.changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</link>
       <pubDate>Tue, 11 Apr 2017 03:41:18 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 同僚のモブ・プログラミングと自分の（なんちゃって）モブ・プログラミング（もどき）が予想以上に違うもの</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）を何回か実践しての気づき</title>
-      <link>https://changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</link>
+      <link>https://www.changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</link>
       <pubDate>Tue, 04 Apr 2017 03:00:06 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 モブ・プログラミングとは？ （なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた参照 環</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた</title>
-      <link>https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</link>
+      <link>https://www.changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</link>
       <pubDate>Mon, 13 Mar 2017 02:55:28 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ</description>
+    </item>
+    
+    <item>
+      <title>Azure の支払いを請求書支払いにする方法</title>
+      <link>https://www.changesworlds.com/blog/2016/10/how-to-make-azures-payment-an-invoice-payment/</link>
+      <pubDate>Sun, 30 Oct 2016 16:31:10 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/how-to-make-azures-payment-an-invoice-payment/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azureの支払いをクレジットカードではなく、請求書支払いにする方法を調べて、実際に行ってみました。</description>
     </item>
     
   </channel>

@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Change the World!</title>
-    <link>https://changesworlds.com/tags/</link>
+    <link>https://www.changesworlds.com/tags/</link>
     <description>Recent content in Tags on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 02 Jul 2018 23:52:21 +0900</lastBuildDate>
     
-	<atom:link href="https://changesworlds.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.changesworlds.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Azure</title>
-      <link>https://changesworlds.com/tags/azure/</link>
+      <link>https://www.changesworlds.com/tags/azure/</link>
       <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/tags/azure/</guid>
+      <guid>https://www.changesworlds.com/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure Web Apps</title>
-      <link>https://changesworlds.com/tags/azure-web-apps/</link>
+      <link>https://www.changesworlds.com/tags/azure-web-apps/</link>
       <pubDate>Fri, 13 Jul 2018 21:45:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/tags/azure-web-apps/</guid>
+      <guid>https://www.changesworlds.com/tags/azure-web-apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mob Programming</title>
-      <link>https://changesworlds.com/tags/mob-programming/</link>
+      <link>https://www.changesworlds.com/tags/mob-programming/</link>
       <pubDate>Mon, 13 Nov 2017 03:00:09 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/mob-programming/</guid>
+      <guid>https://www.changesworlds.com/tags/mob-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mvp</title>
-      <link>https://changesworlds.com/tags/mvp/</link>
+      <link>https://www.changesworlds.com/tags/mvp/</link>
       <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/tags/mvp/</guid>
+      <guid>https://www.changesworlds.com/tags/mvp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pattern Language</title>
-      <link>https://changesworlds.com/tags/pattern-language/</link>
+      <link>https://www.changesworlds.com/tags/pattern-language/</link>
       <pubDate>Wed, 14 Mar 2018 03:00:55 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/pattern-language/</guid>
+      <guid>https://www.changesworlds.com/tags/pattern-language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby on Rails</title>
-      <link>https://changesworlds.com/tags/ruby-on-rails/</link>
+      <link>https://www.changesworlds.com/tags/ruby-on-rails/</link>
       <pubDate>Wed, 02 Aug 2017 04:15:11 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/ruby-on-rails/</guid>
+      <guid>https://www.changesworlds.com/tags/ruby-on-rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scrum</title>
-      <link>https://changesworlds.com/tags/scrum/</link>
+      <link>https://www.changesworlds.com/tags/scrum/</link>
       <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/scrum/</guid>
+      <guid>https://www.changesworlds.com/tags/scrum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serverless</title>
-      <link>https://changesworlds.com/tags/serverless/</link>
+      <link>https://www.changesworlds.com/tags/serverless/</link>
       <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/serverless/</guid>
+      <guid>https://www.changesworlds.com/tags/serverless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Studio Team Services</title>
-      <link>https://changesworlds.com/tags/visual-studio-team-services/</link>
+      <link>https://www.changesworlds.com/tags/visual-studio-team-services/</link>
       <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
       
-      <guid>https://changesworlds.com/tags/visual-studio-team-services/</guid>
+      <guid>https://www.changesworlds.com/tags/visual-studio-team-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vsts</title>
-      <link>https://changesworlds.com/tags/vsts/</link>
+      <link>https://www.changesworlds.com/tags/vsts/</link>
       <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
       
-      <guid>https://changesworlds.com/tags/vsts/</guid>
+      <guid>https://www.changesworlds.com/tags/vsts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows Mixed Reality</title>
-      <link>https://changesworlds.com/tags/windows-mixed-reality/</link>
+      <link>https://www.changesworlds.com/tags/windows-mixed-reality/</link>
       <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
       
-      <guid>https://changesworlds.com/tags/windows-mixed-reality/</guid>
+      <guid>https://www.changesworlds.com/tags/windows-mixed-reality/</guid>
       <description></description>
     </item>
     

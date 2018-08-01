@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mob Programming on Change the World!</title>
-    <link>https://changesworlds.com/tags/mob-programming/</link>
+    <link>https://www.changesworlds.com/tags/mob-programming/</link>
     <description>Recent content in Mob Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 13 Nov 2017 03:00:09 +0000</lastBuildDate>
     
-	<atom:link href="https://changesworlds.com/tags/mob-programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.changesworlds.com/tags/mob-programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TDD&#43;モブプログラミングでワイワイする会に参加しました #tddyyχ</title>
-      <link>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</link>
+      <link>https://www.changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</link>
       <pubDate>Mon, 13 Nov 2017 03:00:09 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/11/tddyy%CF%87-1st-done/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 昨日開催された以下のイベントに参加しました。 主催者から「blogを書くまでが勉強会への参加なんですか</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）の違い</title>
-      <link>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</link>
+      <link>https://www.changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</link>
       <pubDate>Tue, 11 Apr 2017 03:41:18 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 同僚のモブ・プログラミングと自分の（なんちゃって）モブ・プログラミング（もどき）が予想以上に違うもの</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）を何回か実践しての気づき</title>
-      <link>https://changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</link>
+      <link>https://www.changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</link>
       <pubDate>Tue, 04 Apr 2017 03:00:06 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/04/awareness-of-practicing-mob-programming-several-times/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 モブ・プログラミングとは？ （なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた参照 環</description>
     </item>
     
     <item>
       <title>（なんちゃって）モブ・プログラミング（もどき）でスキルを伝授してみた</title>
-      <link>https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</link>
+      <link>https://www.changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</link>
       <pubDate>Mon, 13 Mar 2017 02:55:28 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</guid>
+      <guid>https://www.changesworlds.com/blog/2017/03/transfer-skills-with-mob-programming/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 切欠 切欠はこちら。 モブ・プログラミングとは？ モブ・プログラミングは1台のPCを全員で共有して一つのプ</description>
     </item>
     

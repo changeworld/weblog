@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pattern on Change the World!</title>
-    <link>https://changesworlds.com/categories/pattern/</link>
+    <link>https://www.changesworlds.com/categories/pattern/</link>
     <description>Recent content in Pattern on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 14 Mar 2018 03:00:55 +0000</lastBuildDate>
     
-	<atom:link href="https://changesworlds.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.changesworlds.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました</title>
-      <link>https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</link>
+      <link>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</link>
       <pubDate>Wed, 14 Mar 2018 03:00:55 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiroさんが参加していたので、会へのKPTが出せる</description>
     </item>
     
     <item>
       <title>AsianPLoP 2018に論文を寄稿し、参加してきました</title>
-      <link>https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</link>
+      <link>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</link>
       <pubDate>Tue, 13 Mar 2018 03:00:44 +0000</pubDate>
       
-      <guid>https://changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</guid>
+      <guid>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 3&amp;frasl;1-3/2に開催された AsianPLoP 2018: 7th Asian Conference on Pattern Languages of Programs に論文を寄稿し、参加してきました。 TL;DR 国際学</description>
     </item>
     
