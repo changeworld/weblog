@@ -209,5 +209,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 セッションストレージの冗長性、可用性を確保すべく、 Redis のクラウドサービスを比較検討してみました。 条件 以</description>
     </item>
     
+    <item>
+      <title>Visual Studio Team Services の始め方 #tfsug #vsts</title>
+      <link>https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/</link>
+      <pubDate>Tue, 18 Oct 2016 04:50:57 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください</description>
+    </item>
+    
   </channel>
 </rss>
