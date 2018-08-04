@@ -108,19 +108,16 @@
       <div class="l-container">
         
 <article class="sn">
-
-  <div class="thumb thumb-c2ebbd7d586289b0fa57931af4a413b6"></div>
-
-  <header class="article-header">
-    <h1 class="title">ActiveRecord::Enum の使い方と重複エラーの避け方</h1>
-
-    <ul class="facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-08-02T04:15:11JST">Aug 2, 2017</time></li>
-      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
-      
-    </ul>
-
-    <aside class="share">
+      <div class="thumb thumb-c2ebbd7d586289b0fa57931af4a413b6"></div>
+      <header class="article-header">
+        <h1 class="title">ActiveRecord::Enum の使い方と重複エラーの避け方</h1>
+        <ul class="facts">
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-08-02T04:15:11JST">Aug 2, 2017</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2017-08-02T04:15:11JST">Aug 2, 2017</time></li>
+          <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
+          
+        </ul>
+        <aside class="share">
   <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
   <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&text=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
   <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&t=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -129,11 +126,9 @@
   <a href="http://line.me/R/msg/text/?ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
-  </header>
-
-  
-
-  <div class="article-body">
+      </header>
+      
+      <div class="article-body">
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
@@ -228,10 +223,8 @@ You tried to define an enum named &#34;disliked_school_subject&#34; on the model
 &gt; student.favorite_school_subject
 =&gt; &#34;science&#34;</code></pre></div>
 </div>
-
-  <footer class="article-footer">
-
-    <aside class="share">
+      <footer class="article-footer">
+        <aside class="share">
   <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&title=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
   <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&text=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
   <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f&t=ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -240,56 +233,61 @@ You tried to define an enum named &#34;disliked_school_subject&#34; on the model
   <a href="http://line.me/R/msg/text/?ActiveRecord%3a%3aEnum%20%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e9%87%8d%e8%a4%87%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e9%81%bf%e3%81%91%e6%96%b9 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f08%2fhow-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
-
-    <section class="footer">
-      <div>
-        <nav class="crumb">
-          <ol>
-            <li><a href="https://www.changesworlds.com/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
-            
-            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
-            
-            <li class="active">ActiveRecord::Enum の使い方と重複エラーの避け方</li>
-          </ol>
-        </nav>
-      </div>
-    </section>
-
-    
-    
-    
-    <section class="footer">
-      <header>
-        <a href="https://www.changesworlds.com/categories/">CATEGORIES</a>
-      </header>
-      <div>
-        <ul class="terms">
-          
-          <li><a href="https://www.changesworlds.com/categories/programming/">Programming</a></li>
-          
-        </ul>
-      </div>
-    </section>
-    
-    
-    
-    <section class="footer">
-      <header>
-        <a href="https://www.changesworlds.com/tags/">TAGS</a>
-      </header>
-      <div>
-        <ul class="terms">
-          
-          <li><a href="https://www.changesworlds.com/tags/ruby-on-rails/">Ruby on Rails</a></li>
-          
-        </ul>
-      </div>
-    </section>
-    
-    
-  </footer>
-
-</article>
+        <section class="footer">
+          <div>
+            <nav class="crumb">
+              <ol>
+                <li><a href="https://www.changesworlds.com/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+                
+                <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
+                
+                <li class="active">ActiveRecord::Enum の使い方と重複エラーの避け方</li>
+              </ol>
+            </nav>
+          </div>
+        </section>
+        
+        
+        
+        <section class="footer">
+          <header>
+            <a href="https://www.changesworlds.com/categories/">CATEGORIES</a>
+          </header>
+          <div>
+            <ul class="terms">
+              
+              <li><a href="https://www.changesworlds.com/categories/programming/">Programming</a></li>
+              
+            </ul>
+          </div>
+        </section>
+        
+        
+        
+        <section class="footer">
+          <header>
+            <a href="https://www.changesworlds.com/tags/">TAGS</a>
+          </header>
+          <div>
+            <ul class="terms">
+              
+              <li><a href="https://www.changesworlds.com/tags/ruby-on-rails/">Ruby on Rails</a></li>
+              
+            </ul>
+          </div>
+        </section>
+        
+        
+        <amp-ad width="100vw" height=320
+            type="adsense"
+            data-ad-client="ca-pub-6019477344384520"
+            data-ad-slot="2469498243"
+            data-auto-format="rspv"
+            data-full-width>
+          <div overflow></div>
+        </amp-ad>
+      </footer>
+    </article>
 
 
 <div class="adj">

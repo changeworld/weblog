@@ -6,10 +6,19 @@
     <description>Recent content in Visual Studio Team Services on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 19 Jun 2017 04:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jul 2018 23:52:21 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/tags/visual-studio-team-services/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft MVP Award renewal</title>
+      <link>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり「Microsoft Azu</description>
+    </item>
     
     <item>
       <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</title>

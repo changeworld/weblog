@@ -130,14 +130,14 @@
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/tags/azure/</loc>
-    <lastmod>2018-07-02T23:52:21+09:00</lastmod>
+    <loc>https://www.changesworlds.com/categories/azure/</loc>
+    <lastmod>2018-07-13T21:45:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/categories/azure/</loc>
-    <lastmod>2018-07-13T21:45:21+09:00</lastmod>
+    <loc>https://www.changesworlds.com/tags/azure/</loc>
+    <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -251,12 +251,6 @@
   
   <url>
     <loc>https://www.changesworlds.com/tags/visual-studio-team-services/</loc>
-    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/vsts/</loc>
     <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
   </url>
