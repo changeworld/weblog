@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 13 Jul 2018 21:45:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 12:12:51 +0000</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>&#34;Write Code Every Day&#34;, the 2nd anniversary</title>
+      <link>https://www.changesworlds.com/blog/2017/10/write-code-every-day-the-2nd-anniversary/</link>
+      <pubDate>Sun, 05 Aug 2018 12:12:51 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/10/write-code-every-day-the-2nd-anniversary/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 blog の移行作業中、1周年は記事を書いていたのに、2周年は記事を書いていないことに気づいたので、急遽作成</description>
+    </item>
     
     <item>
       <title>minibird から Azure に WordPress を移行した</title>
@@ -219,11 +228,11 @@
     </item>
     
     <item>
-      <title>&#34;Write Code Every Day&#34;, the first anniversary</title>
-      <link>https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-first-anniversary/</link>
+      <title>&#34;Write Code Every Day&#34;, the 1st anniversary</title>
+      <link>https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-1st-anniversary/</link>
       <pubDate>Mon, 17 Oct 2016 03:18:20 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-first-anniversary/</guid>
+      <guid>https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-1st-anniversary/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 1年前に見た @t_wada さんの「OSSについてあれこれ」をきっかけに実践し始めた&amp;quot;Write Code Every Da</description>
     </item>
     
