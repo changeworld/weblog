@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on Change the World!</title>
+    <link>https://www.changesworlds.com/categories/communication/</link>
+    <description>Recent content in Communication on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 13 Oct 2016 22:30:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/categories/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>英語が話せなくても外国人と話せる</title>
+      <link>https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/</link>
+      <pubDate>Thu, 13 Oct 2016 22:30:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/</guid>
+      <description>結論 そう、品川マイクロソフトならね。 発端 このブログをご覧のみなさん、こんにちは。 昨日行われた「Tokyo DevOps 2.0 &amp;#8211; CD pipeline with Microservices focus」のイベント</description>
+    </item>
+    
+  </channel>
+</rss>
