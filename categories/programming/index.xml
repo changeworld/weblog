@@ -83,5 +83,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 1年前に見た @t_wada さんの「OSSについてあれこれ」をきっかけに実践し始めた&amp;quot;Write Code Every Da</description>
     </item>
     
+    <item>
+      <title>Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin</title>
+      <link>https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/</link>
+      <pubDate>Wed, 12 Oct 2016 16:40:13 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり</description>
+    </item>
+    
   </channel>
 </rss>

@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>英語が話せなくても外国人と話せる - Change the World!</title>
+    <title>Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin - Change the World!</title>
     
-<meta name="description" content="結論 そう、品川マイクロソフトならね。 発端 このブログをご覧のみなさん、こんにちは。 昨日行われた「Tokyo DevOps 2.0 &amp;#8211; CD pipeline with Microservices focus」のイベント">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり">
 
-<meta property="og:title" content="英語が話せなくても外国人と話せる - Change the World!">
+<meta property="og:title" content="Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/">
-<meta property="og:image" content="https://www.changesworlds.com//images/cc-license/9785087954_fc1d2aa767.jpg">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/">
+<meta property="og:image" content="https://www.changesworlds.com//images/cc-license/team_work_1443977529.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="結論 そう、品川マイクロソフトならね。 発端 このブログをご覧のみなさん、こんにちは。 昨日行われた「Tokyo DevOps 2.0 &amp;#8211; CD pipeline with Microservices focus」のイベント">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/">
-<meta name="twitter:title" content="英語が話せなくても外国人と話せる - Change the World!">
-<meta name="twitter:description" content="結論 そう、品川マイクロソフトならね。 発端 このブログをご覧のみなさん、こんにちは。 昨日行われた「Tokyo DevOps 2.0 &amp;#8211; CD pipeline with Microservices focus」のイベント">
-<meta name="twitter:image" content="https://www.changesworlds.com//images/cc-license/9785087954_fc1d2aa767.jpg">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/">
+<meta name="twitter:title" content="Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり">
+<meta name="twitter:image" content="https://www.changesworlds.com//images/cc-license/team_work_1443977529.jpg">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "英語が話せなくても外国人と話せる - Change the World!",
+    "headline": "Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com//images/cc-license/9785087954_fc1d2aa767.jpg",
+      "url": "https://www.changesworlds.com//images/cc-license/team_work_1443977529.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-10-13T22:30:03JST",
-    "dateModified": "2016-10-13T22:30:03JST",
+    "datePublished": "2016-10-12T16:40:13JST",
+    "dateModified": "2016-10-12T16:40:13JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "結論 そう、品川マイクロソフトならね。 発端 このブログをご覧のみなさん、こんにちは。 昨日行われた「Tokyo DevOps 2.0 &#8211; CD pipeline with Microservices focus」のイベント"
+    "description": "このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり"
   }
 </script>
 
@@ -108,120 +108,98 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-fdff94f251c625b40f2fc618b5c92f75"></div>
+      <div class="thumb thumb-6bc65541baa057ec2624b67079606e17"></div>
       <header class="article-header">
-        <h1 class="title">英語が話せなくても外国人と話せる</h1>
+        <h1 class="title">Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-13T22:30:03JST">Oct 13, 2016</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-10-13T22:30:03JST">Oct 13, 2016</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-12T16:40:13JST">Oct 12, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-10-12T16:40:13JST">Oct 12, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&title=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&text=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&t=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&title=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&title=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&text=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&t=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&title=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
       
       <div class="article-body">
 
-<h2 id="結論">結論</h2>
-
-<p>そう、品川マイクロソフトならね。</p>
-
-<h2 id="発端">発端</h2>
-
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>昨日行われた「Tokyo DevOps 2.0 &#8211; CD pipeline with Microservices focus」のイベント「Advanced CI/CD talk for Microservices era」での出来事です。</p>
+<p><a href="../how-to-make-apache-cordova-with-azure-mobile-apps/">前回</a> Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。</p>
 
-<p>「Tokyo DevOps 2.0 &#8211; CD pipeline with Microservices focus」の運営がオーガナイザー一人だったため、ボランティアの募集をしていました。いつものノリで「やりましょう。」といってボランティアを買って出たところ、以下の状態に。</p>
+<h2 id="azure-mobile-apps-の作成">Azure Mobile Apps の作成</h2>
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fchangesworlds%2Fposts%2F1229647423766879&width=500" width="500" height="198" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<p><a href="../how-to-make-apache-cordova-with-azure-mobile-apps/">前回</a>と同じ手順になります。</p>
 
-<p>上記を参加者の一人と思わしき、外国人の方が前から近寄って来てから気づく始末でした。</p>
+<h2 id="xamarin-forms-アプリケーションのダウンロード">Xamarin.Forms アプリケーションのダウンロード</h2>
 
-<h2 id="ちぇんわ零号機">ちぇんわ零号機</h2>
-
-<p>スマホに以下を表示し、何も言わずに指差す。</p>
+<p>Azure Mobile Apps が作成されたら、アプリケーションの雛形をダウンロードします。以下のように様々なプラットフォームの雛形がダウンロードできますが、今回は Xamarin.Forms を選択します。</p>
 
 
 <figure>
     
-        <img src="images/advanced-cicd-talk-for-microservices-era.jpg" />
+        <img src="images/xamarin-forms.png" />
     
     
     <figcaption>
-        <h4>Advanced CI/CD talk for Microservices era</h4>
+        <h4>Xamarin.Formsアプリケーションのダウンロード</h4>
         
     </figcaption>
     
 </figure>
 
 
-<p>参加者「Oh! [聞き取れない音] this event [聞き取れない音]」と言うので、入館証を渡す。</p>
+<p>クイックスタートのため、 [Connect a database] や [Create a table API] は何もしなくても自動的に準備してくれるので、楽ですね。 [Download] をクリックして、 Xamarin.Forms アプリケーションをダウンロードします。ダウンロード後、ファイルを解凍します。</p>
 
-<p>「this event」という言葉をゲットする。</p>
+<h2 id="動作確認">動作確認</h2>
 
-<h2 id="ちぇんわ初号機">ちぇんわ初号機</h2>
+<p><a href="https://www.xamarin.com/platform">Mobile Application Development to Build Apps in C# &#8211; Xamarin</a> から [Xamarin Studio] をダウンロードしてください。</p>
 
-<p>スマホに以下を表示し、指差しつつ、「This event?」と言ってみる。</p>
+<h3 id="動作確認-ios">動作確認(iOS)</h3>
+
+<p>Xamarin Studio をダウンロード後、 Xamarin Studio 上で起動すると、以下のように雛形アプリが立ち上がります。</p>
 
 
 <figure>
     
-        <img src="images/advanced-cicd-talk-for-microservices-era.jpg" />
+        <img src="../how-to-make-apache-cordova-with-azure-mobile-apps/images/initial-boot.png" />
     
     
     <figcaption>
-        <h4>Advanced CI/CD talk for Microservices era</h4>
+        <h4>動作確認</h4>
         
     </figcaption>
     
 </figure>
 
 
-<p>参加者「[聞き取れない音] attend [聞き取れない音] this event [聞き取れない音]」と言うので、入館証を渡す。</p>
+<p>Azure Mobile Apps には Quickstart が準備されているので、素早くアプリケーションの作成が行えるので便利ですね。</p>
 
-<p>「attend」という言葉をゲットする。</p>
+<h2 id="警告">警告</h2>
 
-<h2 id="ちぇんわ弐号機">ちぇんわ弐号機</h2>
+<p>ビルド時に以下の警告が出ますが、インストールしても消えませんので、あまり気にしなくてもいいかも。</p>
 
-<p>疑問形で聞けばいいから、「Do you attend this event?」と言えばいいのかと気づくが、遠い記憶の彼方から「Do you」より「Would you」と言うのが丁寧だという情報が浮かび上がり、スマホに以下を表示し、指差しつつ、「Would you attend this event?」と言ってみる。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Warning : All projects referencing [Project].csproj must install nuget package Microsoft.Bcl.Build</code></pre></div>
 
+<h3 id="参考">参考</h3>
 
-<figure>
-    
-        <img src="images/advanced-cicd-talk-for-microservices-era.jpg" />
-    
-    
-    <figcaption>
-        <h4>Advanced CI/CD talk for Microservices era</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>参加者「Yeah! [聞き取れない音]　What floor is [聞き取れない音]」と言うので、入館証を渡しつつ、31Fだったので「サーティワン(食べてて良かったサーティワンアイス!)」と伝える。</p>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>英語が話せなくても外国人と話せる。そう、品川マイクロソフトならね。</p>
+<p><a href="http://stackoverflow.com/questions/17180268/warning-all-projects-referencing-myproject-csproj-must-install-nuget-package-m">visual studio &#8211; warning : All projects referencing MyProject.csproj must install nuget package Microsoft.Bcl.Build &#8211; Stack Overflow</a></p>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&title=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&text=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&t=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f&title=%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e8%8b%b1%e8%aa%9e%e3%81%8c%e8%a9%b1%e3%81%9b%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e5%a4%96%e5%9b%bd%e4%ba%ba%e3%81%a8%e8%a9%b1%e3%81%9b%e3%82%8b https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fonly-on-the-microsoft%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&title=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&text=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&t=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f&title=Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Mobile%20Apps%20%e3%81%a7%20Xamarin.Forms%20%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e4%bd%9c%e3%82%8a%e6%96%b9%20%23Xamarin https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fhow-to-make-xamarin-forms-app-with-azure-mobile-apps%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -232,7 +210,7 @@
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">英語が話せなくても外国人と話せる</li>
+                <li class="active">Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin</li>
               </ol>
             </nav>
           </div>
@@ -247,9 +225,7 @@
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/categories/communication/">Communication</a></li>
-              
-              <li><a href="https://www.changesworlds.com/categories/event/">Event</a></li>
+              <li><a href="https://www.changesworlds.com/categories/programming/">Programming</a></li>
               
             </ul>
           </div>
@@ -273,39 +249,18 @@
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/10/how-to-make-xamarin-forms-app-with-azure-mobile-apps/">
-    <div class="thumb thumb-6bc65541baa057ec2624b67079606e17"></div>
-
-    <div class="inner">
-      <div class="title">Azure Mobile Apps で Xamarin.Forms アプリの作り方 #Xamarin</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-12T16:40:13JST">Oct 12, 2016</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-1st-anniversary/">
-    <div class="thumb thumb-a882c83496e79407121d6ecc85f2dc39"></div>
+  <a href="https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/">
+    <div class="thumb thumb-fdff94f251c625b40f2fc618b5c92f75"></div>
 
     <div class="inner">
-      <div class="title">&#34;Write Code Every Day&#34;, the 1st anniversary</div>
+      <div class="title">英語が話せなくても外国人と話せる</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-17T03:18:20JST">Oct 17, 2016</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-13T22:30:03JST">Oct 13, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
