@@ -254,5 +254,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 前回 Apache Cordova アプリケーションのダウンロードをしましたが、今回は Xamarin.Forms 版です。 Azure Mobile Apps の作成 前回と同じ手順になり</description>
     </item>
     
+    <item>
+      <title>Azure Mobile Apps で Apache Cordova アプリの作り方</title>
+      <link>https://www.changesworlds.com/blog/2016/10/how-to-make-apache-cordova-with-azure-mobile-apps/</link>
+      <pubDate>Mon, 10 Oct 2016 17:03:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/how-to-make-apache-cordova-with-azure-mobile-apps/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 学生がスマホ向けサービスを Ruby on Rails で悪戦苦闘しながら作っているのを目の当たりにし、もっと楽に作る方法が</description>
+    </item>
+    
   </channel>
 </rss>
