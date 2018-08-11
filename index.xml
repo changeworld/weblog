@@ -6,10 +6,19 @@
     <description>Recent content on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 05 Aug 2018 12:12:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 10:19:32 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog を WordPress から Hugo に移行した</title>
+      <link>https://www.changesworlds.com/blog/2018/08/migrate-from-wordpress-to-hugo/</link>
+      <pubDate>Sat, 11 Aug 2018 10:19:32 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/08/migrate-from-wordpress-to-hugo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 決して、 WordPress をディスるわけではないのですが、以下の点を何とかしたいなと思っていました。 管理画面を晒し続</description>
+    </item>
     
     <item>
       <title>&#34;Write Code Every Day&#34;, the 2nd anniversary</title>
@@ -39,12 +48,12 @@
     </item>
     
     <item>
-      <title>Microsoft MVP Award renewal</title>
+      <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
       <link>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
       <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり「Microsoft Azu</description>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり 「Microsoft Azu</description>
     </item>
     
     <item>
