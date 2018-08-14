@@ -111,12 +111,21 @@
     </item>
     
     <item>
-      <title>TerraformでAzure Resource Managerの操作で困った時に解決する方法</title>
+      <title>Terraform で Azure Resource Manager の操作で困った時に解決する方法</title>
       <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/</link>
       <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述</description>
+    </item>
+    
+    <item>
+      <title>Terraform で 複数台の Azure Virtual Machine を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</link>
+      <pubDate>Thu, 08 Sep 2016 11:21:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 クラウドにサーバーを構築する際、負荷分散や可用性を考慮し、複数台構成とする場合があります。 今回はまっ</description>
     </item>
     
   </channel>
