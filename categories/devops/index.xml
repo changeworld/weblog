@@ -120,12 +120,21 @@
     </item>
     
     <item>
-      <title>Terraform で 複数台の Azure Virtual Machine を構築する方法</title>
+      <title>Terraform で 複数台の Azure Virtual Machines を構築する方法</title>
       <link>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</link>
       <pubDate>Thu, 08 Sep 2016 11:21:42 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 クラウドにサーバーを構築する際、負荷分散や可用性を考慮し、複数台構成とする場合があります。 今回はまっ</description>
+    </item>
+    
+    <item>
+      <title>Terraform で Azure Virtual Machines を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/</link>
+      <pubDate>Wed, 07 Sep 2016 10:51:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 HashiCorp の公式サイトにある Terraform の Azure Resource Manager: azurerm_virtual_machine &amp;#8211; Terraform by HashiCorp の通りに Azure Virtual Machines を構築すると Public IP アドレスが関連付けされず、構築</description>
     </item>
     
   </channel>
