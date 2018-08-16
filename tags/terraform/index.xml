@@ -38,5 +38,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 HashiCorp の公式サイトにある Terraform の Azure Resource Manager: azurerm_virtual_machine &amp;#8211; Terraform by HashiCorp の通りに Azure Virtual Machines を構築すると Public IP アドレスが関連付けされず、構築</description>
     </item>
     
+    <item>
+      <title>Terraform のバージョン問題を Docker で解決する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</link>
+      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
+    </item>
+    
   </channel>
 </rss>

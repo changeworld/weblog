@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/docker/</link>
+    <description>Recent content in Docker on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 06 Sep 2016 11:16:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terraform のバージョン問題を Docker で解決する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</link>
+      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
+    </item>
+    
+  </channel>
+</rss>
