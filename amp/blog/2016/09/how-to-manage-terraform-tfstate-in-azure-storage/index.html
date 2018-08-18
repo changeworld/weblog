@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug - Change the World!</title>
+    <title>Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
 
-<meta property="og:title" content="『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug - Change the World!">
+<meta property="og:title" content="Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/">
-<meta property="og:image" content="https://www.changesworlds.com/images/tfsug_logo.png">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
+<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/">
-<meta name="twitter:title" content="『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ">
-<meta name="twitter:image" content="https://www.changesworlds.com/images/tfsug_logo.png">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
+<meta name="twitter:title" content="Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
+<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug - Change the World!",
+    "headline": "Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com/images/tfsug_logo.png",
+      "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2017-06-19T04:00:06JST",
-    "dateModified": "2017-06-19T04:00:06JST",
+    "datePublished": "2016-09-04T20:38:19JST",
+    "dateModified": "2016-09-04T20:38:19JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ"
+    "description": "このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト"
   }
 </script>
 
@@ -108,50 +108,108 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-4823c8d7982bfeca5f38605a7ec99964"></div>
+      <div class="thumb thumb-fb009b2a9c5cf979bda02e26a7eb5ff2"></div>
       <header class="article-header">
-        <h1 class="title">『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</h1>
+        <h1 class="title">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-06-19T04:00:06JST">Jun 19, 2017</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2017-06-19T04:00:06JST">Jun 19, 2017</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&title=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&text=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&t=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&title=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&text=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&t=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
       
-      <div class="article-body"><p>このブログをご覧のみなさん、こんにちは。</p>
+      <div class="article-body">
 
-<p>先週、2017/06/14に開催した以下のイベントで講演しました。</p>
+<p>このブログをご覧のみなさん、こんにちは。</p>
 
-<iframe class="embed-card embed-webcard" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" title="第37回 TFSUG東京 de:code 2017再演 (2017/06/14 19:00〜)" src="//hatenablog-parts.com/embed?url=http%3A%2F%2Ftfsug.connpass.com%2Fevent%2F58552%2F" frameborder="0" scrolling="no"></iframe>
+<p><a href="../how-to-use-terraform-2/">Terraform でインフラを構築する方法 part.2</a>で書いた通り <a href="https://www.hashicorp.com/atlas.html">Atlas</a> を使わずに管理する方法です。</p>
 
-<p>最初に、『DevOps でリードタイムを 8 か月から最短 1 週間まで短縮!! マネージャや開発チーム変化の赤裸々話』を安藤 寿之さん、福井 知宏さんのお二人にしていただきました。</p>
+<p>以下は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/docs/state/remote/azure.html">Remote State Backend: azure &#8211; Terraform by HashiCorp</a> を実践した内容になります。</p>
 
-<p>赤裸々話のタイトルに偽りなく、かなり現場の実際の姿にツッコんだお話をしていただきました。</p>
+<h2 id="environment">Environment</h2>
 
-<p>私からは『“炎上案件ストッパー”はかく語りき 「プロジェクトの成果をあげるために意識した一つの事」』として、私が技術顧問した会社の事例を元に、炎上案件にどのように対処したのかをお話しました。</p>
+<ul>
+<li>Mac Book Pro
 
-<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/F9qycsbguBsjI4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/changeworlds/decode2017" title="de:code 2017 [TL12] &quot;炎上案件ストッパー&quot;はかく語りき 「プロジェクトの成果をあげるために意識した一つの事」" target="_blank">de:code 2017 [TL12] &quot;炎上案件ストッパー&quot;はかく語りき 「プロジェクトの成果をあげるために意識した一つの事」</a> </strong> from <strong><a href="https://www.slideshare.net/changeworlds" target="_blank">Takashi Takebayashi</a></strong> </div></p>
+<ul>
+<li>OS X Yosemite 10.10.5</li>
+</ul></li>
+<li>Terraform 0.7.1</li>
+<li>Azure Storageアカウントを作成済</li>
+<li><a href="../how-to-make-the-azure-infrastructure-with-terraform/">Azure Resource Manager Credentials</a> を作成済</li>
+</ul>
 
-<p>普段の TFSUG のイベントに比べて、多くの方に参加していただけましたが、みなさんにとって何かしらの刺激となり、みなさんの現場カイゼンのお役に立てていれば幸いです。</p>
+<h2 id="terraform-remote-on-azure-storage">Terraform Remote on Azure Storage</h2>
+
+<p>[Example Usage] に記載の通り、以下を実行します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage_account_name=[作成した Azure Storage のアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成した Azure Storage のコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34;</code></pre></div>
+
+<p>Azure Resource Manager Credentials で認証する場合は <code>resource_group_name</code> も必要になり、実行コマンドは以下になります。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage_account_name=[作成した Azure Storage のアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成した Azure Storage のコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34; \
+    -backend-config=&#34;resource_group_name=[リソースグループ名]&#34;</code></pre></div>
+
+<p>この時、以下の4つの環境変数が必要になります。それぞれの環境変数にどういった値を設定すればいいかわからない場合は <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を参照してください。</p>
+
+<ul>
+<li><code>ARM_SUBSCRIPTION_ID</code>: そのまま</li>
+<li><code>ARM_CLIENT_ID</code>: そのまま</li>
+<li><code>ARM_CLIENT_SECRET</code>: そのまま</li>
+<li><code>ARM_TENANT_ID</code>: そのまま</li>
+<li><code>ARM_ACCESS_KEY</code>: Storage アカウントのアクセスキー</li>
+</ul>
+
+<p>エラーなく、コマンドが実行できると、以下のようになります。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage\_account\_name=[作成したAzure Storageのアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成したAzure Storageのコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34; \
+    -backend-config=&#34;resource\_group\_name=[リソースグループ名]&#34;
+Remote configuration updated
+Remote state configured and pulled.
+$ terraform remote pull
+Local and remote state in sync
+$ terraform remote push
+State successfully pushed!</code></pre></div>
+
+<p>これができるようになると、以下の順番でコマンドを実行していくことで、複数人や CI で Terraform を管理ができるようになります。</p>
+
+<ol>
+<li>terraform remote config</li>
+<li>terraform remote pull</li>
+<li>terraform [plan|apply]</li>
+<li>terraform remote push</li>
+</ol>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&title=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&text=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&t=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f&title=%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e3%80%8e%e7%ac%ac37%e5%9b%9e%20TFSUG%e6%9d%b1%e4%ba%ac%20de%3acode%202017%e5%86%8d%e6%bc%94%e3%80%8f%e3%81%a7%e8%ac%9b%e6%bc%94%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23alm%20%23tfsug https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f06%2f37th-tfsug-done%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&text=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&t=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -162,7 +220,7 @@
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</li>
+                <li class="active">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</li>
               </ol>
             </nav>
           </div>
@@ -177,11 +235,7 @@
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/categories/agile/">Agile</a></li>
-              
               <li><a href="https://www.changesworlds.com/categories/devops/">DevOps</a></li>
-              
-              <li><a href="https://www.changesworlds.com/categories/event/">Event</a></li>
               
             </ul>
           </div>
@@ -196,9 +250,11 @@
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/tags/scrum/">Scrum</a></li>
+              <li><a href="https://www.changesworlds.com/tags/azure/">Azure</a></li>
               
-              <li><a href="https://www.changesworlds.com/tags/visual-studio-team-services/">Visual Studio Team Services</a></li>
+              <li><a href="https://www.changesworlds.com/tags/infrastructure-as-code/">Infrastructure as Code</a></li>
+              
+              <li><a href="https://www.changesworlds.com/tags/terraform/">Terraform</a></li>
               
             </ul>
           </div>
@@ -220,39 +276,18 @@
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2017/06/37th-tfsug/">
-    <div class="thumb thumb-a38fa1d1314a0d80489210dd59c64d26"></div>
-
-    <div class="inner">
-      <div class="title">『第37回 TFSUG東京 de:code 2017再演』で講演します #alm #tfsug</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-06-06T01:00:12JST">Jun 6, 2017</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/">
-    <div class="thumb thumb-c2ebbd7d586289b0fa57931af4a413b6"></div>
+  <a href="https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/">
+    <div class="thumb thumb-cb700712306c73d028d13301c62f7aed"></div>
 
     <div class="inner">
-      <div class="title">ActiveRecord::Enum の使い方と重複エラーの避け方</div>
+      <div class="title">Terraform のバージョン問題を Docker で解決する方法</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-08-02T04:15:11JST">Aug 2, 2017</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-06T11:16:22JST">Sep 6, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

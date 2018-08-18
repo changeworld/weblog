@@ -353,5 +353,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
     </item>
     
+    <item>
+      <title>Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</link>
+      <pubDate>Sun, 04 Sep 2016 20:38:19 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト</description>
+    </item>
+    
   </channel>
 </rss>

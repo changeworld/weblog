@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
 
 
     
@@ -19,27 +19,27 @@
     
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!</title>
+    <title>Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!</title>
     
 
-<link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
+<link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
 
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
 
-<meta property="og:title" content="AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!">
+<meta property="og:title" content="Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
-<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/fake_1433834835.jpg">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
+<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/">
-<meta name="twitter:title" content="AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた">
-<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/fake_1433834835.jpg">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
+<meta name="twitter:title" content="Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト">
+<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
 <script type="application/ld+json">
@@ -50,15 +50,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法 - Change the World!",
+    "headline": "Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com/images/cc-license/fake_1433834835.jpg",
+      "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2017-04-20T07:05:44JST",
-    "dateModified": "2017-04-20T07:05:44JST",
+    "datePublished": "2016-09-04T20:38:19JST",
+    "dateModified": "2016-09-04T20:38:19JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -73,7 +73,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache そのた"
+    "description": "このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト"
   }
 </script>
 
@@ -125,22 +125,22 @@ if (!doNotTrack) {
   <div class="mcol c8">
 
     <article class="sn">
-      <div class="thumb thumb-efa7b669f31a3194880445e967245142"></div>
+      <div class="thumb thumb-fb009b2a9c5cf979bda02e26a7eb5ff2"></div>
       <header class="article-header">
-        <h1 class="title">AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</h1>
+        <h1 class="title">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-04-20T07:05:44JST">Apr 20, 2017</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2017-04-20T07:05:44JST">Apr 20, 2017</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&text=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&t=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&text=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&t=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
@@ -149,131 +149,84 @@ if (!doNotTrack) {
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。</p>
+<p><a href="../how-to-use-terraform-2/">Terraform でインフラを構築する方法 part.2</a>で書いた通り <a href="https://www.hashicorp.com/atlas.html">Atlas</a> を使わずに管理する方法です。</p>
 
-<p><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/GettingStarted.AuthorizeAccess.html">ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache</a></p>
+<p>以下は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/docs/state/remote/azure.html">Remote State Backend: azure &#8211; Terraform by HashiCorp</a> を実践した内容になります。</p>
 
-<p>そのため、AWS 外部から Amazon ElastiCache リソースにアクセスする方法について、以下のリンクの通り、NAT インスタンス経由でアクセスする方法が記載されていますが、メンテナンス性も悪く、手順が煩雑です。</p>
-
-<p><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a></p>
-
-<p>そこで、同一 VPC 内の EC2 上で HAProxy を動作させ、HAProxy 経由でアクセスする方法が分かったので、紹介します。</p>
-
-<h2 id="注意事項">注意事項</h2>
+<h2 id="environment">Environment</h2>
 
 <ul>
-<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a>の「制約事項」にも記載されていますが、テストおよび開発の目的にしか使用できません</li>
-</ul>
-
-<h2 id="前提">前提</h2>
-
-<p>本手順は、以下を前提としています。</p>
+<li>Mac Book Pro
 
 <ul>
-<li>Amazon ElastiCache と EC2 を同一VPC内で構築している</li>
-<li>EC2 から Amazon ElastiCache 、クライアントマシン から EC2 は疎通できている</li>
+<li>OS X Yosemite 10.10.5</li>
+</ul></li>
+<li>Terraform 0.7.1</li>
+<li>Azure Storageアカウントを作成済</li>
+<li><a href="../how-to-make-the-azure-infrastructure-with-terraform/">Azure Resource Manager Credentials</a> を作成済</li>
 </ul>
 
-<h2 id="手順">手順</h2>
+<h2 id="terraform-remote-on-azure-storage">Terraform Remote on Azure Storage</h2>
 
-<h3 id="疎通確認">疎通確認</h3>
+<p>[Example Usage] に記載の通り、以下を実行します。</p>
 
-<p>EC2上で、EC2からAmazon ElastiCacheへの疎通確認をします。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage_account_name=[作成した Azure Storage のアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成した Azure Storage のコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34;</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc {Amazon ElastiCacheのEndpoint-URI} 6379
-ping
-+PONG
-quit
-+OK</code></pre></div>
+<p>Azure Resource Manager Credentials で認証する場合は <code>resource_group_name</code> も必要になり、実行コマンドは以下になります。</p>
 
-<h3 id="haproxyのインストールおよび設定">HAProxyのインストールおよび設定</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage_account_name=[作成した Azure Storage のアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成した Azure Storage のコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34; \
+    -backend-config=&#34;resource_group_name=[リソースグループ名]&#34;</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ sudo yum install haproxy -y
-：
-$ sudo mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy-org.cfg
-$ sudo vi /etc/haproxy/haproxy.cfg</code></pre></div>
-
-<p>以下の内容にします。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">global
-log 127.0.0.1 local2 notice
-maxconn 4096
-chroot /var/lib/haproxy
-user nobody
-group nobody
-daemon
-defaults
-log global
-mode tcp
-retries 3
-option redispatch
-maxconn 2000
-timeout connect 2s
-timeout client 120s
-timeout server 120s
-frontend monitor
-bind :80
-mode http
-stats enable
-stats show-legends
-stats uri /haproxy?stats
-stats auth {認証ID}:{Password}
-frontend redis
-bind :6379
-default_backend redis_backend
-backend redis_backend
-option tcp-check
-tcp-check send PING
-tcp-check expect string +PONG
-tcp-check send INFO REPLICATION
-tcp-check expect string role:master
-tcp-check send QUIT
-tcp-check expect string +OK
-server redis1 {Amazon ElastiCacheのEndpoint-URI}:6379 check inter 1s</code></pre></div>
-
-<h3 id="haproxyの起動および動作確認">HAProxyの起動および動作確認</h3>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ sudo service haproxy start
-：
-$ sudo netstat -antp
-：
-tcp 0 0 0.0.0.0:6379 0.0.0.0:* LISTEN 2751/haproxy
-：</code></pre></div>
-
-<p>HAProxy が <code>TCP:6379</code> で <code>LISTEN</code> していることを確認します。</p>
-
-<p>EC2 上で以下のコマンドを実行し、自分自身の <code>6379</code> に接続し、 Amazon ElastiCache に対して接続できるか確認します。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc localhost 6379
-ping
-+PONG
-quit
-+OK</code></pre></div>
-
-<p>クライアントマシン上で以下のコマンドを実行し、 Amazon ElastiCache に対して接続できるか確認します。</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc {EC2のEndpoint-URI} 6379
-ping
-+PONG
-quit
-+OK</code></pre></div>
-
-<h2 id="参考資料">参考資料</h2>
+<p>この時、以下の4つの環境変数が必要になります。それぞれの環境変数にどういった値を設定すればいいかわからない場合は <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を参照してください。</p>
 
 <ul>
-<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/GettingStarted.AuthorizeAccess.html">ステップ 4: アクセスを許可する &#8211; Amazon ElastiCache</a></li>
-<li><a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/UserGuide/Access.Outside.html">AWS 外部からの ElastiCache リソースへのアクセス &#8211; Amazon ElastiCache</a></li>
-<li><a href="https://blog.1q77.com/2015/02/redis-ha/">Redis の冗長化を考える (keepalived, HAProxy, Redis Sentinel) – 1Q77</a></li>
+<li><code>ARM_SUBSCRIPTION_ID</code>: そのまま</li>
+<li><code>ARM_CLIENT_ID</code>: そのまま</li>
+<li><code>ARM_CLIENT_SECRET</code>: そのまま</li>
+<li><code>ARM_TENANT_ID</code>: そのまま</li>
+<li><code>ARM_ACCESS_KEY</code>: Storage アカウントのアクセスキー</li>
 </ul>
+
+<p>エラーなく、コマンドが実行できると、以下のようになります。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config \
+    -backend=azure \
+    -backend-config=&#34;storage\_account\_name=[作成したAzure Storageのアカウント]&#34; \
+    -backend-config=&#34;container_name=[作成したAzure Storageのコンテナ名]&#34; \
+    -backend-config=&#34;key=[好きな名前 リポジトリ名.terraform.tfstate とかがオススメ]&#34; \
+    -backend-config=&#34;resource\_group\_name=[リソースグループ名]&#34;
+Remote configuration updated
+Remote state configured and pulled.
+$ terraform remote pull
+Local and remote state in sync
+$ terraform remote push
+State successfully pushed!</code></pre></div>
+
+<p>これができるようになると、以下の順番でコマンドを実行していくことで、複数人や CI で Terraform を管理ができるようになります。</p>
+
+<ol>
+<li>terraform remote config</li>
+<li>terraform remote pull</li>
+<li>terraform [plan|apply]</li>
+<li>terraform remote push</li>
+</ol>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&text=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&t=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f&title=AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?AWS%e5%a4%96%e9%83%a8%e3%81%8b%e3%82%89HAProxy%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6Amazon%20ElastiCache%e3%81%b8%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2017%2f04%2fhow-to-access-elasticache-resources-using-haproxy-from-outside-aws%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&text=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&t=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f&title=Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Azure%20Storage%20%e3%81%a7%20Terraform%20%e3%81%ae%e7%8a%b6%e6%85%8b%e7%ae%a1%e7%90%86%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%20terraform.tfstate%20%e3%82%92%e7%ae%a1%e7%90%86%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-manage-terraform-tfstate-in-azure-storage%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -284,7 +237,7 @@ quit
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</li>
+                <li class="active">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</li>
               </ol>
             </nav>
           </div>
@@ -299,13 +252,30 @@ quit
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/categories/cloud/">Cloud</a></li>
+              <li><a href="https://www.changesworlds.com/categories/devops/">DevOps</a></li>
               
             </ul>
           </div>
         </section>
         
         
+        
+        <section class="footer">
+          <header>
+            <a href="https://www.changesworlds.com/tags/">TAGS</a>
+          </header>
+          <div>
+            <ul class="terms">
+              
+              <li><a href="https://www.changesworlds.com/tags/azure/">Azure</a></li>
+              
+              <li><a href="https://www.changesworlds.com/tags/infrastructure-as-code/">Infrastructure as Code</a></li>
+              
+              <li><a href="https://www.changesworlds.com/tags/terraform/">Terraform</a></li>
+              
+            </ul>
+          </div>
+        </section>
         
         
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -324,39 +294,18 @@ quit
     <div class="adj">
       <div class="mrow">
         
-        <div class="mcol c6">
-          <header>Previous Article</header>
-          <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2017/04/difference-between-real-and-fake-mob-programming/">
-    <div class="thumb thumb-c5781298d0596fd795f191d5f0cfe1e7"></div>
-
-    <div class="inner">
-      <div class="title">（なんちゃって）モブ・プログラミング（もどき）の違い</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-04-11T03:41:18JST">Apr 11, 2017</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-        </div>
-        
         
         <div class="mcol c6">
           <header>Next Article</header>
           <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2017/06/decode-2017-done/">
-    <div class="thumb thumb-5e90d687d41da688a6cdc5b88ea33b10"></div>
+  <a href="https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/">
+    <div class="thumb thumb-cb700712306c73d028d13301c62f7aed"></div>
 
     <div class="inner">
-      <div class="title">『de:code 2017』で講演しました #decode17</div>
+      <div class="title">Terraform のバージョン問題を Docker で解決する方法</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-06-05T01:00:41JST">Jun 5, 2017</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-06T11:16:22JST">Sep 6, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
