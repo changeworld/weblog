@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
 
 
 
@@ -23,23 +23,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Terraform のバージョン問題を Docker で解決する方法 - Change the World!</title>
+    <title>Terraform で Azure を構築する方法 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
 
-<meta property="og:title" content="Terraform のバージョン問題を Docker で解決する方法 - Change the World!">
+<meta property="og:title" content="Terraform で Azure を構築する方法 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
 <meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/">
-<meta name="twitter:title" content="Terraform のバージョン問題を Docker で解決する方法 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
+<meta name="twitter:title" content="Terraform で Azure を構築する方法 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
 <meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "Terraform のバージョン問題を Docker で解決する方法 - Change the World!",
+    "headline": "Terraform で Azure を構築する方法 - Change the World!",
     "image": {
       "@type": "ImageObject",
       "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-09-06T11:16:22JST",
-    "dateModified": "2016-09-06T11:16:22JST",
+    "datePublished": "2016-09-04T02:10:39JST",
+    "dateModified": "2016-09-04T02:10:39JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか"
+    "description": "このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp"
   }
 </script>
 
@@ -108,22 +108,22 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-cb700712306c73d028d13301c62f7aed"></div>
+      <div class="thumb thumb-bdc5848dc25c563c451c5dea18bb5d08"></div>
       <header class="article-header">
-        <h1 class="title">Terraform のバージョン問題を Docker で解決する方法</h1>
+        <h1 class="title">Terraform で Azure を構築する方法</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-06T11:16:22JST">Sep 6, 2016</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-06T11:16:22JST">Sep 6, 2016</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T02:10:39JST">Sep 4, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-04T02:10:39JST">Sep 4, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&title=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&text=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&t=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&title=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&text=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&t=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
@@ -132,28 +132,16 @@
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p><a href="../how-to-manage-terraform-tfstate-in-azure-storage/">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</a>によって、複数人や CI で Terraform の管理ができるようになります。</p>
-
-<p>しかし、ここで一点注意事項があります。それは</p>
+<p>以下は</p>
 
 <ul>
-<li>複数人や CI 環境で Terraform の管理をする場合 Terraform のバージョンを統一する必要がある</li>
+<li><a href="../how-to-use-terraform-1/">Terraform でインフラを構築する方法 part.1</a></li>
+<li><a href="../how-to-use-terraform-2/">Terraform でインフラを構築する方法 part.2</a></li>
 </ul>
 
-<p>ということです。</p>
+<p>を Azure で実践したものになります。</p>
 
-<p>これは Terraform が作成する <code>terraform.tfstate</code> ファイルに実行した Terraform のバージョン情報が含まれており、下位互換はするのですが、上位互換はしないためです。</p>
-
-<p>どういう動作をするかというと、以下のようになります。</p>
-
-<ul>
-<li><code>0.7.0</code> で作成された <code>terraform.tfstate</code> ファイルを <code>0.7.1</code> で同期： <strong>できる</strong></li>
-<li><code>0.7.1</code> で作成された <code>terraform.tfstate</code> ファイルを <code>0.7.0</code> で同期： <strong>できない</strong></li>
-</ul>
-
-<p>この辺りは意識していないと、「 CI 環境はバージョン固定で、ローカルの Mac は常に最新を入れて実行したら CI 側がエラーになった」なんてことが起こる可能性があります。というか起こりました。</p>
-
-<p>そこで、ローカルにインストールしたバージョンに依存させず、ローカルと CI 環境といった具合に環境が異なっていても、また、実行者が異なっていても同じ Terraform のバージョンで運用出来るようになるととても幸せなのではないか？と思って解決策を考えました。</p>
+<p>手順は HashiCorp の公式サイトにある Terraform の<a href="https://www.terraform.io/docs/providers/azurerm/">Provider: Azure Resource Manager &#8211; Terraform by HashiCorp</a>に記載してあります。</p>
 
 <h2 id="environment">Environment</h2>
 
@@ -166,26 +154,80 @@
 <li>Terraform 0.7.1</li>
 </ul>
 
-<h2 id="terraform-のバージョン問題を-docker-で解決する方法">Terraform  のバージョン問題を Docker で解決する方法</h2>
+<h2 id="creating-credentials">Creating Credentials</h2>
 
-<p>タネを明かすと「なんだ、そんなことか」と思われるでしょうが、実行環境を Docker コンテナ上にすることが、この問題を解決できます。また、自分で Terraform の Docker Image を準備しなくても Docker Hub に <a href="https://hub.docker.com/r/hashicorp/terraform/">HashiCorp 社の公式 Terraform イメージ</a>が存在しています。このイメージを使って、バージョンを固定して実行したいなら以下のコマンドになります。</p>
+<p>最初に <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を行います。これを実行すると、<code>client_id</code>, <code>client_secret</code>, <code>tenant_id</code> が払い出されます。英語で書かれていますが、簡単に書くと</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ docker run --rm --name terraform --env-file /${PWD}/.env -v ${PWD}:/terraform -w /terraform hashicorp/terraform:0.7.1 plan</code></pre></div>
+<h3 id="クラシックポータルでの作業">クラシックポータルでの作業</h3>
 
-<p>バージョンを固定せず、常に最新版で実行したいなら以下のコマンドになります。</p>
+<ul>
+<li>[アクティブディレクトリ]をクリックし、使用するディレクトリを選択する</li>
+<li>[アプリケーション]をクリックする</li>
+<li>[追加]をクリック後、[組織で開発中のアプリケーションを追加]を選択する</li>
+<li><code>Terraform</code> のような分かり易い名前を入力し、 [WEB アプリケーションや WEB API] を選択後、矢印アイコンをクリックする</li>
+<li>[サインオン URL] と[アプリケーションの URL] の2つに自分のサイトや GitHub page のような有効で未使用の URL を入力後、矢印アイコンをクリックする</li>
+<li>アプリケーションをクリック後、[構成]をクリックすると、ページの真ん中らへんにクライアント ID(<code>client_id</code>) の値が表示されている</li>
+<li>その下の[キー]節で、時間を選択し、[保存]をクリックすると、クライアントシークレット (<code>client_secret</code>) の値が表示されるが、1度しか表示されないので注意する</li>
+<li>[エンドポインtpの表示]をクリックすると表示されるポップアップの [OAUTH 2.0 承認エンドポイント]の英語と数字の羅列されている真ん中らへんの値が <code>tenant_id</code> の値になる</li>
+</ul>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ docker run --rm --name terraform --env-file ${PWD}/.env -v ${PWD}:/terraform -w /terraform hashicorp/terraform:latest plan</code></pre></div>
+<h3 id="新ポータルでの作業">新ポータルでの作業</h3>
 
-<p>Terraform は更新頻度が高く、機能拡張されていくので、なるべく最新版で実行するように心がけた方が良いでしょう。</p>
+<ul>
+<li>左のパネルにある[サブスクリプション]をクリック後、使いたいサブスクリプションをクリックし、[すべての設定]をクリック後、[ユーザー]をクリックする</li>
+<li>[追加]をクリック後、 Terrafrom に割り当てる役割を選択する。役割の詳細は<a href="https://azure.microsoft.com/ja-jp/documentation/articles/role-based-access-built-in-roles/">こちら</a>参照</li>
+<li>[クラシックポータル]で追加したアプリケーション名をユーザー名に選択する</li>
+<li>[OK] をクリックする</li>
+</ul>
+
+<h2 id="terraform-で-azureを構築する">Terraform で Azureを構築する</h2>
+
+<p>後は [Example Usage] に記載の通り</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># Configure the Microsoft Azure Provider
+provider &#34;azurerm&#34; {
+  subscription_id = &#34;[使用するサブスクリプション ID]&#34;
+  client_id = &#34;[上で表示された client_id]&#34;
+  client_secret = &#34;[上で表示された client_secret]&#34;
+  tenant_id = &#34;[上で表示された tenant_id]&#34;
+}
+
+# Create a resource group
+resource &#34;azurerm_resource_group&#34; &#34;production&#34; {
+  name = &#34;production&#34;
+  location = &#34;West US&#34;
+}
+
+# Create a virtual network in the web_servers resource group
+resource &#34;azurerm_virtual_network&#34; &#34;network&#34; {
+  name = &#34;productionNetwork&#34;
+  address_space = [&#34;10.0.0.0/16&#34;]
+  location = &#34;West US&#34;
+  resource_group_name = &#34;${azurerm_resource_group.production.name}&#34;
+  subnet {
+    name = &#34;subnet1&#34;
+    address_prefix = &#34;10.0.1.0/24&#34;
+  }
+  subnet {
+    name = &#34;subnet2&#34;
+    address_prefix = &#34;10.0.2.0/24&#34;
+  }
+  subnet {
+    name = &#34;subnet3&#34;
+    address_prefix = &#34;10.0.3.0/24&#34;
+  }
+}</code></pre></div>
+
+<p>を <code>[好きな名前].tf</code> で保存すれば、実行できます。</p>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&title=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&text=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&t=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f&title=Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%ae%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e5%95%8f%e9%a1%8c%e3%82%92%20Docker%20%e3%81%a7%e8%a7%a3%e6%b1%ba%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-solve-terraform-version-problems-with-docker%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&text=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&t=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -196,7 +238,7 @@
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">Terraform のバージョン問題を Docker で解決する方法</li>
+                <li class="active">Terraform で Azure を構築する方法</li>
               </ol>
             </nav>
           </div>
@@ -226,10 +268,6 @@
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/tags/azure/">Azure</a></li>
-              
-              <li><a href="https://www.changesworlds.com/tags/docker/">Docker</a></li>
-              
               <li><a href="https://www.changesworlds.com/tags/infrastructure-as-code/">Infrastructure as Code</a></li>
               
               <li><a href="https://www.changesworlds.com/tags/terraform/">Terraform</a></li>
@@ -254,8 +292,9 @@
 <div class="adj">
   <div class="mrow">
     
+    
     <div class="mcol c6">
-      <header>Previous Article</header>
+      <header>Next Article</header>
       <article class="lism">
   <a href="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
     <div class="thumb thumb-fb009b2a9c5cf979bda02e26a7eb5ff2"></div>
@@ -265,28 +304,6 @@
 
       <ul class="facts sm">
         <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
-    
-    <div class="mcol c6">
-      <header>Next Article</header>
-      <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/">
-    <div class="thumb thumb-8eb0d8e113e3373c81569bda71575783"></div>
-
-    <div class="inner">
-      <div class="title">Terraform で Azure Virtual Machines を構築する方法</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-07T10:51:03JST">Sep 7, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

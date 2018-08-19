@@ -56,5 +56,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト</description>
     </item>
     
+    <item>
+      <title>Terraform で Azure を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/</link>
+      <pubDate>Sun, 04 Sep 2016 02:10:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp</description>
+    </item>
+    
   </channel>
 </rss>
