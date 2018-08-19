@@ -20,5 +20,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
     </item>
     
+    <item>
+      <title>『JAZUG 6周年総会』で LT しました #jazug</title>
+      <link>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</link>
+      <pubDate>Sat, 03 Sep 2016 14:56:04 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/9/3に開催された『JAZUG 6周年総会』で『Azure LOVE♥ OSS 〜AzureとTerr</description>
+    </item>
+    
   </channel>
 </rss>

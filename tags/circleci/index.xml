@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circleci on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/circleci/</link>
+    <description>Recent content in Circleci on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 03 Sep 2016 14:56:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/circleci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『JAZUG 6周年総会』で LT しました #jazug</title>
+      <link>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</link>
+      <pubDate>Sat, 03 Sep 2016 14:56:04 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/9/3に開催された『JAZUG 6周年総会』で『Azure LOVE♥ OSS 〜AzureとTerr</description>
+    </item>
+    
+  </channel>
+</rss>
