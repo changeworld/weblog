@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Aug 2018 11:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 11:30:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo のテーマ Robust のカスタマイズ</title>
+      <link>https://www.changesworlds.com/blog/2018/08/customize-hugo-theme-rubust/</link>
+      <pubDate>Tue, 21 Aug 2018 11:30:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/08/customize-hugo-theme-rubust/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 このブログは静的サイトジェネレーター Hugo で作っていて、 Robust というテーマをカスタマイズして使用しています。</description>
+    </item>
     
     <item>
       <title>『Japan Azure User Group 8周年イベント』で LT します #jazug</title>

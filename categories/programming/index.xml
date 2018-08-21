@@ -6,10 +6,19 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 05 Aug 2018 12:12:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 11:30:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo のテーマ Robust のカスタマイズ</title>
+      <link>https://www.changesworlds.com/blog/2018/08/customize-hugo-theme-rubust/</link>
+      <pubDate>Tue, 21 Aug 2018 11:30:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/08/customize-hugo-theme-rubust/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 このブログは静的サイトジェネレーター Hugo で作っていて、 Robust というテーマをカスタマイズして使用しています。</description>
+    </item>
     
     <item>
       <title>&#34;Write Code Every Day&#34;, the 2nd anniversary</title>
