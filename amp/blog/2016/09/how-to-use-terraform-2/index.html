@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Visual Studio Team Services の始め方 #tfsug #vsts - Change the World!</title>
+    <title>Terraform でインフラを構築する方法 part.2 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実">
 
-<meta property="og:title" content="Visual Studio Team Services の始め方 #tfsug #vsts - Change the World!">
+<meta property="og:title" content="Terraform でインフラを構築する方法 part.2 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/">
-<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/team_work_1443977529.jpg">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/">
+<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/">
-<meta name="twitter:title" content="Visual Studio Team Services の始め方 #tfsug #vsts - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください">
-<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/team_work_1443977529.jpg">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/">
+<meta name="twitter:title" content="Terraform でインフラを構築する方法 part.2 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実">
+<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "Visual Studio Team Services の始め方 #tfsug #vsts - Change the World!",
+    "headline": "Terraform でインフラを構築する方法 part.2 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com/images/cc-license/team_work_1443977529.jpg",
+      "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-10-18T04:50:57JST",
-    "dateModified": "2016-10-18T04:50:57JST",
+    "datePublished": "2016-09-02T09:51:46JST",
+    "dateModified": "2016-09-02T09:51:46JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください"
+    "description": "このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実"
   }
 </script>
 
@@ -108,22 +108,22 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-846d923fff241e8e85a6ac3e5c4eed40"></div>
+      <div class="thumb thumb-d6d46e724bbd9a8ca31715c1a5f90990"></div>
       <header class="article-header">
-        <h1 class="title">Visual Studio Team Services の始め方 #tfsug #vsts</h1>
+        <h1 class="title">Terraform でインフラを構築する方法 part.2</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-18T04:50:57JST">Oct 18, 2016</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-10-18T04:50:57JST">Oct 18, 2016</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-02T09:51:46JST">Sep 2, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-02T09:51:46JST">Sep 2, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&title=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&text=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&t=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&title=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
@@ -132,111 +132,194 @@
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>今回は Visual Studio Team Services の始め方です。</p>
+<p><a href="../how-to-use-terraform-1/">前回</a>に引き続き Terraform を使ってみたので、その概要をまとめてみました。</p>
 
-<h2 id="必要なもの">必要なもの</h2>
+<p>以下は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/intro/getting-started/install.html">Getting Started</a> を実践した内容になります。</p>
 
-<ul>
-<li>Microsoft アカウント。ない場合は無料で作成できるので、作成してください。</li>
-</ul>
-
-<h2 id="visual-studio-team-servicesを使うまでの手順">Visual Studio Team Servicesを使うまでの手順</h2>
-
-<p><a href="https://www.visualstudio.com/team-services/">Agile, Git, CI | Visual Studio Team Services</a> にアクセスし、 [Get Started for Free] をクリックします。</p>
-
-
-<figure>
-    
-        <img src="images/visual-studio-team-services01.png" />
-    
-    
-    <figcaption>
-        <h4>Visual Studio Team Services</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>クリックすると、以下の Microsoft アカウントの認証画面になるので、ご自身のアカウント入力後、 [続行] をクリックします。</p>
-
-
-<figure>
-    
-        <img src="images/visual-studio-team-services02.png" />
-    
-    
-    <figcaption>
-        <h4>Microsoft アカウントによるログイン</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>ログインできると、以下の画面になるので、 [Create new account] をクリックします。</p>
-
-
-<figure>
-    
-        <img src="images/visual-studio-team-services03.png" />
-    
-    
-    <figcaption>
-        <h4>Visual Studio Team Services Account</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>クリックすると、以下の画面になるので、それぞれの項目に入力後、 [Continue] をクリックします。</p>
+<h2 id="environment">Environment</h2>
 
 <ul>
-<li><em>Pick a memorable name</em> : アクセスする際の URL になります</li>
-<li><em>Manage code using</em> : 使いたい VCS(Version Control System) で、 Git, Team Foundation Version Control から選択できます。</li>
-<li><em>Project name</em> : プロジェクト名になります</li>
-<li><em>Organize work using</em> : 使いたいテンプレートで、 Agile, Scrum, CMMI から選択できます。</li>
+<li>Mac Book Pro
+
+<ul>
+<li>OS X Yosemite 10.10.5</li>
+</ul></li>
+<li>Terraform 0.7.1</li>
 </ul>
 
+<h2 id="terraform-remote">Terraform Remote</h2>
 
-<figure>
-    
-        <img src="images/visual-studio-team-services04.png" />
-    
-    
-    <figcaption>
-        <h4>Create your account and project</h4>
-        
-    </figcaption>
-    
-</figure>
+<p>Terraform はインフラを構築・破壊 (terraform apply, destroy) するとその状態を <code>terraform.tfstate</code> というファイルに書き出します。通常、同じインフラに対して <code>terraform apply</code> を2回実行しても <code>terraform apply</code> によってインフラが構築されるのは1回だけですが、 <code>terraform.tfstate</code> ファイルを共有しないまま同じ環境に対して <code>terraform apply</code> を行うと同じ設定のインフラを構築します。もし、一意制約に該当する場合は2回目の構築時にエラーになります。それを避けるために <code>terraform.tfstate</code> をリモートで管理し、環境に関する状態を共有する仕組みが Terraform Remote になります。しかし、 <a href="https://www.terraform.io/intro/getting-started/remote.html">Terraform Remote</a> の手順に従って、これを実行すると…。</p>
 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config -backend-config=&#34;name=changeworld/getting-started&#34;
+Remote configuration updated
+Error while performing the initial pull. The error message is shown
+below. Note that remote state was properly configured, so you don&#39;t
+need to reconfigure. You can now use `push` and `pull` directly.
+Error reloading remote state: Unexpected HTTP response code: 400
+Body: {&#34;errors&#34;:[&#34;This feature requires Terraform Enterprise. Please contact sales@hashicorp.com to start or extend your trial.&#34;],&#34;success&#34;:false}</code></pre></div>
 
-<p>すると、以下のようにVisual Studio Team Servicesのプロジェクトが作成されます。</p>
+<p>となります。これは以前は Getting Started の Terraform Remote で説明されている <a href="https://www.hashicorp.com/atlas.html">Atlas</a> が無料で使えたのですが、現在は有料でしか使えないためです。 Terraform Enterprise を利用せずにすむ方法は調べたので、別途記載します。</p>
 
+<h2 id="resource-dependencies">Resource Dependencies</h2>
 
-<figure>
-    
-        <img src="images/visual-studio-team-services05.png" />
-    
-    
-    <figcaption>
-        <h4>Your Visual Studio Team Services project</h4>
-        
-    </figcaption>
-    
-</figure>
+<p>ここまでは1つのリソースの作成・変更・削除でしたが、複数のリソースを指定した場合は、適用順序を制御する必要があります。というわけで、 <a href="https://www.terraform.io/intro/getting-started/dependencies.html">Resource Dependencies</a> の手順に従って、AWS のインスタンスに Elastic IP を紐付ける構築をします。記載の通りに修正し <code>terraform plan</code> を実行すると、実行計画を確認できます。</p>
 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
+：
++ aws_eip.ip
+    allocation_id: &#34;&lt;computed&gt;&#34;
+    association_id: &#34;&lt;computed&gt;&#34;
+    domain: &#34;&lt;computed&gt;&#34;
+    instance: &#34;${aws_instance.example.id}&#34;
+    network_interface: &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;&lt;computed&gt;&#34;
++ aws_instance.example
+    ami: &#34;ami-13be557e&#34;
+    availability_zone: &#34;&lt;computed&gt;&#34;
+    ebs_block_device.#: &#34;&lt;computed&gt;&#34;
+    ephemeral_block_device.#: &#34;&lt;computed&gt;&#34;
+    instance_state: &#34;&lt;computed&gt;&#34;
+    instance_type: &#34;t2.nano&#34;
+    key_name: &#34;&lt;computed&gt;&#34;
+    network_interface_id: &#34;&lt;computed&gt;&#34;
+    placement_group: &#34;&lt;computed&gt;&#34;
+    private_dns: &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;&lt;computed&gt;&#34;
+    public_dns: &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;&lt;computed&gt;&#34;
+    root_block_device.#: &#34;&lt;computed&gt;&#34;
+    security_groups.#: &#34;&lt;computed&gt;&#34;
+    source_dest_check: &#34;true&#34;
+    subnet_id: &#34;&lt;computed&gt;&#34;
+    tenancy: &#34;&lt;computed&gt;&#34;
+    vpc_security_group_ids.#: &#34;&lt;computed&gt;&#34;
+
+Plan: 2 to add, 0 to change, 0 to destroy.</code></pre></div>
+
+<p>構築時に、Elastic IP リソースに指定されている EC2 インスタンス ID を検出し、 EC2 インスタンスを先に作成しています。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform apply
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-13be557e&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (10s elapsed)
+aws_instance.example: Still creating… (20s elapsed)
+aws_instance.example: Creation complete
+aws_eip.ip: Creating…
+  allocation_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  association_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  domain: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance: &#34;&#34; =&gt; &#34;i-452dcad4&#34;
+  network_interface: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_eip.ip: Creation complete
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate</code></pre></div>
+
+<h2 id="provision">Provision</h2>
+
+<p>Provision はインスタンスを構築後に実行する処理を指定します。 <a href="https://www.terraform.io/intro/getting-started/provision.html">Provision</a> の手順に従って、インスタンスを構築後にサーバー上で IP アドレスをファイル出力させます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform apply
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-13be557e&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (10s elapsed)
+aws_instance.example: Still creating… (20s elapsed)
+aws_instance.example: Still creating… (30s elapsed)
+aws_instance.example: Provisioning with &#39;local-exec&#39;…
+aws_instance.example (local-exec): Executing: /bin/sh -c &#34;echo 54.167.38.210 &gt; file.txt&#34;
+aws_instance.example: Creation complete
+aws_eip.ip: Creating…
+  allocation_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  association_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  domain: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance: &#34;&#34; =&gt; &#34;i-5934d3c8&#34;
+  network_interface: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_eip.ip: Creation complete
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate
+$ cat file.txt
+54.167.38.210</code></pre></div>
+
+<h2 id="input-variables">Input Variables</h2>
+
+<p>ここまでの例では AWS のアクセスキーやシークレットキーなどを <code>example.tf</code> に直接設定していました。しかし、これは実運用では著しく問題があります。 Terraform には別ファイルやコマンド実行時の変数、環境変数から変数を渡すことができます。</p>
+
+<p><a href="https://www.terraform.io/intro/getting-started/variables.html">Input Variables</a> の手順に従って、実行してみましょう。</p>
+
+<p>上記に記載の方法以外に</p>
+
+<ul>
+<li>変数ファイル <code>terraform.tfvars</code> という名前のファイル内変数は、変数として自動参照</li>
+<li>環境変数 <code>TF_VAR_&lt;変数名&gt;</code> の環境変数は、変数として自動参照</li>
+</ul>
+
+<p>があります。</p>
+
+<p>これ以外に Output Variables, Modules もありますが、ちょっと使う程度であれば見る必要はありません。</p>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&title=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&text=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&t=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f&title=Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Visual%20Studio%20Team%20Services%20%e3%81%ae%e5%a7%8b%e3%82%81%e6%96%b9%20%23tfsug%20%23vsts https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f10%2fgetting-started-with-visual-studio-team-services%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.2 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-2%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -247,7 +330,7 @@
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">Visual Studio Team Services の始め方 #tfsug #vsts</li>
+                <li class="active">Terraform でインフラを構築する方法 part.2</li>
               </ol>
             </nav>
           </div>
@@ -261,8 +344,6 @@
           </header>
           <div>
             <ul class="terms">
-              
-              <li><a href="https://www.changesworlds.com/categories/agile/">Agile</a></li>
               
               <li><a href="https://www.changesworlds.com/categories/devops/">DevOps</a></li>
               
@@ -279,7 +360,9 @@
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/tags/visual-studio-team-services/">Visual Studio Team Services</a></li>
+              <li><a href="https://www.changesworlds.com/tags/infrastructure-as-code/">Infrastructure as Code</a></li>
+              
+              <li><a href="https://www.changesworlds.com/tags/terraform/">Terraform</a></li>
               
             </ul>
           </div>
@@ -301,39 +384,18 @@
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-1st-anniversary/">
-    <div class="thumb thumb-a882c83496e79407121d6ecc85f2dc39"></div>
-
-    <div class="inner">
-      <div class="title">&#34;Write Code Every Day&#34;, the 1st anniversary</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-17T03:18:20JST">Oct 17, 2016</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/10/azure-redis-cache-and-amazon-elasticache.md/">
-    <div class="thumb thumb-8bdb1e925682e9c95018421b16af8edb"></div>
+  <a href="https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/">
+    <div class="thumb thumb-a1141f4084b3247cfc5d9df7384e3cba"></div>
 
     <div class="inner">
-      <div class="title">Azure Redis Cache と Amazon ElastiCache #Redis</div>
+      <div class="title">『JAZUG 6周年総会』で LT しました #jazug</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-10-24T21:44:52JST">Oct 24, 2016</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-03T14:56:04JST">Sep 3, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

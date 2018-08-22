@@ -407,5 +407,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 2016/9/3に開催された『JAZUG 6周年総会』で『Azure LOVE♥ OSS 〜AzureとTerr</description>
     </item>
     
+    <item>
+      <title>Terraform でインフラを構築する方法 part.2</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/</link>
+      <pubDate>Fri, 02 Sep 2016 09:51:46 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実</description>
+    </item>
+    
   </channel>
 </rss>
