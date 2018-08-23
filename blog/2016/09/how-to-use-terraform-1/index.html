@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
 
 
     
@@ -19,27 +19,27 @@
     
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo - Change the World!</title>
+    <title>Terraform でインフラを構築する方法 part.1 - Change the World!</title>
     
 
-<link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2018/05/devopsdays-tokyo-2018-done/">
+<link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2016/09/how-to-use-terraform-1/">
 
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 2018/4/24-25に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
 
-<meta property="og:title" content="『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo - Change the World!">
+<meta property="og:title" content="Terraform でインフラを構築する方法 part.1 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/">
-<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/hands-269286_1280.jpg">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
+<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 2018/4/24-25に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/">
-<meta name="twitter:title" content="『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 2018/4/24-25に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公">
-<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/hands-269286_1280.jpg">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
+<meta name="twitter:title" content="Terraform でインフラを構築する方法 part.1 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
+<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
 <script type="application/ld+json">
@@ -50,15 +50,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo - Change the World!",
+    "headline": "Terraform でインフラを構築する方法 part.1 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com/images/cc-license/hands-269286_1280.jpg",
+      "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2018-05-28T03:00:21JST",
-    "dateModified": "2018-05-28T03:00:21JST",
+    "datePublished": "2016-09-01T14:47:36JST",
+    "dateModified": "2016-09-01T14:47:36JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -73,7 +73,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 2018/4/24-25に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公"
+    "description": "このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習"
   }
 </script>
 
@@ -125,46 +125,297 @@ if (!doNotTrack) {
   <div class="mcol c8">
 
     <article class="sn">
-      <div class="thumb thumb-b81cc25de5c8981abd99723b3d59fb2c"></div>
+      <div class="thumb thumb-61f8e0097e63bf1e17a8128f85c9c8af"></div>
       <header class="article-header">
-        <h1 class="title">『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo</h1>
+        <h1 class="title">Terraform でインフラを構築する方法 part.1</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-05-28T03:00:21JST">May 28, 2018</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2018-05-28T03:00:21JST">May 28, 2018</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-01T14:47:36JST">Sep 1, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-01T14:47:36JST">Sep 1, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&title=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&text=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&t=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&title=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
       
-      <div class="article-body"><p>このブログをご覧のみなさん、こんにちは。</p>
+      <div class="article-body">
 
-<p>2018/4/24-25に開催された<a href="https://www.devopsdaystokyo.org/">DevOpsDays Tokyo 2018</a>に登壇しました。登壇資料は以下に公開しています。</p>
+<p>このブログをご覧のみなさん、こんにちは。</p>
 
-<script async class="speakerdeck-embed" data-id="46646de624ff42749128e86f11f5ee23" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<p>Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習得し易いツールです。しかも CloudFormation と違って AWS から Azure, Google Cloud, Heroku などさまざまな環境を対象にすることができます。</p>
 
-<p>「DevOpsしています！」、「このツールを入れたのでDevOpsやってます」と嘯く人やベンダーのサイトや製品紹介などで「このツールでDevOpsができます」、「DevOpsエンジニア」といった具合に“DevOps”という単語を見かけないことがないほど出回っていますが、一方で人によって“DevOps”が指しているものがまったく異なっており、よくわからないバズワードと化しています。</p>
+<p>以下は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/intro/getting-started/install.html">Getting Started</a> を実践した内容になります。</p>
 
-<p>これらに対してアンチテーゼというか、自分はどう“devops”を認識しているのかというそのあたりのことを“口”ではなく“行動(実践)”した結果を紹介しています。</p>
+<h2 id="environment">Environment</h2>
 
-<p>セッション後の Networking Party では待ち行列ができるほど相談をいただいたのですが、もし、時間が足りず相談できなかった方がおられるようでしたら、Twitter: <a href="https://twitter.com/changeworlds">@changeworlds</a> or Facebook: <a href="https://www.facebook.com/changesworlds">changesworlds</a> までご連絡ください。</p>
+<ul>
+<li>Mac Book Pro
+
+<ul>
+<li>OS X Yosemite 10.10.5</li>
+</ul></li>
+<li>Terraform 0.7.1</li>
+</ul>
+
+<h2 id="install-terraform">Install Terraform</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/install.html">Install Terraform</a> の手順に従い Terraform をインストールします。</p>
+
+<p>Mac 向けのバイナリパッケージがあるので <a href="https://www.terraform.io/downloads.html">Download Terraform</a> からファイルをダウンロードし、適当なディレクトリで解凍後、パスを通すだけで終わりです。 <code>.bash_profile</code> で <code>export</code> するといいでしょう。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/usr/local/terraform/0.7.1/bin:</span>$PATH<span style="color:#e6db74">&#34;</span></code></pre></div>
+
+<p>ターミナルから <code>terraform</code> コマンドを実行できればセットアップに問題はありません。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform
+usage: terraform [–version] [–help] &lt;command&gt; [args]
+The available commands for execution are listed below.
+The most common, useful commands are shown first, followed by
+less common or more advanced commands. If you&#39;re just getting
+started with Terraform, stick with the common commands. For the
+other commands, please read the help and docs before usage.
+
+Common commands:
+    apply Builds or changes infrastructure
+    destroy Destroy Terraform-managed infrastructure
+    fmt Rewrites config files to canonical format
+    get Download and install modules for the configuration
+    graph Create a visual graph of Terraform resources
+    import Import existing infrastructure into Terraform
+    init Initializes Terraform configuration from a module
+    output Read an output from a state file
+    plan Generate and show an execution plan
+    push Upload this Terraform module to Atlas to run
+    refresh Update local state file against real resources
+    remote Configure remote state storage
+    show Inspect Terraform state or plan
+    taint Manually mark a resource for recreation
+    untaint Manually unmark a resource as tainted
+    validate Validates the Terraform files
+    version Prints the Terraform version
+
+All other commands:
+    state Advanced state management</code></pre></div>
+
+<h2 id="build-infrastructure">Build Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/build.html">Build Infrastructure</a> の手順に従い AWS に EC2 を構築します。
+手順では <code>t2.micro</code> と記載されていますが、ここは <code>t2.nano</code> に変えています。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">provider &#34;aws&#34; {
+  access_key = &#34;ACCESS_KEY_HERE&#34;
+  secret_key = &#34;SECRET_KEY_HERE&#34;
+  region = &#34;us-east-1&#34;
+}
+
+resource &#34;aws_instance&#34; &#34;example&#34; {
+  ami = &#34;ami-0d729a60&#34;
+  instance_type = &#34;t2.nano&#34;
+}</code></pre></div>
+
+<p><code>terraform plan</code> を実行すると、実行計画を確認できます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
+Refreshing Terraform state in-memory prior to plan…
+The refreshed state will be used to calculate this plan, but
+will not be persisted to local or remote state storage.
+The Terraform execution plan has been generated and is shown below.
+Resources are shown in alphabetical order for quick scanning. Green resources
+will be created (or destroyed and then created if an existing resource
+exists), yellow resources are being changed in-place, and red resources
+will be destroyed. Cyan entries are data sources to be read.
+Note: You didn&#39;t specify an &#34;-out&#34; parameter to save this plan, so when
+&#34;apply&#34; is called, Terraform can&#39;t guarantee this is what will execute.
+
++ aws_instance.example
+    ami: &#34;ami-0d729a60&#34;
+    availability_zone: &#34;&lt;computed&gt;&#34;
+    ebs_block_device.#: &#34;&lt;computed&gt;&#34;
+    ephemeral_block_device.#: &#34;&lt;computed&gt;&#34;
+    instance_state: &#34;&lt;computed&gt;&#34;
+    instance_type: &#34;t2.nano&#34;
+    key_name: &#34;&lt;computed&gt;&#34;
+    network_interface_id: &#34;&lt;computed&gt;&#34;
+    placement_group: &#34;&lt;computed&gt;&#34;
+    private_dns: &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;&lt;computed&gt;&#34;
+    public_dns: &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;&lt;computed&gt;&#34;
+    root_block_device.#: &#34;&lt;computed&gt;&#34;
+    security_groups.#: &#34;&lt;computed&gt;&#34;
+    source_dest_check: &#34;true&#34;
+    subnet_id: &#34;&lt;computed&gt;&#34;
+    tenancy: &#34;&lt;computed&gt;&#34;
+    vpc_security_group_ids.#: &#34;&lt;computed&gt;&#34;
+Plan: 1 to add, 0 to change, 0 to destroy.</code></pre></div>
+
+<p><code>&lt;computed&gt;</code>はリソースを作成してみないとわからない項目です。</p>
+
+<p>というわけで <code>terraform apply</code> を実行してみましょう。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform apply
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-0d729a60&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (10s elapsed)
+aws_instance.example: Still creating… (20s elapsed)
+aws_instance.example: Creation complete
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate</code></pre></div>
+
+<p>と書いてある通り AWS 上に EC2 が構築されました。</p>
+
+<h2 id="change-infrastructure">Change Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/change.html">Change Infrastructure</a> の手順に従い AWS 上に構築した EC2 の設定を変えます。 <code>aws.tf</code> を修正したら Build Infrastructure と同様に <code>terraform plan</code>, <code>terraform apply</code> を実行します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
+：
++ aws_instance.example
+    ami: &#34;ami-0d729a60&#34; =&gt; &#34;ami-13be557e&#34; (forces new resource)
+    availability_zone: &#34;us-east-1c&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    ebs_block_device.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    ephemeral_block_device.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    instance_state: &#34;running&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    instance_type: &#34;t2.nano&#34; =&gt; &#34;t2.nano&#34;
+    key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    network_interface_id: &#34;eni-b954dda9&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    private_dns: &#34;ip-172-31-51-198.ec2.internal&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;172.31.51.198&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    public_dns: &#34;ec2-54-164-45-203.compute-1.amazonaws.com&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;54.164.45.203&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    root_block_device.#: &#34;1&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    security_groups.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    source_dest_check: &#34;true&#34; =&gt; &#34;true&#34;
+    subnet_id: &#34;subnet-6e303a44&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    tenancy: &#34;default&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    vpc_security_group_ids.#: &#34;1&#34; =&gt; &#34;&lt;computed&gt;&#34;
+
+Plan: 1 to add, 0 to change, 1 to destroy.
+$ terraform apply
+aws_instance.example: Refreshing state… (ID: i-01c22590)
+aws_instance.example: Destroying…
+aws_instance.example: Still destroying… (10s elapsed)
+aws_instance.example: Still destroying… (20s elapsed)
+aws_instance.example: Destruction complete
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-13be557e&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (5s elapsed)
+：
+aws_instance.example: Still creating… (30s elapsed)
+aws_instance.example: Creation complete
+
+Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate</code></pre></div>
+
+<p>インスタンスID が変わっていることからも分かる通り、新規作成-&gt;既存破壊という流れになっています。</p>
+
+<h2 id="destroy-infrastructure">Destroy Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/destroy.html">Destroy Infrastructure</a> の手順に従い AWS 上に構築した EC2 を破棄します。 <code>terraform plan -destroy</code> で破棄の実行計画を確認します。</p>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan -destroy
+Refreshing Terraform state in-memory prior to plan…
+The refreshed state will be used to calculate this plan, but
+will not be persisted to local or remote state storage.
+aws_instance.example: Refreshing state… (ID: i-72c82fe3)
+The Terraform execution plan has been generated and is shown below.
+Resources are shown in alphabetical order for quick scanning. Green resources
+will be created (or destroyed and then created if an existing resource
+exists), yellow resources are being changed in-place, and red resources
+will be destroyed. Cyan entries are data sources to be read.
+
+Note: You didn&#39;t specify an &#34;-out&#34; parameter to save this plan, so when
+&#34;apply&#34; is called, Terraform can&#39;t guarantee this is what will execute.
+
+– aws_instance.example
+
+Plan: 0 to add, 0 to change, 1 to destroy.</code></pre></div></p>
+
+<p>続いて <code>terraform destroy</code> で実際に破棄します。</p>
+
+<p>デフォルトは [Enter a value:] で入力待ちになるので [yes] と入力するとそのまま破棄が実行されます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform destroy
+Do you really want to destroy?
+  Terraform will delete all your managed infrastructure.
+  There is no undo. Only &#39;yes&#39; will be accepted to confirm.
+
+  Enter a value: yes
+
+aws_instance.example: Refreshing state… (ID: i-72c82fe3)
+aws_instance.example: Destroying…
+aws_instance.example: Still destroying… (10s elapsed)
+aws_instance.example: Still destroying… (20s elapsed)
+aws_instance.example: Still destroying… (30s elapsed)
+aws_instance.example: Destruction complete
+
+Apply complete! Resources: 0 added, 0 changed, 1 destroyed.</code></pre></div>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&title=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&text=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&t=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f&title=%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?%e3%80%8eDevOpsDays%20Tokyo%202018%e3%80%8f%e3%81%a7%e7%99%bb%e5%a3%87%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%20%23devopsdaystokyo https%3a%2f%2fwww.changesworlds.com%2fblog%2f2018%2f05%2fdevopsdays-tokyo-2018-done%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -175,7 +426,7 @@ if (!doNotTrack) {
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo</li>
+                <li class="active">Terraform でインフラを構築する方法 part.1</li>
               </ol>
             </nav>
           </div>
@@ -192,13 +443,26 @@ if (!doNotTrack) {
               
               <li><a href="https://www.changesworlds.com/categories/devops/">DevOps</a></li>
               
-              <li><a href="https://www.changesworlds.com/categories/event/">Event</a></li>
-              
             </ul>
           </div>
         </section>
         
         
+        
+        <section class="footer">
+          <header>
+            <a href="https://www.changesworlds.com/tags/">TAGS</a>
+          </header>
+          <div>
+            <ul class="terms">
+              
+              <li><a href="https://www.changesworlds.com/tags/infrastructure-as-code/">Infrastructure as Code</a></li>
+              
+              <li><a href="https://www.changesworlds.com/tags/terraform/">Terraform</a></li>
+              
+            </ul>
+          </div>
+        </section>
         
         
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -217,39 +481,18 @@ if (!doNotTrack) {
     <div class="adj">
       <div class="mrow">
         
-        <div class="mcol c6">
-          <header>Previous Article</header>
-          <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/">
-    <div class="thumb thumb-2bed5376fc2491ee961855c622ab64ea"></div>
-
-    <div class="inner">
-      <div class="title">『Global Azure Bootcamp 2018@Tokyo』で登壇しました #jazug</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-04-22T02:32:19JST">Apr 22, 2018</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-        </div>
-        
         
         <div class="mcol c6">
           <header>Next Article</header>
           <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/">
-    <div class="thumb thumb-08e0113b33d73ffa38a1fe4c07657d46"></div>
+  <a href="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/">
+    <div class="thumb thumb-d6d46e724bbd9a8ca31715c1a5f90990"></div>
 
     <div class="inner">
-      <div class="title">Insider Dev Tour Tokyoを開催 &amp; 登壇しました #insiderdevtour</div>
+      <div class="title">Terraform でインフラを構築する方法 part.2</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2018-06-19T03:00:03JST">Jun 19, 2018</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-02T09:51:46JST">Sep 2, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

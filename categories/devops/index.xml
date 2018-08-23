@@ -200,5 +200,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実</description>
     </item>
     
+    <item>
+      <title>Terraform でインフラを構築する方法 part.1</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/</link>
+      <pubDate>Thu, 01 Sep 2016 14:47:36 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習</description>
+    </item>
+    
   </channel>
 </rss>

@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
 
 
 
@@ -23,23 +23,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Terraform で Azure を構築する方法 - Change the World!</title>
+    <title>Terraform でインフラを構築する方法 part.1 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
 
-<meta property="og:title" content="Terraform で Azure を構築する方法 - Change the World!">
+<meta property="og:title" content="Terraform でインフラを構築する方法 part.1 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
 <meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/">
-<meta name="twitter:title" content="Terraform で Azure を構築する方法 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/">
+<meta name="twitter:title" content="Terraform でインフラを構築する方法 part.1 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習">
 <meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "Terraform で Azure を構築する方法 - Change the World!",
+    "headline": "Terraform でインフラを構築する方法 part.1 - Change the World!",
     "image": {
       "@type": "ImageObject",
       "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-09-04T02:10:39JST",
-    "dateModified": "2016-09-04T02:10:39JST",
+    "datePublished": "2016-09-01T14:47:36JST",
+    "dateModified": "2016-09-01T14:47:36JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp"
+    "description": "このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習"
   }
 </script>
 
@@ -108,22 +108,22 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-bdc5848dc25c563c451c5dea18bb5d08"></div>
+      <div class="thumb thumb-61f8e0097e63bf1e17a8128f85c9c8af"></div>
       <header class="article-header">
-        <h1 class="title">Terraform で Azure を構築する方法</h1>
+        <h1 class="title">Terraform でインフラを構築する方法 part.1</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T02:10:39JST">Sep 4, 2016</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-04T02:10:39JST">Sep 4, 2016</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-01T14:47:36JST">Sep 1, 2016</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-09-01T14:47:36JST">Sep 1, 2016</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&text=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&t=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
@@ -132,16 +132,9 @@
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>以下は</p>
+<p>Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習得し易いツールです。しかも CloudFormation と違って AWS から Azure, Google Cloud, Heroku などさまざまな環境を対象にすることができます。</p>
 
-<ul>
-<li><a href="../how-to-use-terraform-1/">Terraform でインフラを構築する方法 part.1</a></li>
-<li><a href="../how-to-use-terraform-2/">Terraform でインフラを構築する方法 part.2</a></li>
-</ul>
-
-<p>を Azure で実践したものになります。</p>
-
-<p>手順は HashiCorp の公式サイトにある Terraform の<a href="https://www.terraform.io/docs/providers/azurerm/">Provider: Azure Resource Manager &#8211; Terraform by HashiCorp</a>に記載してあります。</p>
+<p>以下は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/intro/getting-started/install.html">Getting Started</a> を実践した内容になります。</p>
 
 <h2 id="environment">Environment</h2>
 
@@ -154,80 +147,258 @@
 <li>Terraform 0.7.1</li>
 </ul>
 
-<h2 id="creating-credentials">Creating Credentials</h2>
+<h2 id="install-terraform">Install Terraform</h2>
 
-<p>最初に <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を行います。これを実行すると、<code>client_id</code>, <code>client_secret</code>, <code>tenant_id</code> が払い出されます。英語で書かれていますが、簡単に書くと</p>
+<p><a href="https://www.terraform.io/intro/getting-started/install.html">Install Terraform</a> の手順に従い Terraform をインストールします。</p>
 
-<h3 id="クラシックポータルでの作業">クラシックポータルでの作業</h3>
+<p>Mac 向けのバイナリパッケージがあるので <a href="https://www.terraform.io/downloads.html">Download Terraform</a> からファイルをダウンロードし、適当なディレクトリで解凍後、パスを通すだけで終わりです。 <code>.bash_profile</code> で <code>export</code> するといいでしょう。</p>
 
-<ul>
-<li>[アクティブディレクトリ]をクリックし、使用するディレクトリを選択する</li>
-<li>[アプリケーション]をクリックする</li>
-<li>[追加]をクリック後、[組織で開発中のアプリケーションを追加]を選択する</li>
-<li><code>Terraform</code> のような分かり易い名前を入力し、 [WEB アプリケーションや WEB API] を選択後、矢印アイコンをクリックする</li>
-<li>[サインオン URL] と[アプリケーションの URL] の2つに自分のサイトや GitHub page のような有効で未使用の URL を入力後、矢印アイコンをクリックする</li>
-<li>アプリケーションをクリック後、[構成]をクリックすると、ページの真ん中らへんにクライアント ID(<code>client_id</code>) の値が表示されている</li>
-<li>その下の[キー]節で、時間を選択し、[保存]をクリックすると、クライアントシークレット (<code>client_secret</code>) の値が表示されるが、1度しか表示されないので注意する</li>
-<li>[エンドポインtpの表示]をクリックすると表示されるポップアップの [OAUTH 2.0 承認エンドポイント]の英語と数字の羅列されている真ん中らへんの値が <code>tenant_id</code> の値になる</li>
-</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/usr/local/terraform/0.7.1/bin:</span>$PATH<span style="color:#e6db74">&#34;</span></code></pre></div>
 
-<h3 id="新ポータルでの作業">新ポータルでの作業</h3>
+<p>ターミナルから <code>terraform</code> コマンドを実行できればセットアップに問題はありません。</p>
 
-<ul>
-<li>左のパネルにある[サブスクリプション]をクリック後、使いたいサブスクリプションをクリックし、[すべての設定]をクリック後、[ユーザー]をクリックする</li>
-<li>[追加]をクリック後、 Terrafrom に割り当てる役割を選択する。役割の詳細は<a href="https://azure.microsoft.com/ja-jp/documentation/articles/role-based-access-built-in-roles/">こちら</a>参照</li>
-<li>[クラシックポータル]で追加したアプリケーション名をユーザー名に選択する</li>
-<li>[OK] をクリックする</li>
-</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform
+usage: terraform [–version] [–help] &lt;command&gt; [args]
+The available commands for execution are listed below.
+The most common, useful commands are shown first, followed by
+less common or more advanced commands. If you&#39;re just getting
+started with Terraform, stick with the common commands. For the
+other commands, please read the help and docs before usage.
 
-<h2 id="terraform-で-azureを構築する">Terraform で Azureを構築する</h2>
+Common commands:
+    apply Builds or changes infrastructure
+    destroy Destroy Terraform-managed infrastructure
+    fmt Rewrites config files to canonical format
+    get Download and install modules for the configuration
+    graph Create a visual graph of Terraform resources
+    import Import existing infrastructure into Terraform
+    init Initializes Terraform configuration from a module
+    output Read an output from a state file
+    plan Generate and show an execution plan
+    push Upload this Terraform module to Atlas to run
+    refresh Update local state file against real resources
+    remote Configure remote state storage
+    show Inspect Terraform state or plan
+    taint Manually mark a resource for recreation
+    untaint Manually unmark a resource as tainted
+    validate Validates the Terraform files
+    version Prints the Terraform version
 
-<p>後は [Example Usage] に記載の通り</p>
+All other commands:
+    state Advanced state management</code></pre></div>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># Configure the Microsoft Azure Provider
-provider &#34;azurerm&#34; {
-  subscription_id = &#34;[使用するサブスクリプション ID]&#34;
-  client_id = &#34;[上で表示された client_id]&#34;
-  client_secret = &#34;[上で表示された client_secret]&#34;
-  tenant_id = &#34;[上で表示された tenant_id]&#34;
+<h2 id="build-infrastructure">Build Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/build.html">Build Infrastructure</a> の手順に従い AWS に EC2 を構築します。
+手順では <code>t2.micro</code> と記載されていますが、ここは <code>t2.nano</code> に変えています。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">provider &#34;aws&#34; {
+  access_key = &#34;ACCESS_KEY_HERE&#34;
+  secret_key = &#34;SECRET_KEY_HERE&#34;
+  region = &#34;us-east-1&#34;
 }
 
-# Create a resource group
-resource &#34;azurerm_resource_group&#34; &#34;production&#34; {
-  name = &#34;production&#34;
-  location = &#34;West US&#34;
-}
-
-# Create a virtual network in the web_servers resource group
-resource &#34;azurerm_virtual_network&#34; &#34;network&#34; {
-  name = &#34;productionNetwork&#34;
-  address_space = [&#34;10.0.0.0/16&#34;]
-  location = &#34;West US&#34;
-  resource_group_name = &#34;${azurerm_resource_group.production.name}&#34;
-  subnet {
-    name = &#34;subnet1&#34;
-    address_prefix = &#34;10.0.1.0/24&#34;
-  }
-  subnet {
-    name = &#34;subnet2&#34;
-    address_prefix = &#34;10.0.2.0/24&#34;
-  }
-  subnet {
-    name = &#34;subnet3&#34;
-    address_prefix = &#34;10.0.3.0/24&#34;
-  }
+resource &#34;aws_instance&#34; &#34;example&#34; {
+  ami = &#34;ami-0d729a60&#34;
+  instance_type = &#34;t2.nano&#34;
 }</code></pre></div>
 
-<p>を <code>[好きな名前].tf</code> で保存すれば、実行できます。</p>
+<p><code>terraform plan</code> を実行すると、実行計画を確認できます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
+Refreshing Terraform state in-memory prior to plan…
+The refreshed state will be used to calculate this plan, but
+will not be persisted to local or remote state storage.
+The Terraform execution plan has been generated and is shown below.
+Resources are shown in alphabetical order for quick scanning. Green resources
+will be created (or destroyed and then created if an existing resource
+exists), yellow resources are being changed in-place, and red resources
+will be destroyed. Cyan entries are data sources to be read.
+Note: You didn&#39;t specify an &#34;-out&#34; parameter to save this plan, so when
+&#34;apply&#34; is called, Terraform can&#39;t guarantee this is what will execute.
+
++ aws_instance.example
+    ami: &#34;ami-0d729a60&#34;
+    availability_zone: &#34;&lt;computed&gt;&#34;
+    ebs_block_device.#: &#34;&lt;computed&gt;&#34;
+    ephemeral_block_device.#: &#34;&lt;computed&gt;&#34;
+    instance_state: &#34;&lt;computed&gt;&#34;
+    instance_type: &#34;t2.nano&#34;
+    key_name: &#34;&lt;computed&gt;&#34;
+    network_interface_id: &#34;&lt;computed&gt;&#34;
+    placement_group: &#34;&lt;computed&gt;&#34;
+    private_dns: &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;&lt;computed&gt;&#34;
+    public_dns: &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;&lt;computed&gt;&#34;
+    root_block_device.#: &#34;&lt;computed&gt;&#34;
+    security_groups.#: &#34;&lt;computed&gt;&#34;
+    source_dest_check: &#34;true&#34;
+    subnet_id: &#34;&lt;computed&gt;&#34;
+    tenancy: &#34;&lt;computed&gt;&#34;
+    vpc_security_group_ids.#: &#34;&lt;computed&gt;&#34;
+Plan: 1 to add, 0 to change, 0 to destroy.</code></pre></div>
+
+<p><code>&lt;computed&gt;</code>はリソースを作成してみないとわからない項目です。</p>
+
+<p>というわけで <code>terraform apply</code> を実行してみましょう。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform apply
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-0d729a60&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (10s elapsed)
+aws_instance.example: Still creating… (20s elapsed)
+aws_instance.example: Creation complete
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate</code></pre></div>
+
+<p>と書いてある通り AWS 上に EC2 が構築されました。</p>
+
+<h2 id="change-infrastructure">Change Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/change.html">Change Infrastructure</a> の手順に従い AWS 上に構築した EC2 の設定を変えます。 <code>aws.tf</code> を修正したら Build Infrastructure と同様に <code>terraform plan</code>, <code>terraform apply</code> を実行します。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
+：
++ aws_instance.example
+    ami: &#34;ami-0d729a60&#34; =&gt; &#34;ami-13be557e&#34; (forces new resource)
+    availability_zone: &#34;us-east-1c&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    ebs_block_device.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    ephemeral_block_device.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    instance_state: &#34;running&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    instance_type: &#34;t2.nano&#34; =&gt; &#34;t2.nano&#34;
+    key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    network_interface_id: &#34;eni-b954dda9&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    private_dns: &#34;ip-172-31-51-198.ec2.internal&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    private_ip: &#34;172.31.51.198&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    public_dns: &#34;ec2-54-164-45-203.compute-1.amazonaws.com&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    public_ip: &#34;54.164.45.203&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    root_block_device.#: &#34;1&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    security_groups.#: &#34;0&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    source_dest_check: &#34;true&#34; =&gt; &#34;true&#34;
+    subnet_id: &#34;subnet-6e303a44&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    tenancy: &#34;default&#34; =&gt; &#34;&lt;computed&gt;&#34;
+    vpc_security_group_ids.#: &#34;1&#34; =&gt; &#34;&lt;computed&gt;&#34;
+
+Plan: 1 to add, 0 to change, 1 to destroy.
+$ terraform apply
+aws_instance.example: Refreshing state… (ID: i-01c22590)
+aws_instance.example: Destroying…
+aws_instance.example: Still destroying… (10s elapsed)
+aws_instance.example: Still destroying… (20s elapsed)
+aws_instance.example: Destruction complete
+aws_instance.example: Creating…
+  ami: &#34;&#34; =&gt; &#34;ami-13be557e&#34;
+  availability_zone: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ebs_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  ephemeral_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_state: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  instance_type: &#34;&#34; =&gt; &#34;t2.nano&#34;
+  key_name: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  network_interface_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  placement_group: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  private_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_dns: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  public_ip: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  root_block_device.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  security_groups.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  source_dest_check: &#34;&#34; =&gt; &#34;true&#34;
+  subnet_id: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  tenancy: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+  vpc_security_group_ids.#: &#34;&#34; =&gt; &#34;&lt;computed&gt;&#34;
+aws_instance.example: Still creating… (5s elapsed)
+：
+aws_instance.example: Still creating… (30s elapsed)
+aws_instance.example: Creation complete
+
+Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
+
+The state of your infrastructure has been saved to the path
+below. This state is required to modify and destroy your
+infrastructure, so keep it safe. To inspect the complete state
+use the `terraform show` command.
+
+State path: terraform.tfstate</code></pre></div>
+
+<p>インスタンスID が変わっていることからも分かる通り、新規作成-&gt;既存破壊という流れになっています。</p>
+
+<h2 id="destroy-infrastructure">Destroy Infrastructure</h2>
+
+<p><a href="https://www.terraform.io/intro/getting-started/destroy.html">Destroy Infrastructure</a> の手順に従い AWS 上に構築した EC2 を破棄します。 <code>terraform plan -destroy</code> で破棄の実行計画を確認します。</p>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan -destroy
+Refreshing Terraform state in-memory prior to plan…
+The refreshed state will be used to calculate this plan, but
+will not be persisted to local or remote state storage.
+aws_instance.example: Refreshing state… (ID: i-72c82fe3)
+The Terraform execution plan has been generated and is shown below.
+Resources are shown in alphabetical order for quick scanning. Green resources
+will be created (or destroyed and then created if an existing resource
+exists), yellow resources are being changed in-place, and red resources
+will be destroyed. Cyan entries are data sources to be read.
+
+Note: You didn&#39;t specify an &#34;-out&#34; parameter to save this plan, so when
+&#34;apply&#34; is called, Terraform can&#39;t guarantee this is what will execute.
+
+– aws_instance.example
+
+Plan: 0 to add, 0 to change, 1 to destroy.</code></pre></div></p>
+
+<p>続いて <code>terraform destroy</code> で実際に破棄します。</p>
+
+<p>デフォルトは [Enter a value:] で入力待ちになるので [yes] と入力するとそのまま破棄が実行されます。</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform destroy
+Do you really want to destroy?
+  Terraform will delete all your managed infrastructure.
+  There is no undo. Only &#39;yes&#39; will be accepted to confirm.
+
+  Enter a value: yes
+
+aws_instance.example: Refreshing state… (ID: i-72c82fe3)
+aws_instance.example: Destroying…
+aws_instance.example: Still destroying… (10s elapsed)
+aws_instance.example: Still destroying… (20s elapsed)
+aws_instance.example: Still destroying… (30s elapsed)
+aws_instance.example: Destruction complete
+
+Apply complete! Resources: 0 added, 0 changed, 1 destroyed.</code></pre></div>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&text=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&t=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f&title=Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%20Azure%20%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-make-azure-resources-in-terraform%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&text=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&t=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f&title=Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Terraform%20%e3%81%a7%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%92%e6%a7%8b%e7%af%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%20part.1 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f09%2fhow-to-use-terraform-1%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -238,7 +409,7 @@ resource &#34;azurerm_virtual_network&#34; &#34;network&#34; {
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">Terraform で Azure を構築する方法</li>
+                <li class="active">Terraform でインフラを構築する方法 part.1</li>
               </ol>
             </nav>
           </div>
@@ -292,39 +463,18 @@ resource &#34;azurerm_virtual_network&#34; &#34;network&#34; {
 <div class="adj">
   <div class="mrow">
     
-    <div class="mcol c6">
-      <header>Previous Article</header>
-      <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/">
-    <div class="thumb thumb-a1141f4084b3247cfc5d9df7384e3cba"></div>
-
-    <div class="inner">
-      <div class="title">『JAZUG 6周年総会』で LT しました #jazug</div>
-
-      <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-03T14:56:04JST">Sep 3, 2016</time></li>
-        <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
-        
-      </ul>
-
-    </div>
-  </a>
-</article>
-
-    </div>
-    
     
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/">
-    <div class="thumb thumb-fb009b2a9c5cf979bda02e26a7eb5ff2"></div>
+  <a href="https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/">
+    <div class="thumb thumb-d6d46e724bbd9a8ca31715c1a5f90990"></div>
 
     <div class="inner">
-      <div class="title">Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</div>
+      <div class="title">Terraform でインフラを構築する方法 part.2</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-04T20:38:19JST">Sep 4, 2016</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-09-02T09:51:46JST">Sep 2, 2016</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
