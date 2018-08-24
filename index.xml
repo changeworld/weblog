@@ -425,5 +425,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習</description>
     </item>
     
+    <item>
+      <title>サービス提供終了のお知らせ</title>
+      <link>https://www.changesworlds.com/blog/2016/04/m3inc-changeworld-support-end-of-life/</link>
+      <pubDate>Thu, 31 Mar 2016 22:17:21 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/04/m3inc-changeworld-support-end-of-life/</guid>
+      <description>全世界の1～13の内一つの数字を選択し、その数字に4を足して倍にし、そこから6を引いて2で割り、最初に選択した数字を引いた人のこのブログをご</description>
+    </item>
+    
   </channel>
 </rss>
