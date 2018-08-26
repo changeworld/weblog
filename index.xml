@@ -434,5 +434,14 @@
       <description>全世界の1～13の内一つの数字を選択し、その数字に4を足して倍にし、そこから6を引いて2で割り、最初に選択した数字を引いた人のこのブログをご</description>
     </item>
     
+    <item>
+      <title>『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』で講演しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2016/03/33th-tfsug-done/</link>
+      <pubDate>Tue, 22 Mar 2016 00:39:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/03/33th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/3/17に開催された『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』にて『D</description>
+    </item>
+    
   </channel>
 </rss>
