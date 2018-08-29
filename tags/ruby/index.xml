@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/ruby/</link>
+    <description>Recent content in Ruby on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 28 Jan 2016 03:30:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HackerRank の Ruby Domain で Rank1 になった #ruby</title>
+      <link>https://www.changesworlds.com/blog/2016/01/i-became-rank1-in-ruby-domain-of-hackerrank/</link>
+      <pubDate>Thu, 28 Jan 2016 03:30:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/i-became-rank1-in-ruby-domain-of-hackerrank/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 HackerRank で Ruby の Rank1 になった1。 切欠は同僚が HackerRank のサイトでポチポチしていたのを見たからだったりする。 HackerRank は Algorithms, Mathematics, Ruby, Java,</description>
+    </item>
+    
+  </channel>
+</rss>
