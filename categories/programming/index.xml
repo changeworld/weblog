@@ -119,5 +119,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 HackerRank で Ruby の Rank1 になった1。 切欠は同僚が HackerRank のサイトでポチポチしていたのを見たからだったりする。 HackerRank は Algorithms, Mathematics, Ruby, Java,</description>
     </item>
     
+    <item>
+      <title>Travis CI から Heroku に Rails を継続的デプロイメントする方法 #rails</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-continuous-deployment-for-rails-from-travis-ci-to-heroku/</link>
+      <pubDate>Tue, 19 Jan 2016 22:58:16 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-continuous-deployment-for-rails-from-travis-ci-to-heroku/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするの</description>
+    </item>
+    
   </channel>
 </rss>
