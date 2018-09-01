@@ -29,5 +29,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするの</description>
     </item>
     
+    <item>
+      <title>Rails 向けパフォーマンスプロファイラサービス Skylight の設定方法 #rails</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/</link>
+      <pubDate>Sun, 17 Jan 2016 22:04:47 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S</description>
+    </item>
+    
   </channel>
 </rss>
