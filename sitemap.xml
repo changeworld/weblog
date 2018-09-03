@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2018/09/dotnetconf-2018-tokyo/</loc>
+    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/08/customize-hugo-theme-rubust/</loc>
     <lastmod>2018-08-21T11:30:00+09:00</lastmod>
   </url>
@@ -303,7 +308,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2018-08-21T11:30:00+09:00</lastmod>
+    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,7 +320,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2018-08-21T11:30:00+09:00</lastmod>
+    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -351,7 +356,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/event/</loc>
-    <lastmod>2018-08-17T11:30:00+09:00</lastmod>
+    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   

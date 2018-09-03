@@ -6,10 +6,19 @@
     <description>Recent content in Event on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Aug 2018 11:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 08:30:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/event/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『.NET Conf 2018 Tokyo, Japan』を主催します #dotnetconf</title>
+      <link>https://www.changesworlds.com/blog/2018/09/dotnetconf-2018-tokyo/</link>
+      <pubDate>Mon, 03 Sep 2018 08:30:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/09/dotnetconf-2018-tokyo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/10/13に開催される『.NET Conf 2018 Tokyo, Japan』を主催します。 3トラック並行で参加可能者</description>
+    </item>
     
     <item>
       <title>『Japan Azure User Group 8周年イベント』で LT します #jazug</title>
