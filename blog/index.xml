@@ -533,5 +533,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 2016/1/28に開催される『ノウハウお伝えします! Team Foundation Server 最新版でのワークアイテム管理』で講演しま</description>
     </item>
     
+    <item>
+      <title>Git でマージ済みブランチを一括削除する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</link>
+      <pubDate>Thu, 07 Jan 2016 22:07:35 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って</description>
+    </item>
+    
   </channel>
 </rss>

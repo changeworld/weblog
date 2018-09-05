@@ -293,6 +293,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</loc>
+    <lastmod>2016-01-07T22:07:35+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/categories/aboutme/</loc>
     <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
@@ -373,6 +378,12 @@
   <url>
     <loc>https://www.changesworlds.com/categories/gadget/</loc>
     <lastmod>2018-07-11T22:32:54+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/git/</loc>
+    <lastmod>2016-01-07T22:07:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
