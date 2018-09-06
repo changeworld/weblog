@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on Change the World!</title>
+    <link>https://www.changesworlds.com/categories/book/</link>
+    <description>Recent content in Book on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 03 Jan 2016 22:13:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/categories/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【書評】仕事は楽しいかね？</title>
+      <link>https://www.changesworlds.com/blog/2016/01/the-max-strategy-review/</link>
+      <pubDate>Sun, 03 Jan 2016 22:13:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/the-max-strategy-review/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 興味深い本を見つけたので読んでみました。 仕事は楽しいかね？ (きこ書房) 本書は主に悩み多きビジネスマン</description>
+    </item>
+    
+  </channel>
+</rss>

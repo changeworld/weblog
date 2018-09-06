@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Book</title>
+      <link>https://www.changesworlds.com/categories/book/</link>
+      <pubDate>Sun, 03 Jan 2016 22:13:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cloud</title>
       <link>https://www.changesworlds.com/categories/cloud/</link>
       <pubDate>Sat, 11 Aug 2018 10:19:32 +0900</pubDate>
@@ -89,6 +98,15 @@
       <pubDate>Tue, 21 Aug 2018 11:30:00 +0900</pubDate>
       
       <guid>https://www.changesworlds.com/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://www.changesworlds.com/categories/review/</link>
+      <pubDate>Sun, 03 Jan 2016 22:13:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/review/</guid>
       <description></description>
     </item>
     
