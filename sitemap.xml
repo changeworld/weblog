@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2018/09/visual-studio-team-services-is-now-azure-devops/</loc>
+    <lastmod>2018-09-11T08:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/09/dotnetconf-2018-tokyo/</loc>
     <lastmod>2018-09-03T08:30:00+09:00</lastmod>
   </url>
@@ -348,7 +353,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
+    <lastmod>2018-09-11T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -366,7 +371,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2018-09-03T08:30:00+09:00</lastmod>
+    <lastmod>2018-09-11T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -390,7 +395,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/devops/</loc>
-    <lastmod>2018-05-28T03:00:21+00:00</lastmod>
+    <lastmod>2018-09-11T08:30:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
