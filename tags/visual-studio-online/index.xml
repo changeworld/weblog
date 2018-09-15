@@ -6,10 +6,19 @@
     <description>Recent content in Visual Studio Online on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 16 Nov 2015 21:27:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2015 12:04:49 +0000</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/tags/visual-studio-online/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～』に登壇しました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information-done/</link>
+      <pubDate>Tue, 24 Nov 2015 12:04:49 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先程開催された『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～1』に登壇しました。参加者の</description>
+    </item>
     
     <item>
       <title>『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇します #alm #tfsug</title>
