@@ -650,5 +650,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 2015/11/26に開催される『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇し</description>
     </item>
     
+    <item>
+      <title>Git で fork 元リポジトリの master と同期する方法</title>
+      <link>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</link>
+      <pubDate>Tue, 03 Nov 2015 22:26:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 GitHub などで fork(フォーク) した後に fork(フォーク) 元のリポジトリの master と同期する(最新を取り込む</description>
+    </item>
+    
   </channel>
 </rss>
