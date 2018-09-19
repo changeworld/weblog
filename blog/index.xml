@@ -668,5 +668,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 GitHub などで fork(フォーク) した後に fork(フォーク) 元のリポジトリの master と同期する(最新を取り込む</description>
     </item>
     
+    <item>
+      <title>Git で commit id を指定して checkout する方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</link>
+      <pubDate>Wed, 26 Nov 2014 04:44:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 自分以外の人により、master でビルドが失敗するようになった際に必要になったので、調査した手順をメ</description>
+    </item>
+    
   </channel>
 </rss>
