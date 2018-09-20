@@ -174,6 +174,15 @@
     </item>
     
     <item>
+      <title>git rebase で squash する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</link>
+      <pubDate>Fri, 13 Mar 2015 13:23:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Pull Request を送った後の指摘に対応していたところ「 squash してコミットを 1 個にまとめて」と言われたので、手順を調べ</description>
+    </item>
+    
+    <item>
       <title>Git で commit id を指定して checkout する方法</title>
       <link>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</link>
       <pubDate>Wed, 26 Nov 2014 04:44:03 +0000</pubDate>
