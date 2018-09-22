@@ -317,5 +317,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 2015/11/26 に開催される『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇します。 登壇は 20:20-20:45 で、</description>
     </item>
     
+    <item>
+      <title>Jenkins によるメール通知の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
+      <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 デプロイ後にメールで通知しなければならない場合があります。Jenkins で自動デリバリーを実施してい</description>
+    </item>
+    
   </channel>
 </rss>

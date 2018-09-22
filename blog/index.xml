@@ -669,6 +669,15 @@
     </item>
     
     <item>
+      <title>Jenkins によるメール通知の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
+      <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 デプロイ後にメールで通知しなければならない場合があります。Jenkins で自動デリバリーを実施してい</description>
+    </item>
+    
+    <item>
       <title>git rebase で squash する</title>
       <link>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</link>
       <pubDate>Fri, 13 Mar 2015 13:23:06 +0000</pubDate>

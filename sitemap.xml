@@ -368,6 +368,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</loc>
+    <lastmod>2015-03-25T19:40:29+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</loc>
     <lastmod>2015-03-13T13:23:06+00:00</lastmod>
   </url>
@@ -488,6 +493,12 @@
   <url>
     <loc>https://www.changesworlds.com/tags/infrastructure-as-code/</loc>
     <lastmod>2016-09-09T11:01:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/jenkins/</loc>
+    <lastmod>2015-03-25T19:40:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
