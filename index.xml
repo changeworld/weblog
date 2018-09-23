@@ -669,6 +669,15 @@
     </item>
     
     <item>
+      <title>Visual Studio Code の半角スペースとタブを表示させる方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/</link>
+      <pubDate>Sat, 09 May 2015 20:57:14 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Code は半角スペースやタブがデフォルトだと表示されないので、表示させる方法を調べてみたのでメモとして</description>
+    </item>
+    
+    <item>
       <title>Jenkins によるメール通知の自動化</title>
       <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
       <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>
