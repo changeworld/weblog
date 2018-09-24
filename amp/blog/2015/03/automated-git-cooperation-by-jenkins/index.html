@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
 
-<link rel="canonical" href="https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/">
+<link rel="canonical" href="https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/">
 
 
 
@@ -23,24 +23,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster%7cLato:400,700" rel="stylesheet">
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Git でマージ済みブランチを一括削除する方法 - Change the World!</title>
+    <title>Jenkins による Git 連携の自動化 - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ">
 
-<meta property="og:title" content="Git でマージ済みブランチを一括削除する方法 - Change the World!">
+<meta property="og:title" content="Jenkins による Git 連携の自動化 - Change the World!">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/">
-<meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
+<meta property="og:url" content="https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/">
+<meta property="og:image" content="https://www.changesworlds.com/images/other-license/logo-title.png">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
-<meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/">
-<meta name="twitter:title" content="Git でマージ済みブランチを一括削除する方法 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って">
-<meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
+<meta name="twitter:url" content="https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/">
+<meta name="twitter:title" content="Jenkins による Git 連携の自動化 - Change the World!">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ">
+<meta name="twitter:image" content="https://www.changesworlds.com/images/other-license/logo-title.png">
 
 
 <script type="application/ld+json">
@@ -51,15 +51,15 @@
       "@type": "WebPage",
       "@id":"https://www.changesworlds.com/"
     },
-    "headline": "Git でマージ済みブランチを一括削除する方法 - Change the World!",
+    "headline": "Jenkins による Git 連携の自動化 - Change the World!",
     "image": {
       "@type": "ImageObject",
-      "url": "https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg",
+      "url": "https://www.changesworlds.com/images/other-license/logo-title.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2016-01-07T22:07:35JST",
-    "dateModified": "2016-01-07T22:07:35JST",
+    "datePublished": "2015-03-28T20:30:11JST",
+    "dateModified": "2015-03-28T20:30:11JST",
     "author": {
       "@type": "Person",
       "name": "Change the World!"
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って"
+    "description": "このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ"
   }
 </script>
 
@@ -108,22 +108,22 @@
       <div class="l-container">
         
 <article class="sn">
-      <div class="thumb thumb-0b6584f7276289adc30946590aaaa14a"></div>
+      <div class="thumb thumb-5117995a707d11401e93dd76763b3181"></div>
       <header class="article-header">
-        <h1 class="title">Git でマージ済みブランチを一括削除する方法</h1>
+        <h1 class="title">Jenkins による Git 連携の自動化</h1>
         <ul class="facts">
-          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-07T22:07:35JST">Jan 7, 2016</time></li>
-          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2016-01-07T22:07:35JST">Jan 7, 2016</time></li>
+          <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2015-03-28T20:30:11JST">Mar 28, 2015</time></li>
+          <li><i class="fa fa-refresh" aria-hidden="true"></i><time datetime="2015-03-28T20:30:11JST">Mar 28, 2015</time></li>
           <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://www.changesworlds.com/blog/">BLOG</a></li>
           
         </ul>
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&title=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&text=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&t=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&title=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&title=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&text=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&t=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&title=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
       </header>
@@ -132,56 +132,91 @@
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残ってしまいます。かといって、毎回以下のコマンドを打つのは面倒です。</p>
+<p>Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">$ git branch
-$ git branch -d [削除したいブランチ名]</code></pre></div>
+<ul>
+<li><a href="../automated-email-notification-by-jenkins/">Jenkins によるメール通知の自動化</a></li>
+<li><a href="../automated-parameter-cooperation-by-jenkins/">Jenkins によるパラメーター連携の自動化</a></li>
+</ul>
 
-<p>というわけで Git でマージ済みブランチを一括削除する方法を調べました。</p>
+<p>デプロイ後にメール通知までを Jenkis で自動化しましたが、デプロイの前にリリースする内容のタグ付けも Jenkins で自動化できると便利です。</p>
 
-<h2 id="git-でマージ済みブランチを一括削除する方法">Git でマージ済みブランチを一括削除する方法</h2>
+<p>ではどうすれば良いでしょう？</p>
 
-<h3 id="ローカルでマージ済みのブランチの一覧表示する">ローカルでマージ済みのブランチの一覧表示する</h3>
+<p>Jenkins に <a href="https://wiki.jenkins.io/display/JENKINS/Git+Plugin">Git Plugin</a> を入れるとこういったことが簡単かつセキュアに自動化できます。他にも <code>git push</code> 、<code>git merge</code> 、<code>git merge; git push</code> といったこともできます。</p>
 
-<p>以下のコマンドでローカルでマージ済みのブランチの一覧表示されます。</p>
+<h2 id="git-plugin-とは">Git Plugin とは？</h2>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">$ git branch --merged</code></pre></div>
+<p>そのまんまなので省略します。2015年3月現在のバージョンは 2.3.5 です。</p>
 
-<h3 id="マージ済みのブランチを一括で削除する">マージ済みのブランチを一括で削除する</h3>
+<h2 id="インストール">インストール</h2>
 
-<p>マージ済みでもdevelopやmasterは削除されると困るので、フィルタをかけ、その後に対象ブランチを削除します。</p>
+<p>[Jenkins の管理]→[プラグインの管理]→[利用可能タブ]を選択して、Git Plugin を選択してインストールします。</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">$ git branch --merged <span style="color:#e6db74">| egrep -v &#39;\*|develop|master&#39; | xargs git branch -d</span></code></pre></div>
+<h2 id="初期設定">初期設定</h2>
 
-<p>これで、目的を達成できますが、毎回これを実行するのは、記憶容量的にも、手の作業量的にも面倒です。というわけで楽にできる方法を考えました。</p>
+<h3 id="credential-設定">Credential 設定</h3>
 
-<h2 id="楽に-git-でマージ済みブランチを一括削除する方法">楽に Git でマージ済みブランチを一括削除する方法</h2>
+<p>認証に関する情報を設定します。</p>
 
-<h3 id="gitconfig-に-alias-を設定する">.gitconfig に alias を設定する</h3>
+<p>[認証情報]→[グローバルドメイン]→[認証情報を追加]を選択して、認証情報を追加します。</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">[alias]
-    de = <span style="color:#e6db74">&#34;!f () { git checkout $1; git branch --merged | egrep -v &#39;\\*|develop|master&#39; | xargs git branch -d; };f&#34;</span></code></pre></div>
+<p>設定できる情報は</p>
+
+<ul>
+<li>ユーザー名とパスワード</li>
+<li>SSH ユーザー名と秘密鍵</li>
+<li>証明書</li>
+</ul>
+
+<p>で、ユーザー名とパスワードの場合は</p>
+
+<ul>
+<li>スコープ : グローバルとシステムがあります。 <code>git pull/git push</code> などに使用する場合はグローバルで作成します。</li>
+<li>ユーザー名/パスワード/説明 : そのまんまの意味</li>
+</ul>
+
+<p>となります。</p>
+
+<h2 id="git-push-を-jenkins-で実行する">git push を Jenkins で実行する</h2>
+
+<p>シェルで実行するか、Git Publisher で実行するか選択できます。前者は ssh で接続しない場合はパスワードが見えてしまい、ssh で接続する場合は Jenkins を実行しているユーザになるという制約条件があります。</p>
+
+<p>以下は Git Publisher での設定になります。</p>
+
+<ul>
+<li>Push Only If Build Succeeds : ここをチェックすると、ビルド成功時のみ Git のコマンドを行います。ビルドに失敗したものを push する意味はないので、基本チェックをつけるのがいいでしょう。</li>
+</ul>
+
+<h3 id="tag">Tag</h3>
+
+<ul>
+<li>Tag to push : タグ付けする名前</li>
+<li>Tag message : タグのメッセージ(git tag -m で指定する部分)</li>
+<li>Create new tag : ここをチェックすると、タグを作る(＝つけないとタグを作らない)</li>
+<li>Update new tag : ここをチェックすると、タグを更新する</li>
+<li>Target remote name : origin などを指定</li>
+</ul>
+
+<h3 id="branch">Branch</h3>
+
+<ul>
+<li>Branch to push : push するブランチ名</li>
+<li>Target remote name : origin などのリモート名</li>
+</ul>
 
 <h2 id="まとめ">まとめ</h2>
 
-<p>この設定をした後に、</p>
-
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">$ git de develop</code></pre></div>
-
-<p>とすると develop を checkout 後にマージ済みブランチを一括削除してくれます。</p>
-
-<h2 id="参考情報">参考情報</h2>
-
-<p><a href="http://stackoverflow.com/questions/7534184/git-alias-multiple-commands-and-parameters">Git Alias &#8211; Multiple Commands and Parameters &#8211; Stack Overflow</a></p>
+<p>これらを駆使することで、タグ付けした後にデプロイし、その後にメール通知を Jenkins で自動的に可能となります。</p>
 </div>
       <footer class="article-footer">
         <aside class="share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&title=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&text=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&t=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f&title=Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
-  <a href="http://line.me/R/msg/text/?Git%20%e3%81%a7%e3%83%9e%e3%83%bc%e3%82%b8%e6%b8%88%e3%81%bf%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e3%82%92%e4%b8%80%e6%8b%ac%e5%89%8a%e9%99%a4%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2016%2f01%2fhow-to-bulk-delete-merged-branches-with-git%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&title=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&text=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&t=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f&title=Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Jenkins%20%e3%81%ab%e3%82%88%e3%82%8b%20Git%20%e9%80%a3%e6%90%ba%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96 https%3a%2f%2fwww.changesworlds.com%2fblog%2f2015%2f03%2fautomated-git-cooperation-by-jenkins%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
 </aside>
 
         <section class="footer">
@@ -192,7 +227,7 @@ $ git branch -d [削除したいブランチ名]</code></pre></div>
                 
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://www.changesworlds.com/blog/" itemprop="url"><span itemprop="title">BLOG</span></a></li>
                 
-                <li class="active">Git でマージ済みブランチを一括削除する方法</li>
+                <li class="active">Jenkins による Git 連携の自動化</li>
               </ol>
             </nav>
           </div>
@@ -207,7 +242,7 @@ $ git branch -d [削除したいブランチ名]</code></pre></div>
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/categories/programming/">Programming</a></li>
+              <li><a href="https://www.changesworlds.com/categories/devops/">DevOps</a></li>
               
             </ul>
           </div>
@@ -222,7 +257,7 @@ $ git branch -d [削除したいブランチ名]</code></pre></div>
           <div>
             <ul class="terms">
               
-              <li><a href="https://www.changesworlds.com/tags/git/">Git</a></li>
+              <li><a href="https://www.changesworlds.com/tags/jenkins/">Jenkins</a></li>
               
             </ul>
           </div>
@@ -247,14 +282,14 @@ $ git branch -d [削除したいブランチ名]</code></pre></div>
     <div class="mcol c6">
       <header>Previous Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/01/the-max-strategy-review/">
-    <div class="thumb thumb-b43edd5ec6b127d66e3bd1274bddbcaf"></div>
+  <a href="https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/">
+    <div class="thumb thumb-a23c33c911def964d87e9a2b50c920b7"></div>
 
     <div class="inner">
-      <div class="title">【書評】仕事は楽しいかね？</div>
+      <div class="title">Jenkins によるメール通知の自動化</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-03T22:13:23JST">Jan 3, 2016</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2015-03-25T19:40:29JST">Mar 25, 2015</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>
@@ -269,14 +304,14 @@ $ git branch -d [削除したいブランチ名]</code></pre></div>
     <div class="mcol c6">
       <header>Next Article</header>
       <article class="lism">
-  <a href="https://www.changesworlds.com/blog/2016/01/msevents-1032712290/">
-    <div class="thumb thumb-3be3e4ee171f418a5f65d8e990fc186b"></div>
+  <a href="https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/">
+    <div class="thumb thumb-404343853ef7cea0cdf0990ac2f443f5"></div>
 
     <div class="inner">
-      <div class="title">『ノウハウお伝えします! Team Foundation Server 最新版でのワークアイテム管理』で講演します #alm</div>
+      <div class="title">Visual Studio Code の半角スペースとタブを表示させる方法 #vscode</div>
 
       <ul class="facts sm">
-        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-11T21:54:58JST">Jan 11, 2016</time></li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2015-05-09T20:57:14JST">May 9, 2015</time></li>
         <li><i class="fa fa-bookmark" aria-hidden="true"></i>BLOG</li>
         
       </ul>

@@ -687,6 +687,15 @@
     </item>
     
     <item>
+      <title>Jenkins による Git 連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</link>
+      <pubDate>Sat, 28 Mar 2015 20:30:11 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ</description>
+    </item>
+    
+    <item>
       <title>Jenkins によるメール通知の自動化</title>
       <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
       <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>

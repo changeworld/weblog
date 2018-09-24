@@ -378,6 +378,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</loc>
+    <lastmod>2015-03-28T20:30:11+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</loc>
     <lastmod>2015-03-25T19:40:29+00:00</lastmod>
   </url>
@@ -508,7 +513,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/tags/jenkins/</loc>
-    <lastmod>2015-03-25T19:40:29+00:00</lastmod>
+    <lastmod>2015-03-28T20:30:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
