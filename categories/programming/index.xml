@@ -200,5 +200,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 自分以外の人により、master でビルドが失敗するようになった際に必要になったので、調査した手順をメ</description>
     </item>
     
+    <item>
+      <title>local を remote で強制上書きし、remote と一致させる方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</link>
+      <pubDate>Sun, 09 Nov 2014 12:55:15 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 自分以外の人によって、remote repository が大量に更新され、git pull(fetch then merge) 時に conflict が起こる場合があります。そう</description>
+    </item>
+    
   </channel>
 </rss>

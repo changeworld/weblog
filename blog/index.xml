@@ -723,6 +723,15 @@
     </item>
     
     <item>
+      <title>local を remote で強制上書きし、remote と一致させる方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</link>
+      <pubDate>Sun, 09 Nov 2014 12:55:15 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 自分以外の人によって、remote repository が大量に更新され、git pull(fetch then merge) 時に conflict が起こる場合があります。そう</description>
+    </item>
+    
+    <item>
       <title>MacBook Pro を Apple Store に買いに行ったらカスタマイズできないと言われたので調べた</title>
       <link>https://www.changesworlds.com/blog/2014/08/i-bought-macbook-pro/</link>
       <pubDate>Sat, 16 Aug 2014 10:01:55 +0000</pubDate>
