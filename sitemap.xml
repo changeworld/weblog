@@ -408,6 +408,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</loc>
+    <lastmod>2014-07-03T23:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/categories/aboutme/</loc>
     <lastmod>2018-07-02T23:52:21+09:00</lastmod>
     <priority>0</priority>
@@ -506,6 +511,12 @@
   <url>
     <loc>https://www.changesworlds.com/tags/git/</loc>
     <lastmod>2016-01-07T22:07:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/homebrew/</loc>
+    <lastmod>2014-07-03T23:32:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

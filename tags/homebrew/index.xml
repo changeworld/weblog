@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homebrew on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/homebrew/</link>
+    <description>Recent content in Homebrew on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 03 Jul 2014 23:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>管理者権限なしで gem をインストールする</title>
+      <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
+      <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 業務で使う Mac で管理者権限がなく困ったため、調査した手順をメモとして残しておきます。 要件 Rubygems の gem をインス</description>
+    </item>
+    
+  </channel>
+</rss>

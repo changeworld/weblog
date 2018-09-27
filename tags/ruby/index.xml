@@ -29,5 +29,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするの</description>
     </item>
     
+    <item>
+      <title>管理者権限なしで gem をインストールする</title>
+      <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
+      <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 業務で使う Mac で管理者権限がなく困ったため、調査した手順をメモとして残しておきます。 要件 Rubygems の gem をインス</description>
+    </item>
+    
   </channel>
 </rss>

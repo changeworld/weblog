@@ -209,5 +209,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 自分以外の人によって、remote repository が大量に更新され、git pull(fetch then merge) 時に conflict が起こる場合があります。そう</description>
     </item>
     
+    <item>
+      <title>管理者権限なしで gem をインストールする</title>
+      <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
+      <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 業務で使う Mac で管理者権限がなく困ったため、調査した手順をメモとして残しておきます。 要件 Rubygems の gem をインス</description>
+    </item>
+    
   </channel>
 </rss>
