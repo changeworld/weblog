@@ -210,6 +210,15 @@
     </item>
     
     <item>
+      <title>CentOS に Perl をインストールする方法</title>
+      <link>https://www.changesworlds.com/blog/2014/10/how-to-install-perl-on-centos/</link>
+      <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/10/how-to-install-perl-on-centos/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 必要になったので、調査した手順をメモとして残しておきます。 Perl のインストール方法 以下のコマンドを実行す</description>
+    </item>
+    
+    <item>
       <title>管理者権限なしで gem をインストールする</title>
       <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
       <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>

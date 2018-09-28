@@ -403,6 +403,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2014/10/how-to-install-perl-on-centos/</loc>
+    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2014/08/i-bought-macbook-pro/</loc>
     <lastmod>2014-08-16T10:01:55+00:00</lastmod>
   </url>
@@ -457,6 +462,12 @@
   <url>
     <loc>https://www.changesworlds.com/categories/</loc>
     <lastmod>2018-07-02T23:52:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/centos/</loc>
+    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -571,6 +582,12 @@
   <url>
     <loc>https://www.changesworlds.com/tags/pattern-language/</loc>
     <lastmod>2018-03-14T03:00:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/perl/</loc>
+    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
