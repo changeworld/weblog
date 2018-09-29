@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Git Boot Camp for Designerを実施しました #git</title>
+      <link>https://www.changesworlds.com/blog/2015/11/git-boot-camp-for-designer-done/</link>
+      <pubDate>Tue, 17 Nov 2015 21:20:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/git-boot-camp-for-designer-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/11にデザイナー向けの Git のワークショップである『Git Boot Camp for Designer』を実施</description>
+    </item>
+    
+    <item>
       <title>Git で fork 元リポジトリの master と同期する方法</title>
       <link>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</link>
       <pubDate>Tue, 03 Nov 2015 22:26:18 +0000</pubDate>
