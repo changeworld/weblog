@@ -174,6 +174,15 @@
     </item>
     
     <item>
+      <title>Microsoft Cross Platform Build Agent(VSO-Agent)のDockerfile&#43;Serverspecを公開しました #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/11/published-microsoft-cross-platform-build-agent-with-dockerfile-and-serverspec/</link>
+      <pubDate>Sun, 15 Nov 2015 20:13:37 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/published-microsoft-cross-platform-build-agent-with-dockerfile-and-serverspec/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft Cross Platform Build Agent(VSO-Agent) の Dockerfile + Serverspec を公開しました。リポジトリは以下の通りです。 Source Repository: GitHub Docker Image: Docker Hub 継続的インテグレーション</description>
+    </item>
+    
+    <item>
       <title>Visual Studio Code の半角スペースとタブを表示させる方法 #vscode</title>
       <link>https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/</link>
       <pubDate>Sat, 09 May 2015 20:57:14 +0000</pubDate>
