@@ -705,6 +705,15 @@
     </item>
     
     <item>
+      <title>Jenkins による環境変数連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</link>
+      <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズして、Git コマンドを実行(タグ付けなど)→デプロイ→メール通知という具合にかなり継</description>
+    </item>
+    
+    <item>
       <title>Jenkins による Git 連携の自動化</title>
       <link>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</link>
       <pubDate>Sat, 28 Mar 2015 20:30:11 +0000</pubDate>
