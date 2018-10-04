@@ -38,5 +38,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S</description>
     </item>
     
+    <item>
+      <title>Ruby on Rails で helper メソッドを view 以外で使う方法</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</link>
+      <pubDate>Sun, 10 May 2015 20:10:34 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Ruby on Rails で helper メソッドを view 以外で使う方法を調査したので、その手順をメモとして残しておきます。 Ruby on Rails 2.1 以降</description>
+    </item>
+    
   </channel>
 </rss>
