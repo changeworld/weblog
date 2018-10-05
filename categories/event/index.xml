@@ -6,10 +6,19 @@
     <description>Recent content in Event on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 24 Sep 2018 11:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Oct 2018 03:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/event/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TDDBC Tokyo 2018-09 に TA として参加しました #tddbc</title>
+      <link>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</link>
+      <pubDate>Tue, 02 Oct 2018 03:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/9/29 に開催された『TDDBC Tokyo 2018-09』に TA(Teaching Assistant) として参加しました。 tddbc.connpass.com 午前 やっとむ @yattom さんによる基調</description>
+    </item>
     
     <item>
       <title>『Japan Azure User Group 8周年イベント』で LT しました #jazug</title>
