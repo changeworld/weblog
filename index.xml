@@ -228,7 +228,7 @@
     </item>
     
     <item>
-      <title>AWS外部からHAProxyを使ってAmazon ElastiCacheへアクセスする方法</title>
+      <title>AWS 外部 から HAProxy を使って Amazon ElastiCache へアクセスする方法</title>
       <link>https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</link>
       <pubDate>Thu, 20 Apr 2017 07:05:44 +0000</pubDate>
       
@@ -702,6 +702,15 @@
       
       <guid>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 GitHub などで fork(フォーク) した後に fork(フォーク) 元のリポジトリの master と同期する(最新を取り込む</description>
+    </item>
+    
+    <item>
+      <title>Slack の記述方法のチートシート</title>
+      <link>https://www.changesworlds.com/blog/2015/05/slack-cheat-sheet/</link>
+      <pubDate>Thu, 28 May 2015 20:48:33 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/slack-cheat-sheet/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 ほぼ Markdown 記法になっていますが、以下の通りです。 &amp;gt; hogehoge : 引用。文頭に | がつき、インデントされる `hogehoge` : インライ</description>
     </item>
     
     <item>
