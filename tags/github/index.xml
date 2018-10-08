@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/github/</link>
+    <description>Recent content in Github on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 05 Jul 2015 05:56:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio と GitHub を連携する方法 #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</link>
+      <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Online Supports True Cross-Platform Development &amp;#8211; Microsoft Application Lifecycle Management &amp;#8211; Site Home &amp;#8211; MSDN Blogsに関連して手順を調べたのでメモとして残しておきます。 前提</description>
+    </item>
+    
+  </channel>
+</rss>

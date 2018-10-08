@@ -192,6 +192,15 @@
     </item>
     
     <item>
+      <title>Visual Studio と GitHub を連携する方法 #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</link>
+      <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Online Supports True Cross-Platform Development &amp;#8211; Microsoft Application Lifecycle Management &amp;#8211; Site Home &amp;#8211; MSDN Blogsに関連して手順を調べたのでメモとして残しておきます。 前提</description>
+    </item>
+    
+    <item>
       <title>Ruby on Rails で helper メソッドを view 以外で使う方法</title>
       <link>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</link>
       <pubDate>Sun, 10 May 2015 20:10:34 +0000</pubDate>

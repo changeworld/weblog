@@ -388,6 +388,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</loc>
+    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/05/slack-cheat-sheet/</loc>
     <lastmod>2015-05-28T20:48:33+00:00</lastmod>
   </url>
@@ -571,6 +576,12 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/github/</loc>
+    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/tags/homebrew/</loc>
     <lastmod>2014-07-03T23:32:00+00:00</lastmod>
     <priority>0</priority>
@@ -705,6 +716,12 @@
   <url>
     <loc>https://www.changesworlds.com/categories/translation/</loc>
     <lastmod>2018-03-14T03:00:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/visual-studio/</loc>
+    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
