@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Ruby の gem を全てアンインストールする方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</link>
+      <pubDate>Tue, 25 Nov 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Rubyのインストールしたgemをすべて削除したい場合があります。例えば、 bundle install --path を指定していなかった</description>
+    </item>
+    
+    <item>
       <title>管理者権限なしで gem をインストールする</title>
       <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
       <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>

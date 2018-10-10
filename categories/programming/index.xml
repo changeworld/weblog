@@ -246,6 +246,15 @@
     </item>
     
     <item>
+      <title>Ruby の gem を全てアンインストールする方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</link>
+      <pubDate>Tue, 25 Nov 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Rubyのインストールしたgemをすべて削除したい場合があります。例えば、 bundle install --path を指定していなかった</description>
+    </item>
+    
+    <item>
       <title>local を remote で強制上書きし、remote と一致させる方法</title>
       <link>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</link>
       <pubDate>Sun, 09 Nov 2014 12:55:15 +0000</pubDate>
