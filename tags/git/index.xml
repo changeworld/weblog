@@ -65,5 +65,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 自分以外の人によって、remote repository が大量に更新され、git pull(fetch then merge) 時に conflict が起こる場合があります。そう</description>
     </item>
     
+    <item>
+      <title>Mac で Visio の内容を表示する方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-display-visio-on-mac/</link>
+      <pubDate>Fri, 07 Nov 2014 13:39:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-display-visio-on-mac/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Windows で書かれた Visio ファイルの内容を Mac ユーザーであるエンジニアが参照する必要があり、今まではWindows</description>
+    </item>
+    
   </channel>
 </rss>
