@@ -219,6 +219,15 @@
     </item>
     
     <item>
+      <title>Visual Studio Code を Markdown エディタとして利用する方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-use-the-visual-studio-code-as-markdown-editor/</link>
+      <pubDate>Sat, 02 May 2015 20:12:47 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-use-the-visual-studio-code-as-markdown-editor/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 この blog は Markdown 記法で書いており、エディタには Mou を使っていました。Sublime text も試したのですが、それぞ</description>
+    </item>
+    
+    <item>
       <title>PostgreSQL からカンマ区切り or タブ区切りでデータを export する</title>
       <link>https://www.changesworlds.com/blog/2015/03/export-from-postgresql/</link>
       <pubDate>Fri, 13 Mar 2015 20:25:58 +0000</pubDate>
