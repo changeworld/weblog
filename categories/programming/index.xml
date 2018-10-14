@@ -246,6 +246,15 @@
     </item>
     
     <item>
+      <title>Git で一度行った変更をなかったことにする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/01/git-various-undo/</link>
+      <pubDate>Sat, 24 Jan 2015 21:27:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/git-various-undo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 GitHub や GitLab などで間違えて直接 master ブランチにコミットしてしまうことがあります。そんなとき pull requset/merge request を mergeし</description>
+    </item>
+    
+    <item>
       <title>Git で commit id を指定して checkout する方法</title>
       <link>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</link>
       <pubDate>Wed, 26 Nov 2014 04:44:03 +0000</pubDate>
