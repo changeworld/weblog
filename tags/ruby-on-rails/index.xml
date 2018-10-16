@@ -47,5 +47,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 Ruby on Rails で helper メソッドを view 以外で使う方法を調査したので、その手順をメモとして残しておきます。 Ruby on Rails 2.1 以降</description>
     </item>
     
+    <item>
+      <title>RSpec で private メソッドをテストする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</link>
+      <pubDate>Mon, 02 Feb 2015 21:06:37 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回、受けた指摘を直して再度レビューしてもらったら、以下の指摘を受けました。 この関数はprivate</description>
+    </item>
+    
   </channel>
 </rss>

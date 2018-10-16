@@ -831,6 +831,15 @@
     </item>
     
     <item>
+      <title>RSpec で private メソッドをテストする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</link>
+      <pubDate>Mon, 02 Feb 2015 21:06:37 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回、受けた指摘を直して再度レビューしてもらったら、以下の指摘を受けました。 この関数はprivate</description>
+    </item>
+    
+    <item>
       <title>Git で一度行った変更をなかったことにする方法</title>
       <link>https://www.changesworlds.com/blog/2015/01/git-various-undo/</link>
       <pubDate>Sat, 24 Jan 2015 21:27:22 +0000</pubDate>
