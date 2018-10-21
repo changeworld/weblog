@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 16 Oct 2018 08:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 21 Oct 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan』を主催します #azuredevops</title>
+      <link>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo/</link>
+      <pubDate>Sun, 21 Oct 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/11/24 に『Azure DevOps Tokyo, Japan』を主催 &amp;amp; 開催します。 Azure DevOps が Visual Studio Team Services(VSTS) から名称がかわり、新サービスとして</description>
+    </item>
     
     <item>
       <title>『.NET Conf 2018 Tokyo, Japan』を開催しました #dotnetconf</title>
