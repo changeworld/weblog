@@ -56,5 +56,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 前回、受けた指摘を直して再度レビューしてもらったら、以下の指摘を受けました。 この関数はprivate</description>
     </item>
     
+    <item>
+      <title>RuboCop の Metrics/PerceivedComplexity について</title>
+      <link>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-perceived_complexity/</link>
+      <pubDate>Sun, 18 Jan 2015 20:12:21 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-perceived_complexity/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 コーディング規約に対応していなかった既存の Rails プロジェクトを RuboCop でチェックしています。RuboCop (コ</description>
+    </item>
+    
   </channel>
 </rss>
