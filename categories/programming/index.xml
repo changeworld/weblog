@@ -201,6 +201,15 @@
     </item>
     
     <item>
+      <title>Visual Studio Code で git の branch を変更する方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-change-git-branch-of-the-visual-studio-code/</link>
+      <pubDate>Wed, 27 May 2015 20:18:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-change-git-branch-of-the-visual-studio-code/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Code で開発をしている最中に branch の変更などをする際だけターミナルから実行していました。どこからか Git のコ</description>
+    </item>
+    
+    <item>
       <title>Ruby on Rails で helper メソッドを view 以外で使う方法</title>
       <link>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</link>
       <pubDate>Sun, 10 May 2015 20:10:34 +0000</pubDate>
