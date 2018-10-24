@@ -813,6 +813,15 @@
     </item>
     
     <item>
+      <title>PostgreSQL から改行コードを抜いたデータを export する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/export-and-replace-from-postgresql/</link>
+      <pubDate>Sat, 14 Mar 2015 21:08:08 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/export-and-replace-from-postgresql/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 PostgreSQL からカンマ区切り (CSV) やタブ区切り (TSV) でデータを出力する場合、出力するデータに改行が入っていると CSV や TSV の</description>
+    </item>
+    
+    <item>
       <title>PostgreSQL からカンマ区切り or タブ区切りでデータを export する</title>
       <link>https://www.changesworlds.com/blog/2015/03/export-from-postgresql/</link>
       <pubDate>Fri, 13 Mar 2015 20:25:58 +0000</pubDate>
