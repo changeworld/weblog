@@ -903,6 +903,15 @@
     </item>
     
     <item>
+      <title>RuboCop の Metrics/CyclomaticComplexity について</title>
+      <link>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</link>
+      <pubDate>Thu, 15 Jan 2015 22:07:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 コーディング規約に対応していなかった既存の Rails プロジェクトを RuboCop でチェックしています。RuboCop (コ</description>
+    </item>
+    
+    <item>
       <title>Git で commit id を指定して checkout する方法</title>
       <link>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</link>
       <pubDate>Wed, 26 Nov 2014 04:44:03 +0000</pubDate>

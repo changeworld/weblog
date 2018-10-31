@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>RuboCop の Metrics/CyclomaticComplexity について</title>
+      <link>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</link>
+      <pubDate>Thu, 15 Jan 2015 22:07:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 コーディング規約に対応していなかった既存の Rails プロジェクトを RuboCop でチェックしています。RuboCop (コ</description>
+    </item>
+    
+    <item>
       <title>Ruby の gem を全てアンインストールする方法</title>
       <link>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</link>
       <pubDate>Tue, 25 Nov 2014 12:51:31 +0000</pubDate>
