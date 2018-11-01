@@ -345,6 +345,15 @@
     </item>
     
     <item>
+      <title>Ruby, Rails, Git再入門 git remote add の操作を取り消す方法</title>
+      <link>https://www.changesworlds.com/blog/2014/09/reintroduction-to-ruby-rails-git-007/</link>
+      <pubDate>Mon, 08 Sep 2014 02:28:31 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/09/reintroduction-to-ruby-rails-git-007/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 やあ (´・ω・｀) ようこそバーボンハウスへ。 このページはサービスだから、まず見て落ちついて欲しい。 う</description>
+    </item>
+    
+    <item>
       <title>管理者権限なしで gem をインストールする</title>
       <link>https://www.changesworlds.com/blog/2014/07/how-to-install-rubygems-package-without-administrator-permission/</link>
       <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
