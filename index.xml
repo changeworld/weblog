@@ -6,10 +6,19 @@
     <description>Recent content on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 26 Oct 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 07 Nov 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>開発合宿 in ウクライナ part.1</title>
+      <link>https://www.changesworlds.com/blog/2018/11/development-camp-in-ukraine/</link>
+      <pubDate>Wed, 07 Nov 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/11/development-camp-in-ukraine/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/10/27 - 2018/11/01 までウクライナに開発合宿で行ってきました。 もちろん、 一人 で。 大事なことなのでもう一度。 もちろん</description>
+    </item>
     
     <item>
       <title>『Azure DevOps Tokyo, Japan 2nd impact』を主催します #azuredevops</title>

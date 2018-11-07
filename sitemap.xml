@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2018/11/development-camp-in-ukraine/</loc>
+    <lastmod>2018-11-07T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo-2nd/</loc>
     <lastmod>2018-10-26T09:00:00+09:00</lastmod>
   </url>
@@ -604,7 +609,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2018-10-26T09:00:00+09:00</lastmod>
+    <lastmod>2018-11-07T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -628,7 +633,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2018-10-26T09:00:00+09:00</lastmod>
+    <lastmod>2018-11-07T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -760,7 +765,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/programming/</loc>
-    <lastmod>2018-10-02T03:00:00+09:00</lastmod>
+    <lastmod>2018-11-07T09:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
