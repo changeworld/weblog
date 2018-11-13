@@ -6,10 +6,19 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 09 Nov 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>開発合宿 in ウクライナ part.3</title>
+      <link>https://www.changesworlds.com/blog/2018/11/development-camp-in-ukraine-3rd/</link>
+      <pubDate>Tue, 13 Nov 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/11/development-camp-in-ukraine-3rd/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 この記事は開発合宿 in ウクライナ part.1, 開発合宿 in ウクライナ part.2からの続きです。 せっかく開発合宿でウ</description>
+    </item>
     
     <item>
       <title>開発合宿 in ウクライナ part.2</title>
