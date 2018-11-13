@@ -372,6 +372,15 @@
     </item>
     
     <item>
+      <title>Windows 環境で StyleDocco を使う際に発生する「Invalid Windows-31J character」の解決方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-resolve-the-invalid-windows-31j-character-with-styledocco-on-windows/</link>
+      <pubDate>Tue, 04 Nov 2014 20:53:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-resolve-the-invalid-windows-31j-character-with-styledocco-on-windows/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 「Windows 環境で StyleDocco を使う際に発生する「Invalid Windows-31J character」への対応方法」を探る</description>
+    </item>
+    
+    <item>
       <title>CentOS に Perl をインストールする方法</title>
       <link>https://www.changesworlds.com/blog/2014/10/how-to-install-perl-on-centos/</link>
       <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
