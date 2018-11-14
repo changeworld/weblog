@@ -264,6 +264,15 @@
     </item>
     
     <item>
+      <title>Mac OS X(Marvericks) に Fabric をインストールする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/04/how-to-install-fabric-on-xmarvericks/</link>
+      <pubDate>Fri, 03 Apr 2015 21:37:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/04/how-to-install-fabric-on-xmarvericks/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Mac OS X(Marvericks) に Fabric をインストールする方法を調べたので、調査した手順をメモとして残しておきます。 Fabric のインストー</description>
+    </item>
+    
+    <item>
       <title>PostgreSQL から改行コードを抜いたデータを export する</title>
       <link>https://www.changesworlds.com/blog/2015/03/export-and-replace-from-postgresql/</link>
       <pubDate>Sat, 14 Mar 2015 21:08:08 +0000</pubDate>

@@ -813,6 +813,15 @@
     </item>
     
     <item>
+      <title>Mac OS X(Marvericks) に Fabric をインストールする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/04/how-to-install-fabric-on-xmarvericks/</link>
+      <pubDate>Fri, 03 Apr 2015 21:37:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/04/how-to-install-fabric-on-xmarvericks/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Mac OS X(Marvericks) に Fabric をインストールする方法を調べたので、調査した手順をメモとして残しておきます。 Fabric のインストー</description>
+    </item>
+    
+    <item>
       <title>Jenkins による環境変数連携の自動化</title>
       <link>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</link>
       <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
