@@ -6,10 +6,19 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 18 Nov 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Dec 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1 分で OSS に貢献する方法</title>
+      <link>https://www.changesworlds.com/blog/2018/12/how-to-contribute-to-open-source-software-within-1-minute/</link>
+      <pubDate>Mon, 03 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/how-to-contribute-to-open-source-software-within-1-minute/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 私自身の体験を例に無理なく、短時間で OSS(Open Source Software) に貢献する方法やその取っ掛かりの見つけ方についてご紹介しま</description>
+    </item>
     
     <item>
       <title>開発合宿 in ウクライナ part.4</title>
