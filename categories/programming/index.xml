@@ -6,10 +6,19 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 03 Dec 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一人でもハンズオン形式で学べる Microsoft Learn</title>
+      <link>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</link>
+      <pubDate>Tue, 11 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 私の MVP カテゴリが Visual Studio and Development Technologies から Azure に変わったからか、最近よく Azure について質問されるようになりました。私な</description>
+    </item>
     
     <item>
       <title>1 分で OSS に貢献する方法</title>

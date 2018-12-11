@@ -6,10 +6,19 @@
     <description>Recent content in Pattern on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 14 Mar 2018 03:00:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一人でもハンズオン形式で学べる Microsoft Learn</title>
+      <link>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</link>
+      <pubDate>Tue, 11 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 私の MVP カテゴリが Visual Studio and Development Technologies から Azure に変わったからか、最近よく Azure について質問されるようになりました。私な</description>
+    </item>
     
     <item>
       <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました</title>
