@@ -6,10 +6,19 @@
     <description>Recent content on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Dec 2018 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Dec 2018 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Connect(); Japan 2018』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2018/12/microsoft-connect-japan-2018-done/</link>
+      <pubDate>Wed, 26 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/microsoft-connect-japan-2018-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/12/20 に開催された『Connect(); Japan 2018』で登壇しました。 セッションは YouTube で以下の通り、既に公開</description>
+    </item>
     
     <item>
       <title>一人でもハンズオン形式で学べる Microsoft Learn</title>
