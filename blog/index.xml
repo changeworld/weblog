@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 15 Jan 2019 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jan 2019 09:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 3rd strike』を主催します</title>
+      <link>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-3rd/</link>
+      <pubDate>Thu, 17 Jan 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-3rd/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/3/29 に『Azure DevOps Tokyo, Japan 3rd strike』を主催 &amp;amp; 開催します。 今回はブラジルから来日される MVP Rodrigo Kono (Brazil) さんを</description>
+    </item>
     
     <item>
       <title>ミーミル社 エキスパートに指名されました</title>
