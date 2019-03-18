@@ -6,10 +6,19 @@
     <description>Recent content in Devops on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 21 Jan 2019 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 01:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 4th answer』を主催します</title>
+      <link>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-4th/</link>
+      <pubDate>Sun, 17 Mar 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-4th/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/4/8 に『Azure DevOps Tokyo, Japan 4th answer』を主催 &amp;amp; 開催します。 今回は DevOps Day Tokyo 2019 で来日される Edward Thomson さんをお招き</description>
+    </item>
     
     <item>
       <title>『Azure DevOps Tokyo, Japan 2nd impact』を主催しました</title>
