@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2019/05/decode-2019-done/</loc>
+    <lastmod>2019-05-31T01:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2019/05/decode-2019/</loc>
     <lastmod>2019-05-28T01:00:00+09:00</lastmod>
   </url>
@@ -719,7 +724,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2019-05-28T01:00:00+09:00</lastmod>
+    <lastmod>2019-05-31T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -743,7 +748,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2019-05-28T01:00:00+09:00</lastmod>
+    <lastmod>2019-05-31T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -767,7 +772,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/devops/</loc>
-    <lastmod>2019-05-28T01:00:00+09:00</lastmod>
+    <lastmod>2019-05-31T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -779,7 +784,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/event/</loc>
-    <lastmod>2019-05-28T01:00:00+09:00</lastmod>
+    <lastmod>2019-05-31T01:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
