@@ -17,7 +17,7 @@
       <pubDate>Wed, 02 Aug 2017 04:15:11 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、 ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra Ruby: ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16] Gems rails (5.1.2) enum_help (0.0.17) ActiveRecord::Enum の使い方</description>
+      <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra</description>
     </item>
     
     <item>
