@@ -244,7 +244,7 @@ tcp 0 0 0.0.0.0:6379 0.0.0.0:* LISTEN 2751/haproxy
 
 <p>HAProxy が <code>TCP:6379</code> で <code>LISTEN</code> していることを確認します。</p>
 
-<p>EC2 上で以下のコマンドを実行し、自分自身の <code>6379</code> に接続し、 Amazon ElastiCache に対して接続できるか確認します。</p>
+<p>EC2 上で以下のコマンドを実行し、自分自身の <code>6379</code> に接続し、Amazon ElastiCache に対して接続できるか確認します。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc localhost 6379
 ping
@@ -252,7 +252,7 @@ ping
 quit
 +OK</code></pre></div>
 
-<p>クライアントマシン上で以下のコマンドを実行し、 Amazon ElastiCache に対して接続できるか確認します。</p>
+<p>クライアントマシン上で以下のコマンドを実行し、Amazon ElastiCache に対して接続できるか確認します。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ nc {EC2のEndpoint-URI} 6379
 ping
