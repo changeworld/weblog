@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.44" />
+<meta name="generator" content="Hugo 0.52" />
 
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
@@ -89,7 +89,7 @@
   <body>
     
     
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -221,30 +221,16 @@ if (!doNotTrack) {
 <li>Inspecode はハンズオンしないと機能を十分理解するの難しい。公式ドキュメントも薄いように思える
 
 <ul>
-<li>ハンズオンでは説明してなかったけど、定評のあるツールで自動コードレビューしてくれるだけでなく、GitHub/Bitbucket にエラーを返してくれるので、マージ防止トリガーに使える<br />
-<figure>
-    
-        <img src="images/inspecode-with-github-error.png" />
-    
-    
-    <figcaption>
-        <h4>Inspecode with GitHub error</h4>
-        
-    </figcaption>
-    
+<li>ハンズオンでは説明してなかったけど、定評のあるツールで自動コードレビューしてくれるだけでなく、GitHub/Bitbucket にエラーを返してくれるので、マージ防止トリガーに使える<br /><figure>
+    <img src="images/inspecode-with-github-error.png"/> <figcaption>
+            <h4>Inspecode with GitHub error</h4>
+        </figcaption>
 </figure>
 </li>
-<li>ハンズオンでは説明してなかったけど、定評のあるツールで自動コードレビューした後に強力な自動修正機能があり、修正コードを解析したブランチを元に作成してくれる。そのため、そこから Pull Request も作成できる。以下の例は <code>auto-fix</code> という PR ブランチで問題を見つけた際に、それを元に自動修正したブランチを作成したので、PRを手動で作成したものになる<br />
-<figure>
-    
-        <img src="images/inspecode-auto-fix.png" />
-    
-    
-    <figcaption>
-        <h4>Inspecode&#39;s auto fix</h4>
-        
-    </figcaption>
-    
+<li>ハンズオンでは説明してなかったけど、定評のあるツールで自動コードレビューした後に強力な自動修正機能があり、修正コードを解析したブランチを元に作成してくれる。そのため、そこから Pull Request も作成できる。以下の例は <code>auto-fix</code> という PR ブランチで問題を見つけた際に、それを元に自動修正したブランチを作成したので、PRを手動で作成したものになる<br /><figure>
+    <img src="images/inspecode-auto-fix.png"/> <figcaption>
+            <h4>Inspecode&#39;s auto fix</h4>
+        </figcaption>
 </figure>
 </li>
 <li>色々機能あるのにハンズオンでは説明しない機能があって勿体無いからさくっと説明だけでもすればいいのにと感じた</li>
@@ -261,80 +247,38 @@ if (!doNotTrack) {
 <li>[公式情報] Yaml にシナリオを記述するだけで、クラウド上に負荷サーバを自動構築し、負荷試験の実施および結果を自動集計してくれる
 
 <ul>
-<li>以下のようにかんたんに性能測定し、結果を表示できる<br />
-<figure>
-    
-        <img src="images/loadroid001.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+<li>以下のようにかんたんに性能測定し、結果を表示できる<br /><figure>
+    <img src="images/loadroid001.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
-
 <figure>
-    
-        <img src="images/loadroid002.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+    <img src="images/loadroid002.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
-
 <figure>
-    
-        <img src="images/loadroid003.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+    <img src="images/loadroid003.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
 </li>
 </ul></li>
 <li>[非公式情報] Yaml で書く関係上、JMeter ほどのシナリオ記述能力はないが、たいていのシナリオには対応できそう</li>
-<li>[非公式情報]以下のように過去の結果と性能比較ができるので、パフォーマンス悪化の原因特定を容易だし、自動生成のため、承認者側、申請側ともに手間がかからない(情報のダッシュボード化といえばいいかな?)<br />
-<figure>
-    
-        <img src="images/loadroid004.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+<li>[非公式情報]以下のように過去の結果と性能比較ができるので、パフォーマンス悪化の原因特定を容易だし、自動生成のため、承認者側、申請側ともに手間がかからない(情報のダッシュボード化といえばいいかな?)<br /><figure>
+    <img src="images/loadroid004.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
-
 <figure>
-    
-        <img src="images/loadroid005.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+    <img src="images/loadroid005.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
-
 <figure>
-    
-        <img src="images/loadroid006.png" />
-    
-    
-    <figcaption>
-        <h4>Loadroid</h4>
-        
-    </figcaption>
-    
+    <img src="images/loadroid006.png"/> <figcaption>
+            <h4>Loadroid</h4>
+        </figcaption>
 </figure>
 </li>
 </ul></li>
@@ -708,7 +652,7 @@ if (!doNotTrack) {
   <header>TAGS</header>
   <div>
     <ul class="terms">
-      <li><a href="https://www.changesworlds.com/tags/scrum">scrum <span class="count">(19)</span></a></li><li><a href="https://www.changesworlds.com/tags/visual-studio-team-services">visual-studio-team-services <span class="count">(18)</span></a></li><li><a href="https://www.changesworlds.com/tags/git">git <span class="count">(10)</span></a></li><li><a href="https://www.changesworlds.com/tags/infrastructure-as-code">infrastructure-as-code <span class="count">(9)</span></a></li><li><a href="https://www.changesworlds.com/tags/terraform">terraform <span class="count">(9)</span></a></li><li><a href="https://www.changesworlds.com/tags/ruby">ruby <span class="count">(8)</span></a></li><li><a href="https://www.changesworlds.com/tags/ruby-on-rails">ruby-on-rails <span class="count">(7)</span></a></li><li><a href="https://www.changesworlds.com/tags/azure">azure <span class="count">(6)</span></a></li><li><a href="https://www.changesworlds.com/tags/mob-programming">mob-programming <span class="count">(5)</span></a></li><li><a href="https://www.changesworlds.com/tags/jenkins">jenkins <span class="count">(4)</span></a></li>
+      <li><a href="https://www.changesworlds.com/tags/scrum">scrum <span class="count">(19)</span></a></li><li><a href="https://www.changesworlds.com/tags/visual-studio-team-services">visual-studio-team-services <span class="count">(17)</span></a></li><li><a href="https://www.changesworlds.com/tags/git">git <span class="count">(10)</span></a></li><li><a href="https://www.changesworlds.com/tags/infrastructure-as-code">infrastructure-as-code <span class="count">(9)</span></a></li><li><a href="https://www.changesworlds.com/tags/terraform">terraform <span class="count">(9)</span></a></li><li><a href="https://www.changesworlds.com/tags/ruby">ruby <span class="count">(8)</span></a></li><li><a href="https://www.changesworlds.com/tags/ruby-on-rails">ruby-on-rails <span class="count">(7)</span></a></li><li><a href="https://www.changesworlds.com/tags/azure">azure <span class="count">(6)</span></a></li><li><a href="https://www.changesworlds.com/tags/mob-programming">mob-programming <span class="count">(5)</span></a></li><li><a href="https://www.changesworlds.com/tags/jenkins">jenkins <span class="count">(4)</span></a></li>
     </ul>
   </div>
 </section>

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.44" />
+<meta name="generator" content="Hugo 0.52" />
 
 <link rel="apple-touch-icon" href="https://www.changesworlds.com/images/logo.png">
 
@@ -372,7 +372,7 @@ State path: terraform.tfstate</code></pre></div>
 
 <p><a href="https://www.terraform.io/intro/getting-started/destroy.html">Destroy Infrastructure</a> の手順に従い AWS 上に構築した EC2 を破棄します。 <code>terraform plan -destroy</code> で破棄の実行計画を確認します。</p>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan -destroy
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan -destroy
 Refreshing Terraform state in-memory prior to plan…
 The refreshed state will be used to calculate this plan, but
 will not be persisted to local or remote state storage.
@@ -388,7 +388,7 @@ Note: You didn&#39;t specify an &#34;-out&#34; parameter to save this plan, so w
 
 – aws_instance.example
 
-Plan: 0 to add, 0 to change, 1 to destroy.</code></pre></div></p>
+Plan: 0 to add, 0 to change, 1 to destroy.</code></pre></div>
 
 <p>続いて <code>terraform destroy</code> で実際に破棄します。</p>
 
