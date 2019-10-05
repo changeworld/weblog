@@ -71,7 +71,7 @@
       <pubDate>Tue, 25 Nov 2014 12:51:31 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2014/11/uninstall-all-ruby-of-gem/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 Rubyのインストールしたgemをすべて削除したい場合があります。例えば、 bundle install --path を指定していなかった</description>
+      <description>このブログをご覧のみなさん、こんにちは。 Rubyのインストールしたgemをすべて削除したい場合があります。例えば、bundle install --path を指定して</description>
     </item>
     
     <item>
