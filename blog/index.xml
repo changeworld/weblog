@@ -1115,7 +1115,7 @@
       <pubDate>Sat, 24 Jan 2015 21:27:22 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/01/git-various-undo/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 GitHub や GitLab などで間違えて直接 master ブランチにコミットしてしまうことがあります。そんなとき pull requset/merge request を mergeし</description>
+      <description>このブログをご覧のみなさん、こんにちは。 GitHub や GitLab などで間違えて直接 master ブランチにコミットしてしまうことがあります。そんなとき pull requset/merge request を merge したところ</description>
     </item>
     
     <item>
