@@ -240,13 +240,13 @@ if (!doNotTrack) {
 
 <h2 id="1週目から大苦戦">1週目から大苦戦</h2>
 
-<p><sup>11</sup>&frasl;<sub>29</sub> の作業は前日からの続きの作業を開始したもののここで大苦戦し、 12:00 過ぎまでかかっても解決しませんでした。以下、その挫折の歴史です。</p>
+<p><sup>11</sup>&frasl;<sub>29</sub> の作業は前日からの続きの作業を開始したもののここで大苦戦し、12:00 過ぎまでかかっても解決しませんでした。以下、その挫折の歴史です。</p>
 
 <ul>
 <li>Ops
 
 <ul>
-<li>デプロイを Azure Automation で実行しようとするが、はじめての技術でうまくいかない =&gt; Dev が pom.xml でなんとかする方向にピボットし、 IaC を進める</li>
+<li>デプロイを Azure Automation で実行しようとするが、はじめての技術でうまくいかない =&gt; Dev が pom.xml でなんとかする方向にピボットし、IaC を進める</li>
 <li>Ansible, ServerSpec を使った Infrastructure as Code をしたものの VSTS で実行する方法がよくわからない</li>
 <li>Azure Resource Manager なら VSTS から実行できるだろうと取り組むがはじめての技術で Try&amp;Error の繰り返し</li>
 </ul></li>
@@ -254,20 +254,20 @@ if (!doNotTrack) {
 
 <ul>
 <li>Wagon というプラグインを使うものの、ホスト鍵の検証エラーが多発し、うまくいかない</li>
-<li>settings.xml を追加して解決しかけるが、 WAR ファイルの後に必要のないファイルもデプロイしようとして、そこでエラーになるの繰り返し</li>
+<li>settings.xml を追加して解決しかけるが、WAR ファイルの後に必要のないファイルもデプロイしようとして、そこでエラーになるの繰り返し</li>
 </ul></li>
 </ul>
 
-<p>エヴァンジェリストの方々の力を借りながらも全く解決する気配がなく、時間だけは刻一刻と過ぎていっている状況だったので、 12:30 頃に『git push できればデプロイできる Node.js にしよう！』と大きく方向転換することを決定しました。この方向転換によって、前日に実施した『Java の Web アプリと Application Insights を連携』がチャラになってしまい、残念でした。</p>
+<p>エヴァンジェリストの方々の力を借りながらも全く解決する気配がなく、時間だけは刻一刻と過ぎていっている状況だったので、12:30 頃に『git push できればデプロイできる Node.js にしよう！』と大きく方向転換することを決定しました。この方向転換によって、前日に実施した『Java の Web アプリと Application Insights を連携』がチャラになってしまい、残念でした。</p>
 
 <p>ここからはダイジェストになります。</p>
 
 <ul>
 <li>12:45 Node.js アプリの VSTS からの git push による Azure Web Apps へのデプロイに成功</li>
 <li>13:15 Azure CLI による対話型による Azure Web Apps の作成に成功</li>
-<li>13:20 Node.js アプリの VSTS からの git push によって、 Azure CLI により作成された Azure Web Apps へのデプロイに成功</li>
+<li>13:20 Node.js アプリの VSTS からの git push によって、Azure CLI により作成された Azure Web Apps へのデプロイに成功</li>
 <li>13:50 Azure CLI による 1 ライナーによる Azure Web Apps の作成に成功</li>
-<li>13:55 Node.js アプリの VSTS からの git push によって、 Azure CLI による 1 ライナーで作成された Azure Web Apps へのデプロイに成功</li>
+<li>13:55 Node.js アプリの VSTS からの git push によって、Azure CLI による 1 ライナーで作成された Azure Web Apps へのデプロイに成功</li>
 <li>14:10 チームプレゼンテーション資料作成開始</li>
 <li>14:32 Release Management によるデプロイパイプライン作成開始(手順書と Infrastructure as Code の一本化​、承認プロセス、エビデンス​の完備)</li>
 <li>14:45 Release Management によるデプロイパイプライン完成(手順書と Infrastructure as Code の一本化​、承認プロセス、エビデンス​の完備)</li>
@@ -303,13 +303,13 @@ if (!doNotTrack) {
 <p>良かったところ (Keep)</p>
 
 <ul>
-<li>いきなりサンプルを突っ込んでエラーにしてからの Try&amp;Error ではなく、 Hello World から始めてインクリメンタルに成長させられた</li>
-<li>すべての作業を VSTS で記録し、 Workitem とビルド、テスト、デプロイ(リリース)をすべて紐付けることができた(トレーサビリティを確保した)</li>
+<li>いきなりサンプルを突っ込んでエラーにしてからの Try&amp;Error ではなく、Hello World から始めてインクリメンタルに成長させられた</li>
+<li>すべての作業を VSTS で記録し、Workitem とビルド、テスト、デプロイ(リリース)をすべて紐付けることができた(トレーサビリティを確保した)</li>
 <li>ブランチポリシーを適用し、ビルド NG や Workitem にリンクされていないものはマージできないことをハッカソンの中でも実現できた</li>
 <li>会場が快適過ぎてヤバかった。すぐに食べられる朝食 &amp; 美味しい昼食 &amp; 無限ドリンク &amp; お菓子は非常に恵まれた環境だった</li>
 <li>Windows と Linux と Mac という千差万別の開発環境だったが、うまくチームで連携できた</li>
 <li>やりたかったことが一通りできた</li>
-<li>1 日目、 2 日目共に VSTS に関する質問で他のチームを支援できた</li>
+<li>1 日目、2 日目共に VSTS に関する質問で他のチームを支援できた</li>
 </ul>
 
 <p>良くなかったところ (Problem)</p>
@@ -318,8 +318,8 @@ if (!doNotTrack) {
 <li>脇が甘かった。
 
 <ul>
-<li>JJUG CCC 2015 Fall と同時開催ということは Java でアプリ開発をする人が多くくるはずで、 Java に対応できなければならなかったが、事前準備を一切してなかった</li>
-<li>そのため、 WAR ファイルのデプロイに長時間ハマった</li>
+<li>JJUG CCC 2015 Fall と同時開催ということは Java でアプリ開発をする人が多くくるはずで、Java に対応できなければならなかったが、事前準備を一切してなかった</li>
+<li>そのため、WAR ファイルのデプロイに長時間ハマった</li>
 </ul></li>
 <li>写真撮るの忘れた
 
