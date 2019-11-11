@@ -168,24 +168,24 @@ if (!doNotTrack) {
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするのは手動になってしまいます。そこで、以下の設定をすることで、 Travis CI での継続的インテグレーションが成功した場合、自動的に Heroku にデプロイするようにしました。</p>
+<p>Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするのは手動になってしまいます。そこで、以下の設定をすることで、Travis CI での継続的インテグレーションが成功した場合、自動的に Heroku にデプロイするようにしました。</p>
 
 <h2 id="travic-ci-から-heroku-に-rails-を継続的デプロイメントする方法">Travic CI から Heroku に Rails を継続的デプロイメントする方法</h2>
 
-<p><code>.travis.yml</code>に以下の記述を追加します。</p>
+<p><code>.travis.yml</code> に以下の記述を追加します。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">deploy:
   provider: heroku
   api_key:
     secure: <span style="color:#e6db74">&#34;YOUR ENCRYPTED API KEY&#34;</span></code></pre></div>
 
-<p><code>api_key</code> を直書きすると誰でもデプロイできるようになってしまうので、 secure key を指定しています。</p>
+<p><code>api_key</code> を直書きすると誰でもデプロイできるようになってしまうので、secure key を指定しています。</p>
 
 <p>以下のコマンドを実行すると、対話形式で設定を行えます。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ travis setup heroku</code></pre></div>
 
-<p>また、いくつかオプションがあり、<code>app</code> はリポジトリとサイトが異なる場合に設定します。</p>
+<p>また、いくつかオプションがあり、 <code>app</code> はリポジトリとサイトが異なる場合に設定します。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">deploy:
   provider: heroku
