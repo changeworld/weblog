@@ -25,21 +25,21 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Rails 向けパフォーマンスプロファイラサービス Skylight の設定方法 #rails - Change the World!</title>
     
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 Skylight">
 
 <meta property="og:title" content="Rails 向けパフォーマンスプロファイラサービス Skylight の設定方法 #rails - Change the World!">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/">
 <meta property="og:image" content="https://www.changesworlds.com/images/cc-license/medium_177722693.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 Skylight">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
 <meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/">
 <meta name="twitter:title" content="Rails 向けパフォーマンスプロファイラサービス Skylight の設定方法 #rails - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 Skylight">
 <meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/medium_177722693.jpg">
 
 
@@ -74,7 +74,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 S"
+    "description": "このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 Skylight"
   }
 </script>
 
@@ -155,7 +155,7 @@
 
 <h2 id="skylight-の導入方法">Skylight の導入方法</h2>
 
-<p><a href="https://www.skylight.io/">Skylight</a>にアクセスし、ログインすると、英語で手順が表示されます。以下のように <code>Gemfile</code> に記載してください。</p>
+<p><a href="https://www.skylight.io/">Skylight</a> にアクセスし、ログインすると、英語で手順が表示されます。以下のように <code>Gemfile</code> に記載してください。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">gem &#39;skylight&#39;</code></pre></div>
 
@@ -164,7 +164,7 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ bundle install
 $ bundle exec skylight setup 6sOGozsG5wq6</code></pre></div>
 
-<p>すると、 <code>config/skylight.yml</code> という以下のファイルが生成されます。</p>
+<p>すると、<code>config/skylight.yml</code> という以下のファイルが生成されます。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">---
 # The authentication token for the application.
@@ -174,7 +174,7 @@ $ bundle exec skylight setup 6sOGozsG5wq6</code></pre></div>
 # Required in production.
 authentication: ????</code></pre></div>
 
-<p>後は production 環境で起動させれば自動的に <a href="https://www.skylight.io/">Skylight</a> の画面に情報が反映されます。 production 環境以外でも情報を反映させる方法もあるので、staging環 境で負荷テストをした結果を見る、といったことも可能です。</p>
+<p>後は production 環境で起動させれば自動的に <a href="https://www.skylight.io/">Skylight</a> の画面に情報が反映されます。production 環境以外でも情報を反映させる方法もあるので、staging環 境で負荷テストをした結果を見る、といったことも可能です。</p>
 
 <p>月間10万リクエストまでは無料で利用可能なので、とりあえず使ってみることにしました。</p>
 
