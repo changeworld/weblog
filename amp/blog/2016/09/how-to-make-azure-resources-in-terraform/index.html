@@ -160,7 +160,7 @@
 
 <p>を Azure で実践したものになります。</p>
 
-<p>手順は HashiCorp の公式サイトにある Terraform の<a href="https://www.terraform.io/docs/providers/azurerm/">Provider: Azure Resource Manager &#8211; Terraform by HashiCorp</a>に記載してあります。</p>
+<p>手順は HashiCorp の公式サイトにある Terraform の <a href="https://www.terraform.io/docs/providers/azurerm/">Provider: Azure Resource Manager &#8211; Terraform by HashiCorp</a> に記載してあります。</p>
 
 <h2 id="environment">Environment</h2>
 
@@ -175,7 +175,7 @@
 
 <h2 id="creating-credentials">Creating Credentials</h2>
 
-<p>最初に <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を行います。これを実行すると、<code>client_id</code>, <code>client_secret</code>, <code>tenant_id</code> が払い出されます。英語で書かれていますが、簡単に書くと</p>
+<p>最初に <a href="https://www.terraform.io/docs/providers/azurerm/">Creating Credentials</a> を行います。これを実行すると、 <code>client_id</code>, <code>client_secret</code>, <code>tenant_id</code> が払い出されます。英語で書かれていますが、簡単に書くと</p>
 
 <h3 id="クラシックポータルでの作業">クラシックポータルでの作業</h3>
 
@@ -183,7 +183,7 @@
 <li>[アクティブディレクトリ]をクリックし、使用するディレクトリを選択する</li>
 <li>[アプリケーション]をクリックする</li>
 <li>[追加]をクリック後、[組織で開発中のアプリケーションを追加]を選択する</li>
-<li><code>Terraform</code> のような分かり易い名前を入力し、 [WEB アプリケーションや WEB API] を選択後、矢印アイコンをクリックする</li>
+<li><code>Terraform</code> のような分かり易い名前を入力し、[WEB アプリケーションや WEB API] を選択後、矢印アイコンをクリックする</li>
 <li>[サインオン URL] と[アプリケーションの URL] の2つに自分のサイトや GitHub page のような有効で未使用の URL を入力後、矢印アイコンをクリックする</li>
 <li>アプリケーションをクリック後、[構成]をクリックすると、ページの真ん中らへんにクライアント ID(<code>client_id</code>) の値が表示されている</li>
 <li>その下の[キー]節で、時間を選択し、[保存]をクリックすると、クライアントシークレット (<code>client_secret</code>) の値が表示されるが、1度しか表示されないので注意する</li>
@@ -194,7 +194,7 @@
 
 <ul>
 <li>左のパネルにある[サブスクリプション]をクリック後、使いたいサブスクリプションをクリックし、[すべての設定]をクリック後、[ユーザー]をクリックする</li>
-<li>[追加]をクリック後、 Terrafrom に割り当てる役割を選択する。役割の詳細は<a href="https://azure.microsoft.com/ja-jp/documentation/articles/role-based-access-built-in-roles/">こちら</a>参照</li>
+<li>[追加]をクリック後、Terrafrom に割り当てる役割を選択する。役割の詳細は<a href="https://azure.microsoft.com/ja-jp/documentation/articles/role-based-access-built-in-roles/">こちら</a>参照</li>
 <li>[クラシックポータル]で追加したアプリケーション名をユーザー名に選択する</li>
 <li>[OK] をクリックする</li>
 </ul>
