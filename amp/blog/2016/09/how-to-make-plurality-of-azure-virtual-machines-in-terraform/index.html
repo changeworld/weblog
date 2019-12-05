@@ -164,7 +164,7 @@
 <li>OS X Yosemite 10.10.5</li>
 </ul></li>
 <li>Terraform 0.7.1</li>
-<li>使用する Azure Virtual Machines の定義は<a href="../how-to-make-azure-virtual-machines-in-terraform/">Terraform で Azure Virtual Machines を構築する方法</a>と同じ</li>
+<li>使用する Azure Virtual Machines の定義は <a href="../how-to-make-azure-virtual-machines-in-terraform/">Terraform で Azure Virtual Machines を構築する方法</a>と同じ</li>
 </ul>
 
 <h2 id="terraform-で複数台の-azure-virtual-machines-を構築する方法">Terraform　で複数台の　Azure Virtual Machines を構築する方法</h2>
@@ -175,9 +175,9 @@
 
 <h3 id="作成した-azure-virtual-machines-に-public-ip-を付与する">作成した Azure Virtual Machines に Public IP を付与する</h3>
 
-<p>作成した Public IP のリストは <code>azurerm_public_ip.test.*.id</code> で参照できます。そこで <a href="https://github.com/changeworld/azure-examples/blob/master/terraform/computes/computes.tf#L55">Azure Virtual Machines に関連付ける <code>azurerm_network_interface</code> の Public IP の定義</a>で <code>&quot;${element(azurerm_public_ip.test.*.id, count.index)}&quot;</code> と書いて、ID を一つずつ取り出し、 Public IP として付与します。</p>
+<p>作成した Public IP のリストは <code>azurerm_public_ip.test.*.id</code> で参照できます。<a href="https://github.com/changeworld/azure-examples/blob/master/terraform/computes/computes.tf#L55">Azure Virtual Machines に関連付ける <code>azurerm_network_interface</code> の Public IP の定義</a>で <code>&quot;${element(azurerm_public_ip.test.*.id, count.index)}&quot;</code> と書いて、ID を一つずつ取り出し、Public IP として付与します。</p>
 
-<p>同様に <a href="https://github.com/changeworld/azure-examples/blob/master/terraform/computes/computes.tf#L82">Azure Virtual Machines に関連付けるNetwork Interface</a> でも <code>[&quot;${element(azurerm_network_interface.test.*.id, count.index)}&quot;]</code> と書いて、ID を一つずつ取り出し、 Network Interface として付与します。</p>
+<p>同様に <a href="https://github.com/changeworld/azure-examples/blob/master/terraform/computes/computes.tf#L82">Azure Virtual Machines に関連付けるNetwork Interface</a> でも <code>[&quot;${element(azurerm_network_interface.test.*.id, count.index)}&quot;]</code> と書いて、ID を一つずつ取り出し、Network Interface として付与します。</p>
 </div>
       <footer class="article-footer">
         <aside class="share">
