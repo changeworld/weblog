@@ -24,21 +24,21 @@
 
 <link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/">
 
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあま">
 
 <meta property="og:title" content="Terraform で Azure Resource Manager の操作で困った時に解決する方法 - Change the World!">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/">
 <meta property="og:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあま">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
 <meta name="twitter:url" content="https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/">
 <meta name="twitter:title" content="Terraform で Azure Resource Manager の操作で困った時に解決する方法 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあま">
 <meta name="twitter:image" content="https://www.changesworlds.com/images/cc-license/Programming_1434027388.jpg">
 
 
@@ -73,7 +73,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述"
+    "description": "このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあま"
   }
 </script>
 
@@ -168,7 +168,7 @@ if (!doNotTrack) {
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、 HashiCorp の公式ドキュメントはあまり分かり易く記述されていません。 Azure の公式ドキュメントは分かり易く詳細に記述されていますが、 Terraform は Microsoft のツールではないため説明がありません。</p>
+<p>Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあまり分かり易く記述されていません。一方、Azure の公式ドキュメントは分かり易く詳細に記述されていますが、Terraform は Microsoft のツールではないため説明がありません。</p>
 
 <p>そこで、そんな問題を解決する方法をご紹介します。</p>
 
@@ -183,7 +183,7 @@ if (!doNotTrack) {
 <li>Terraform 0.7.1</li>
 </ul>
 
-<h2 id="terraformでazure-resource-managerの操作で困った時の解決方法">TerraformでAzure Resource Managerの操作で困った時の解決方法</h2>
+<h2 id="terraform-で-azure-resource-manager-の操作で困った時の解決方法">Terraform で Azure Resource Manager の操作で困った時の解決方法</h2>
 
 <p>作成したい仮想マシンの内容を <a href="https://portal.azure.com/">Azure Portal</a> 上で定義していきます。定義後、最後に検証が終わると、以下の画面が表示されます。</p>
 
@@ -194,13 +194,13 @@ if (!doNotTrack) {
 </figure>
 
 
-<p>ここで、 [OK] の隣にある [Download template and parameters] をクリックすると、ここまで設定した内容の Azure Resource Manager 向けファイルがダウンロードできます。</p>
+<p>ここで、[OK] の隣にある [Download template and parameters] をクリックすると、ここまで設定した内容の Azure Resource Manager 向けファイルがダウンロードできます。</p>
 
-<p>この Azure Resource Manager 向けファイルを読み解けば、 Terraform でどのように <code>tf</code> ファイルを記述すれば良いか分かるわけです。</p>
+<p>この Azure Resource Manager 向けファイルを読み解けば、Terraform でどのように <code>tf</code> ファイルを記述すれば良いか分かるわけです。</p>
 
 <ol>
 <li>Terraform は内部的に Azure Resource Manager のコマンドを実行している</li>
-<li>つまり、 <code>tf</code> ファイルの形は Azure Resource Manager 向けファイルと似た形をしているはず</li>
+<li>そのため、 <code>tf</code> ファイルの形は Azure Resource Manager 向けファイルと似た形をしているはず</li>
 </ol>
 
 <p>という推測から HashiCorp の公式ドキュメントのままではできなかった以下ができました。</p>
