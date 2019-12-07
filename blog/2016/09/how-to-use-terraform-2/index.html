@@ -185,7 +185,7 @@ if (!doNotTrack) {
 
 <h2 id="terraform-remote">Terraform Remote</h2>
 
-<p>Terraform はインフラを構築・破壊 (terraform apply, destroy) するとその状態を <code>terraform.tfstate</code> というファイルに書き出します。通常、同じインフラに対して <code>terraform apply</code> を2回実行しても <code>terraform apply</code> によってインフラが構築されるのは1回だけですが、 <code>terraform.tfstate</code> ファイルを共有しないまま同じ環境に対して <code>terraform apply</code> を行うと同じ設定のインフラを構築します。もし、一意制約に該当する場合は2回目の構築時にエラーになります。それを避けるために <code>terraform.tfstate</code> をリモートで管理し、環境に関する状態を共有する仕組みが Terraform Remote になります。しかし、 <a href="https://www.terraform.io/intro/getting-started/remote.html">Terraform Remote</a> の手順に従って、これを実行すると…。</p>
+<p>Terraform はインフラを構築・破壊 (terraform apply, destroy) するとその状態を <code>terraform.tfstate</code> というファイルに書き出します。通常、同じインフラに対して <code>terraform apply</code> を 2 回実行しても <code>terraform apply</code> によってインフラが構築されるのは 1 回だけですが、 <code>terraform.tfstate</code> ファイルを共有しないまま同じ環境に対して <code>terraform apply</code> を行うと同じ設定のインフラを構築します。もし、一意制約に該当する場合は 2 回目の構築時にエラーになります。それを避けるために <code>terraform.tfstate</code> をリモートで管理し、環境に関する状態を共有する仕組みが Terraform Remote になります。しかし、<a href="https://www.terraform.io/intro/getting-started/remote.html">Terraform Remote</a> の手順に従って、これを実行すると…。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform remote config -backend-config=&#34;name=changeworld/getting-started&#34;
 Remote configuration updated
@@ -195,11 +195,11 @@ need to reconfigure. You can now use `push` and `pull` directly.
 Error reloading remote state: Unexpected HTTP response code: 400
 Body: {&#34;errors&#34;:[&#34;This feature requires Terraform Enterprise. Please contact sales@hashicorp.com to start or extend your trial.&#34;],&#34;success&#34;:false}</code></pre></div>
 
-<p>となります。これは以前は Getting Started の Terraform Remote で説明されている <a href="https://www.hashicorp.com/atlas.html">Atlas</a> が無料で使えたのですが、現在は有料でしか使えないためです。 Terraform Enterprise を利用せずにすむ方法は調べたので、別途記載します。</p>
+<p>となります。これは以前は Getting Started の Terraform Remote で説明されている <a href="https://www.hashicorp.com/atlas.html">Atlas</a> が無料で使えたのですが、現在は有料でしか使えないためです。そこで、Terraform Enterprise を利用せずにすむ方法は調べたので、別途記載します。</p>
 
 <h2 id="resource-dependencies">Resource Dependencies</h2>
 
-<p>ここまでは1つのリソースの作成・変更・削除でしたが、複数のリソースを指定した場合は、適用順序を制御する必要があります。というわけで、 <a href="https://www.terraform.io/intro/getting-started/dependencies.html">Resource Dependencies</a> の手順に従って、AWS のインスタンスに Elastic IP を紐付ける構築をします。記載の通りに修正し <code>terraform plan</code> を実行すると、実行計画を確認できます。</p>
+<p>ここまでは 1 つのリソースの作成・変更・削除でしたが、複数のリソースを指定した場合は、適用順序を制御する必要があります。というわけで、 <a href="https://www.terraform.io/intro/getting-started/dependencies.html">Resource Dependencies</a> の手順に従って、AWS のインスタンスに Elastic IP を紐付ける構築をします。以下に記載の通りに修正し <code>terraform plan</code> を実行すると、実行計画を確認できます。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform plan
 ：
@@ -234,7 +234,7 @@ Body: {&#34;errors&#34;:[&#34;This feature requires Terraform Enterprise. Please
 
 Plan: 2 to add, 0 to change, 0 to destroy.</code></pre></div>
 
-<p>構築時に、Elastic IP リソースに指定されている EC2 インスタンス ID を検出し、 EC2 インスタンスを先に作成しています。</p>
+<p>構築時、Elastic IP リソースに指定されている EC2 インスタンス ID を検出し、EC2 インスタンスを先に作成しています。</p>
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ terraform apply
 aws_instance.example: Creating…
@@ -333,18 +333,18 @@ $ cat file.txt
 
 <h2 id="input-variables">Input Variables</h2>
 
-<p>ここまでの例では AWS のアクセスキーやシークレットキーなどを <code>example.tf</code> に直接設定していました。しかし、これは実運用では著しく問題があります。 Terraform には別ファイルやコマンド実行時の変数、環境変数から変数を渡すことができます。</p>
+<p>ここまでの例では AWS のアクセスキーやシークレットキーなどを <code>example.tf</code> に直接設定していました。しかし、これは実運用では著しく問題があります。Terraform には別ファイルやコマンド実行時の変数、環境変数から変数を渡すことができます。</p>
 
 <p><a href="https://www.terraform.io/intro/getting-started/variables.html">Input Variables</a> の手順に従って、実行してみましょう。</p>
 
 <p>上記に記載の方法以外に</p>
 
 <ul>
-<li>変数ファイル <code>terraform.tfvars</code> という名前のファイル内変数は、変数として自動参照</li>
-<li>環境変数 <code>TF_VAR_&lt;変数名&gt;</code> の環境変数は、変数として自動参照</li>
+<li>変数ファイル <code>terraform.tfvars</code> という名前のファイル内に記載した変数は、変数として自動的に参照可能</li>
+<li>環境変数 <code>TF_VAR_&lt;変数名&gt;</code> の環境変数は、変数として自動的に参照可能</li>
 </ul>
 
-<p>があります。</p>
+<p>という方法があります。</p>
 
 <p>これ以外に Output Variables, Modules もありますが、ちょっと使う程度であれば見る必要はありません。</p>
 </div>
