@@ -176,7 +176,7 @@ if (!doNotTrack) {
 
 <p>この書籍の中で『読書リスト (Reading List) 』という節があり、その中で自分の読書リスト (Reading List) を作成し、読んでいる書籍を記入、公開して、最新状態に常に更新し続けましょうというものがありました。それを切欠に以下で<a href="https://github.com/changeworld/reading_list">読書リスト (Reading List)</a> を公開しました。</p>
 
-<p>が、初回のコミット時に <code>initial commit.</code> というコメントでコミットしていました。後になって、コメントを修正しようと思い立ちました。</p>
+<p>が、初回のコミット時に <code>initial commit.</code> というコメントでコミットしていました。後になって、このコメントを修正しようと思い立ちました。</p>
 
 <h2 id="直前のコミットをやり直す">直前のコミットをやり直す</h2>
 
@@ -193,7 +193,7 @@ if (!doNotTrack) {
 
 <h2 id="コミット自体を取り消す">コミット自体を取り消す</h2>
 
-<p>コミット自体を取り消す場合には、<code>git reset</code> を使用します。<code>git reset</code> には <code>git reset --soft</code> と <code>git reset --hard</code> の2種類があります。その違いは以下の通りです。</p>
+<p>コミット自体を取り消す場合には、<code>git reset</code> を使用します。<code>git reset</code> には <code>git reset --soft</code> と <code>git reset --hard</code> の二種類があります。その違いは以下の通りです。</p>
 
 <ul>
 <li><code>git reset --soft</code> : ワークディレクトリの内容はそのままでコミットの内容だけを取り消す</li>
@@ -202,7 +202,7 @@ if (!doNotTrack) {
 
 <h2 id="コメントを修正する">コメントを修正する</h2>
 
-<p>過去のコメントを修正するには、<code>git commit --amend</code> と <code>git rebase -i</code> の2種類があります。</p>
+<p>過去のコメントを修正するには、<code>git commit --amend</code> と <code>git rebase -i</code> の二種類があります。</p>
 
 <ul>
 <li><code>git commit --amend</code> : 直前のコメントを修正する</li>
@@ -211,7 +211,7 @@ if (!doNotTrack) {
 
 <p>前者は上記の通りです。後者の使い方としては、変更したいコミットで一番古いものより一つ古いものを引数にして、<code>git rebase -i</code> を実行します。</p>
 
-<p>過去2回分のコメントを修正する場合は、<code>git rebase -i HEAD~2</code> になります。</p>
+<p>過去二回分のコメントを修正する場合は、<code>git rebase -i HEAD~2</code> になります。</p>
 
 <h2 id="今回行った対応">今回行った対応</h2>
 
@@ -226,18 +226,18 @@ if (!doNotTrack) {
 
 <p>それは、<strong>変更したいコミットで一番古いものより一つ古いものを引数にして、<code>git rebase -i</code>を実行します。</strong>という一文です。</p>
 
-<p>修正したいのは初回のコミット＝最も過去のコミットのため、それよりも 1 つ過去のコミットを引数にすることが出来ません。</p>
+<p>修正したいのは初回のコミット＝最も過去のコミットのため、それよりも一つ過去のコミットを引数にすることが出来ません。</p>
 
 <p>そこで、以下の手順で対応をしました。</p>
 
 <ol>
 <li><code>git reset --hard HEAD^</code></li>
 <li><code>git commit --amend -m &quot;Initial commit&quot;</code></li>
-<li>2 回目の編集内容をファイルに反映</li>
+<li>二回目の編集内容をファイルに反映</li>
 <li><code>git commit -m &quot;Add Killer UX Design to Comming up&quot;</code></li>
 </ol>
 
-<p>まず最初に2回目のコミットを取り消し、その後に直前のコメントを修正しました。その後、2 回目のコミット内容をファイルに反映し、2 回目のコメントでコミットするという対応をしています。</p>
+<p>まず最初に二回目のコミットを取り消し、その後に直前のコメントを修正しました。その後、二回目のコミット内容をファイルに反映し、二回目のコメントでコミットするという対応をしています。</p>
 
 <p>もっとスマートな対応があるとは思いますが、この方法で対応することが出来ました。</p>
 </div>
