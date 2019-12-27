@@ -24,21 +24,21 @@
 
 <link rel="amphtml" type="text/html" href="https://www.changesworlds.com/amp/blog/2015/03/automated-parameter-cooperation-by-jenkins/">
 
-<meta name="description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では 1 つの Job でデプロイとメール通">
+<meta name="description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通">
 
 <meta property="og:title" content="Jenkins によるパラメーター連携の自動化 - Change the World!">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/">
 <meta property="og:image" content="https://www.changesworlds.com/images/other-license/logo-title.png">
 <meta property="og:site_name" content="Change the World!">
-<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では 1 つの Job でデプロイとメール通">
+<meta property="og:description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Change the World!">
 <meta name="twitter:url" content="https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/">
 <meta name="twitter:title" content="Jenkins によるパラメーター連携の自動化 - Change the World!">
-<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では 1 つの Job でデプロイとメール通">
+<meta name="twitter:description" content="このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通">
 <meta name="twitter:image" content="https://www.changesworlds.com/images/other-license/logo-title.png">
 
 
@@ -73,7 +73,7 @@
         "height": 60
       }
     },
-    "description": "このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では 1 つの Job でデプロイとメール通"
+    "description": "このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通"
   }
 </script>
 
@@ -168,7 +168,7 @@ if (!doNotTrack) {
 
 <p>このブログをご覧のみなさん、こんにちは。</p>
 
-<p>前回の記事で <a href="../automated-email-notification-by-jenkins/">Jenkins でカスタマイズしたメール通知ができる</a>ようになりました。では 1 つの Job でデプロイとメール通知をすれば良いかと言うと、メンテナンス性(＝個別の Job にデプロイとメール通知を定義すると、後からメールの設定を弄る際にすべての Job を弄る必要がある)のため分けた方が良いです。また、似たような Job を量産しない方がいいという点もあります。Jenkins では標準で Job 起動後に別の Job を起動できる仕組みがありますが、残念ながら パラメーター を引き継げません。そのため、メール通知する際にどのサービスがどのタグ、どういった変更をリリースしたのか渡すことができません。</p>
+<p>前回の記事で <a href="../automated-email-notification-by-jenkins/">Jenkins でカスタマイズしたメール通知ができる</a>ようになりました。では一つの Job でデプロイとメール通知をすれば良いかと言うと、メンテナンス性(＝個別の Job にデプロイとメール通知を定義すると、後からメールの設定を弄る際にすべての Job を弄る必要がある)のため分けた方が良いです。また、似たような Job を量産しない方がいいという点もあります。Jenkins では標準で Job 起動後に別の Job を起動できる仕組みがありますが、残念ながらパラメーターを引き継げません。そのため、メール通知する際にどのサービスがどのタグ、どういった変更をリリースしたのか渡すことができません。</p>
 
 <p>ではどうすれば良いでしょう？</p>
 
@@ -176,7 +176,7 @@ if (!doNotTrack) {
 
 <h2 id="parameterized-trigger-プラグインとは">Parameterized Trigger プラグインとは？</h2>
 
-<p>別の Job をいつ起動するか、どんなパラメーターを渡すかなどをカスタマイズできるものです。特に、ビルドの失敗やテストの失敗、ビルドの正常への復帰などのビルドの状況に応じて起動する Job をカスタマイズできるのが特徴で、2015年3月現在のバージョンは 2.26 です。</p>
+<p>別の Job をいつ起動するか、どんなパラメーターを渡すかなどをカスタマイズできるものです。特に、ビルドの失敗やテストの失敗、ビルドの正常への復帰などのビルドの状況に応じて起動する Job をカスタマイズできるのが特徴で、2015 年 3 月現在のバージョンは 2.26 です。</p>
 
 <h2 id="インストール">インストール</h2>
 
