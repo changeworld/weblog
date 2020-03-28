@@ -6,10 +6,19 @@
     <description>Recent content in Visual Studio Code on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 27 May 2015 20:18:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2015 20:43:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/tags/visual-studio-code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Code 0.3.0 Release</title>
+      <link>https://www.changesworlds.com/blog/2015/06/visual-studio-code-0-3-0-release/</link>
+      <pubDate>Tue, 02 Jun 2015 20:43:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/visual-studio-code-0-3-0-release/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 四月にリリースされたばかりの Visual Studio Code の 0.3.0 がリリースされました。 大幅に機能がアップデートされたようです。</description>
+    </item>
     
     <item>
       <title>Visual Studio Code で git の branch を変更する方法 #vscode</title>
