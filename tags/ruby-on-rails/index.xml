@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>bundle exec は省略ではなく、短縮の方が良い</title>
+      <link>https://www.changesworlds.com/blog/2015/06/bundle-exec-is-better-alias-rather-than-omit/</link>
+      <pubDate>Wed, 03 Jun 2015 20:03:13 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/bundle-exec-is-better-alias-rather-than-omit/</guid>
+      <description>以下で bundle exec の省略方法を書きましたが、省略ではなく、短縮の方が良いなと思うことがありました。 Ruby, Rails, Git再入門 bundle execの省略方法 理由は簡単で省</description>
+    </item>
+    
+    <item>
       <title>Ruby on Rails で helper メソッドを view 以外で使う方法</title>
       <link>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</link>
       <pubDate>Sun, 10 May 2015 20:10:34 +0000</pubDate>
