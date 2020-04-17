@@ -803,6 +803,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2012/07/about-me/</loc>
+    <lastmod>2012-07-08T01:50:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2012/01/you-should-all-ask-yourself-what-do-you-feel-when-you-are-defeated/</loc>
     <lastmod>2012-01-19T23:29:05+09:00</lastmod>
   </url>
@@ -1024,14 +1029,14 @@
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/categories/scrum/</loc>
-    <lastmod>2015-10-18T04:50:57+00:00</lastmod>
+    <loc>https://www.changesworlds.com/tags/scrum/</loc>
+    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/tags/scrum/</loc>
-    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
+    <loc>https://www.changesworlds.com/categories/scrum/</loc>
+    <lastmod>2015-10-18T04:50:57+00:00</lastmod>
     <priority>0</priority>
   </url>
   
