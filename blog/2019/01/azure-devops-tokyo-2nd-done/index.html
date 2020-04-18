@@ -154,7 +154,7 @@ if (!doNotTrack) {
                 var delta = 1000 * 60 * 60 * 24 * 182;
                 $header = $(element).closest("article").find(".article-header");
                 if (todayTime > entryTime + delta) {
-                  $alert = $("<div class=\"entry-alert\">この記事は最終更新から 6 ヶ月以上経過しています。情報が古い可能性がありますのでご注意ください。</div>");
+                  $alert = $("<div class=\"entry-alert\">この記事は最終更新から 6 ヶ月以上経過しています。<br />情報が古い可能性がありますのでご注意ください。</div>");
                   $header.append($alert);
                 }
               });
