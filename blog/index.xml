@@ -939,6 +939,15 @@
     </item>
     
     <item>
+      <title>Visual Studio Online のビルドタスクをハックしようとしたらハマった</title>
+      <link>https://www.changesworlds.com/blog/2015/11/tried-to-hack-the-build-task-of-visual-studio-online/</link>
+      <pubDate>Mon, 09 Nov 2015 21:58:02 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/tried-to-hack-the-build-task-of-visual-studio-online/</guid>
+      <description>以下を参考に、Visual Studio Online のビルドタスクをハックしようとしたらハマりました。 VisualStudioOnline &amp;#8211; Visual Studio Onlineのビルドタスクを作成する &amp;#8211; Qiita 作成した task.json は</description>
+    </item>
+    
+    <item>
       <title>Git で fork 元リポジトリの master と同期する方法</title>
       <link>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</link>
       <pubDate>Tue, 03 Nov 2015 22:26:18 +0000</pubDate>
