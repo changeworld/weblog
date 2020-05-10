@@ -975,6 +975,15 @@
     </item>
     
     <item>
+      <title>Azure の公式ドキュメントに貢献する方法</title>
+      <link>https://www.changesworlds.com/blog/2015/10/how-to-contribute-to-the-azure-docs/</link>
+      <pubDate>Fri, 16 Oct 2015 01:00:51 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/how-to-contribute-to-the-azure-docs/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 別件で調べていた時に誤字を見つけたので、以下のサイトの手順を参考に Pull Request を送ったところ、Merge して</description>
+    </item>
+    
+    <item>
       <title>『第29回 #TFSUG東京 Visual Studio OnlineでDevOps』に登壇します #alm</title>
       <link>https://www.changesworlds.com/blog/2015/10/29th-tfsug/</link>
       <pubDate>Thu, 08 Oct 2015 04:21:02 +0000</pubDate>
