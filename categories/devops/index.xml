@@ -6,10 +6,19 @@
     <description>Recent content in Devops on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 18 Jun 2019 01:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 18:25:15 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Teams を使ったリモート開発</title>
+      <link>https://www.changesworlds.com/blog/2020/05/using-teams-for-remote-developing/</link>
+      <pubDate>Sat, 23 May 2020 18:25:15 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/05/using-teams-for-remote-developing/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 本記事はMicrosoft MVPブログ企画の記事として投稿しています。その他の記事はこちらからご覧く</description>
+    </item>
     
     <item>
       <title>『Global DevOps Bootcamp 2019@Tokyo』を主催 &amp; 登壇しました</title>
