@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2020/05/using-visualstudio-and-multilingualapptoolkit-and-cognitive-services-for-remote-developing/</loc>
+    <lastmod>2020-05-29T17:55:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2020/05/using-teams-for-remote-developing/</loc>
     <lastmod>2020-05-23T18:25:15+09:00</lastmod>
   </url>
@@ -899,7 +904,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2020-05-23T18:25:15+09:00</lastmod>
+    <lastmod>2020-05-29T17:55:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -923,7 +928,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2020-05-23T18:25:15+09:00</lastmod>
+    <lastmod>2020-05-29T17:55:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -947,7 +952,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/devops/</loc>
-    <lastmod>2020-05-23T18:25:15+09:00</lastmod>
+    <lastmod>2020-05-29T17:55:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1061,7 +1066,7 @@
   
   <url>
     <loc>https://www.changesworlds.com/categories/programming/</loc>
-    <lastmod>2020-05-23T18:25:15+09:00</lastmod>
+    <lastmod>2020-05-29T17:55:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1084,14 +1089,14 @@
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/tags/scrum/</loc>
-    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
+    <loc>https://www.changesworlds.com/categories/scrum/</loc>
+    <lastmod>2015-10-18T04:50:57+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.changesworlds.com/categories/scrum/</loc>
-    <lastmod>2015-10-18T04:50:57+00:00</lastmod>
+    <loc>https://www.changesworlds.com/tags/scrum/</loc>
+    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 23 May 2020 18:25:15 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 17:55:32 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2019 for Windows と Multilingual App Toolkit と Azure Cognitive Services を使った多言語対応</title>
+      <link>https://www.changesworlds.com/blog/2020/05/using-visualstudio-and-multilingualapptoolkit-and-cognitive-services-for-remote-developing/</link>
+      <pubDate>Fri, 29 May 2020 17:55:32 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/05/using-visualstudio-and-multilingualapptoolkit-and-cognitive-services-for-remote-developing/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 本記事はMicrosoft MVPブログ企画の記事として投稿しています。その他の記事はこちらからご覧く</description>
+    </item>
     
     <item>
       <title>Microsoft Teams を使ったリモート開発</title>
