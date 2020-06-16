@@ -164,5 +164,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 @kaorun55(@kaorun55) さんにお声掛けいただき、2015/7/22 に開催される以下のイベントに登壇します。 7月22日 第26</description>
     </item>
     
+    <item>
+      <title>Visual Studio Online にパブリックリポジトリは作成できない #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/06/visual-studio-online-can-not-create-a-public-repository/</link>
+      <pubDate>Thu, 11 Jun 2015 20:20:05 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/visual-studio-online-can-not-create-a-public-repository/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Publickey さんの記事で、 また、Visual Studio Onlineが提供するGitリポジトリは、プライベートリポジトリ</description>
+    </item>
+    
   </channel>
 </rss>
