@@ -66,6 +66,15 @@
     </item>
     
     <item>
+      <title>Rails に Bundit Algorithms を導入する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/introduce-bundit-algorithms-in-rails/</link>
+      <pubDate>Wed, 18 Mar 2015 20:58:20 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/introduce-bundit-algorithms-in-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Bundit Algorithms とは何か？ もともとギャンブルに対する最適な戦略を考えることから始まったデータに基づいた意思決定手</description>
+    </item>
+    
+    <item>
       <title>RSpec で private メソッドをテストする方法</title>
       <link>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</link>
       <pubDate>Mon, 02 Feb 2015 21:06:37 +0000</pubDate>
