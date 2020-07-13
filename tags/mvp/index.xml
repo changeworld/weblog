@@ -6,10 +6,19 @@
     <description>Recent content in Mvp on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Jul 2019 23:52:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/tags/mvp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
+      <link>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。 Azure カテゴリでの受賞ですが、引き続き Azure DevOps 関連や OSS 含め</description>
+    </item>
     
     <item>
       <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
