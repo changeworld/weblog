@@ -435,6 +435,15 @@
     </item>
     
     <item>
+      <title>Split を導入した Rails で Redis が落ちていてもエラーにしない方法</title>
+      <link>https://www.changesworlds.com/blog/2015/03/do-not-error-even-if-redis-stop/</link>
+      <pubDate>Fri, 20 Mar 2015 20:02:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/do-not-error-even-if-redis-stop/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Split を採用して仮稼働している最中、Redis が落ちていたために Rails がエラーになってしまいました。 本番で発</description>
+    </item>
+    
+    <item>
       <title>Rails で Split&amp;Bundit Algorithms を実践する</title>
       <link>https://www.changesworlds.com/blog/2015/03/practice-split-and-bundit-algorithms-in-rails/</link>
       <pubDate>Thu, 19 Mar 2015 20:25:51 +0000</pubDate>
