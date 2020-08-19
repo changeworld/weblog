@@ -603,6 +603,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2015/08/m3techtalk45-done/</loc>
+    <lastmod>2015-08-21T03:58:07+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/08/26-plus-2th-tfsug/</loc>
     <lastmod>2015-08-20T13:31:39+00:00</lastmod>
   </url>
@@ -1080,6 +1085,12 @@
   <url>
     <loc>https://www.changesworlds.com/tags/macbook-pro/</loc>
     <lastmod>2015-04-20T20:54:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/management/</loc>
+    <lastmod>2015-08-21T03:58:07+00:00</lastmod>
     <priority>0</priority>
   </url>
   
