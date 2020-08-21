@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Jul 2019 23:52:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
     
 	<atom:link href="https://www.changesworlds.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,9 @@
     <item>
       <title>About Me</title>
       <link>https://www.changesworlds.com/categories/about-me/</link>
-      <pubDate>Tue, 02 Jul 2019 23:52:21 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/about-me/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aboutme</title>
-      <link>https://www.changesworlds.com/categories/aboutme/</link>
       <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/categories/aboutme/</guid>
+      <guid>https://www.changesworlds.com/categories/about-me/</guid>
       <description></description>
     </item>
     
