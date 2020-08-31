@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Change the World!</title>
+    <link>https://www.changesworlds.com/categories/writing/</link>
+    <description>Recent content in Writing on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 07 Nov 2012 13:58:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『Redmine Advent Calendar jp 2011 Changeworld on Redmine』の電子書籍を販売しました</title>
+      <link>https://www.changesworlds.com/blog/2012/11/redmine-advent-calendar-jp-2011-changeworld-on-redmine-is-on-sales/</link>
+      <pubDate>Wed, 07 Nov 2012 13:58:28 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2012/11/redmine-advent-calendar-jp-2011-changeworld-on-redmine-is-on-sales/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Redmine Advent Calendar jp 2011 Changeworld on Redmine : ATND で行っていた Redmine Advent Calendar jp 2011 Changeworld on Redmine が技術評論社様のご厚意により電子書籍として販売されま</description>
+    </item>
+    
+  </channel>
+</rss>

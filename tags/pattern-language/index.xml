@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pattern Language on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/pattern-language/</link>
+    <description>Recent content in Pattern Language on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 14 Mar 2018 03:00:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/pattern-language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AsianPLoP 2018の日本語サイトを(勝手に)構築しました</title>
+      <link>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</link>
+      <pubDate>Wed, 14 Mar 2018 03:00:55 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 こちらで記載した以下の件についての追加記事です。 Kiro さんが参加していたので、会へのKPTが出せるように</description>
+    </item>
+    
+    <item>
+      <title>AsianPLoP 2018に論文を寄稿し、参加してきました</title>
+      <link>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</link>
+      <pubDate>Tue, 13 Mar 2018 03:00:44 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/03/contributed-a-paper-in-asian-plop-2018/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/03/1-2 に開催された AsianPLoP 2018: 7th Asian Conference on Pattern Languages of Programs に論文を寄稿し、参加してきました。 TL;DR 国際学会 なので当然主要言語は英</description>
+    </item>
+    
+  </channel>
+</rss>

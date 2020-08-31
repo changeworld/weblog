@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/azure/</link>
+    <description>Recent content in Azure on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
+      <link>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。 Azure カテゴリでの受賞ですが、引き続き Azure DevOps 関連や OSS 含め</description>
+    </item>
+    
+    <item>
+      <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
+      <link>https://www.changesworlds.com/blog/2019/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Tue, 02 Jul 2019 23:52:21 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。 Azure カテゴリでの受賞ですが、引き続き Azure DevOps 関連や OSS 含め</description>
+    </item>
+    
+    <item>
+      <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
+      <link>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</link>
+      <pubDate>Mon, 02 Jul 2018 23:52:21 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/07/microsoft-mvp-award-renewal/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft MVP Award renewal というわけで、今年も Microsoft MVP を再受賞しました。カテゴリは前回から変わり 「Microsoft Azu</description>
+    </item>
+    
+    <item>
+      <title>Insider Dev Tour Tokyo を開催 &amp; 登壇しました #insiderdevtour</title>
+      <link>https://www.changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</link>
+      <pubDate>Tue, 19 Jun 2018 03:00:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/06/insiderdevtour-tokyo-2018-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/06/17 にInsider Dev Tourを開催しました。 参加していただいたみなさん、スタッフのみなさん、スピーカ</description>
+    </item>
+    
+    <item>
+      <title>Azure の支払いを請求書支払いにする方法</title>
+      <link>https://www.changesworlds.com/blog/2016/10/how-to-make-azures-payment-an-invoice-payment/</link>
+      <pubDate>Sun, 30 Oct 2016 16:31:10 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/how-to-make-azures-payment-an-invoice-payment/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azureの支払いをクレジットカードではなく、請求書支払いにする方法を調べて、実際に行ってみました。</description>
+    </item>
+    
+    <item>
+      <title>Terraform のバージョン問題を Docker で解決する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</link>
+      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
+    </item>
+    
+    <item>
+      <title>Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</link>
+      <pubDate>Sun, 04 Sep 2016 20:38:19 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト</description>
+    </item>
+    
+  </channel>
+</rss>

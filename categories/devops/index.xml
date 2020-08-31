@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Change the World!</title>
+    <link>https://www.changesworlds.com/categories/devops/</link>
+    <description>Recent content in Devops on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 21 Jul 2020 01:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>『これが私のおすすめリモート開発事例 by Startup/MVP - MSTechNight #11』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2020/07/mstechnight-11th-done/</link>
+      <pubDate>Tue, 21 Jul 2020 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/07/mstechnight-11th-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2020/07/20 に開催された『これが私のおすすめリモート開発事例 by Startup/MVP - MSTechNight #11』に登壇しました。 登壇内容は以前 blog に</description>
+    </item>
+    
+    <item>
+      <title>Azure Repos と GitHub と Azure Pipelines を使ったグローバルにおけるリモート開発</title>
+      <link>https://www.changesworlds.com/blog/2020/06/using-azure-repos-and-github-for-remote-developing/</link>
+      <pubDate>Mon, 01 Jun 2020 17:40:32 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/06/using-azure-repos-and-github-for-remote-developing/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 本記事はMicrosoft MVPブログ企画の記事として投稿しています。その他の記事はこちらからご覧く</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2019 for Windows と Multilingual App Toolkit と Azure Cognitive Services を使った多言語対応</title>
+      <link>https://www.changesworlds.com/blog/2020/05/using-visualstudio-and-multilingualapptoolkit-and-cognitive-services-for-remote-developing/</link>
+      <pubDate>Fri, 29 May 2020 17:55:32 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/05/using-visualstudio-and-multilingualapptoolkit-and-cognitive-services-for-remote-developing/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 本記事はMicrosoft MVPブログ企画の記事として投稿しています。その他の記事はこちらからご覧く</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Teams を使ったリモート開発</title>
+      <link>https://www.changesworlds.com/blog/2020/05/using-teams-for-remote-developing/</link>
+      <pubDate>Sat, 23 May 2020 18:25:15 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2020/05/using-teams-for-remote-developing/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 本記事はMicrosoft MVPブログ企画の記事として投稿しています。その他の記事はこちらからご覧く</description>
+    </item>
+    
+    <item>
+      <title>『Global DevOps Bootcamp 2019@Tokyo』を主催 &amp; 登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2019/06/global-devops-bootcamp-2019-tokyo-done/</link>
+      <pubDate>Tue, 18 Jun 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/06/global-devops-bootcamp-2019-tokyo-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/06/15 に『Global DevOps Bootcamp 2019@Tokyo』を主催 &amp;amp; 登壇しました。 日本マイクロソフト株式会社様に会場</description>
+    </item>
+    
+    <item>
+      <title>『Global DevOps Bootcamp 2019@Tokyo』を主催 &amp; 登壇します</title>
+      <link>https://www.changesworlds.com/blog/2019/06/global-devops-bootcamp-2019-tokyo/</link>
+      <pubDate>Tue, 04 Jun 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/06/global-devops-bootcamp-2019-tokyo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/06/15 に『Global DevOps Bootcamp 2019@Tokyo』を主催 &amp;amp; 登壇します。 Global DevOps Bootcamp とは世界中の devops コミュニティが世</description>
+    </item>
+    
+    <item>
+      <title>『de:code 2019』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2019/05/decode-2019-done/</link>
+      <pubDate>Fri, 31 May 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/05/decode-2019-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/05/29 - 30 に開催された『de:code 2019』に登壇しました。 今回は以前と違って、登壇といってもケース</description>
+    </item>
+    
+    <item>
+      <title>『de:code 2019』に登壇します</title>
+      <link>https://www.changesworlds.com/blog/2019/05/decode-2019/</link>
+      <pubDate>Tue, 28 May 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/05/decode-2019/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/05/29 - 30 に開催される『de:code 2019』に登壇します。 今回は以前と違って、登壇といってもケース・</description>
+    </item>
+    
+    <item>
+      <title>世界一の貢献者になりました</title>
+      <link>https://www.changesworlds.com/blog/2019/04/around-world-mvps-microsoft-three-musketeers/</link>
+      <pubDate>Wed, 24 Apr 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/04/around-world-mvps-microsoft-three-musketeers/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018&amp;frasl;11 - 2018&amp;frasl;12 に中国、韓国、日本の三ヶ国で開催された翻訳ドキュメントの改善プロジェクト「マイクロソフト三銃士</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 4th answer』を主催しました</title>
+      <link>https://www.changesworlds.com/blog/2019/04/azure-devops-tokyo-4th-done/</link>
+      <pubDate>Fri, 12 Apr 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/04/azure-devops-tokyo-4th-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/04/08 に『Azure DevOps Tokyo, Japan 4th answer』を主催 &amp;amp; 開催しました。 今回も前回同様に Microsoft Corp 様、日本マイクロソフ</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 3rd strike』を主催しました</title>
+      <link>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-3rd-done/</link>
+      <pubDate>Sat, 30 Mar 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-3rd-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/03/29 に『Azure DevOps Tokyo, Japan 3rd strike』を主催 &amp;amp; 開催しました。 今回も前回同様に Microsoft Corp 様、日本マイクロソフ</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 4th answer』を主催します</title>
+      <link>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-4th/</link>
+      <pubDate>Sun, 17 Mar 2019 01:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/03/azure-devops-tokyo-4th/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/04/08 に『Azure DevOps Tokyo, Japan 4th answer』を主催 &amp;amp; 開催します。 今回は DevOpsDays Tokyo 2019 で来日される Edward Thomson さんをお招きし</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 2nd impact』を主催しました</title>
+      <link>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-2nd-done/</link>
+      <pubDate>Mon, 21 Jan 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-2nd-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/01/19 に『Azure DevOps Tokyo, Japan 2nd impact』を主催 &amp;amp; 開催 &amp;amp; 登壇しました。 今回も前回同様に Microsoft Corp 様、日本マイク</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 3rd strike』を主催します</title>
+      <link>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-3rd/</link>
+      <pubDate>Thu, 17 Jan 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/01/azure-devops-tokyo-3rd/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/03/29 に『Azure DevOps Tokyo, Japan 3rd strike』を主催 &amp;amp; 開催します。 今回はブラジルから来日される MVP Rodrigo Kono (Brazil) さんを</description>
+    </item>
+    
+    <item>
+      <title>『NoOps Meetup Tokyo #3』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2019/01/noops-meetup-tokyo-3rd-done/</link>
+      <pubDate>Fri, 11 Jan 2019 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2019/01/noops-meetup-tokyo-3rd-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/12/07 に『NoOps Meetup Tokyo #3』に登壇しました。 資料は以下になります。 事前にタイトルを教えてください &amp;amp; LT1 発</description>
+    </item>
+    
+    <item>
+      <title>『Connect(); Japan 2018』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2018/12/microsoft-connect-japan-2018-done/</link>
+      <pubDate>Wed, 26 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/microsoft-connect-japan-2018-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/12/20 に開催された『Connect(); Japan 2018』で登壇しました。 セッションは YouTube で以下の通り、既に公開</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Connect(); 2018 Azure DevOps &amp; GitHub</title>
+      <link>https://www.changesworlds.com/blog/2018/12/microsoft-connect-2018/</link>
+      <pubDate>Wed, 05 Dec 2018 22:30:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/12/microsoft-connect-2018/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/12/05 未明から Microsoft Connect(); 2018 Keynote がありました。 各メディアから色々と記事が出ていたのですが、私が興味のある devops に関して</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan』を主催しました #azuredevops</title>
+      <link>https://www.changesworlds.com/blog/2018/11/azure-devops-tokyo-done/</link>
+      <pubDate>Mon, 26 Nov 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/11/azure-devops-tokyo-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/11/24 に『Azure DevOps Tokyo, Japan』を主催 &amp;amp; 開催しました。 当初、登壇する予定はなかったのですが、直前にな</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan 2nd impact』を主催します #azuredevops</title>
+      <link>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo-2nd/</link>
+      <pubDate>Fri, 26 Oct 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo-2nd/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2019/01/19 に『Azure DevOps Tokyo, Japan 2nd impact』を主催 &amp;amp; 開催します。 『Azure DevOps Tokyo, Japan』開催前にも関わ</description>
+    </item>
+    
+    <item>
+      <title>『Azure DevOps Tokyo, Japan』を主催します #azuredevops</title>
+      <link>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo/</link>
+      <pubDate>Sun, 21 Oct 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/10/azure-devops-tokyo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/11/24 に『Azure DevOps Tokyo, Japan』を主催 &amp;amp; 開催します。 Azure DevOps が Visual Studio Team Services(VSTS) から名称がかわり、新サービスとして</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Team Services から Azure DevOps にリブランディング</title>
+      <link>https://www.changesworlds.com/blog/2018/09/visual-studio-team-services-is-now-azure-devops/</link>
+      <pubDate>Tue, 11 Sep 2018 08:30:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/09/visual-studio-team-services-is-now-azure-devops/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft が 提供する DevOps ツールとして、オンプレミスでは Team Foundation Server(略称TFS) 、クラウドでは Visual Studio Team Ser</description>
+    </item>
+    
+    <item>
+      <title>『DevOpsDays Tokyo 2018』で登壇しました #devopsdaystokyo</title>
+      <link>https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</link>
+      <pubDate>Mon, 28 May 2018 03:00:21 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/05/devopsdays-tokyo-2018-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/04/24-25 に開催されたDevOpsDays Tokyo 2018に登壇しました。登壇資料は以下に公開しています。 「Dev</description>
+    </item>
+    
+    <item>
+      <title>『Global Azure Bootcamp 2018@Tokyo』で登壇しました #jazug</title>
+      <link>https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</link>
+      <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/04/21 に開催されたGlobal Azure Bootcamp 2018@Tokyoに登壇しました。登壇資料は以下に公開しています。 Serverless</description>
+    </item>
+    
+    <item>
+      <title>『第8回 Tokyo Jazug Night Ignite Update 祭り』で講演しました #jazug</title>
+      <link>https://www.changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</link>
+      <pubDate>Mon, 30 Oct 2017 03:00:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/10/tokyo-jazug-night-8th-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先週の2017/10/18 に開催された以下のイベントで登壇しました。 今回のテーマは Ignite Update ！！ と書いてあ</description>
+    </item>
+    
+    <item>
+      <title>『Serverless Meetup Tokyo #6』で講演しました #serverlesstokyo</title>
+      <link>https://www.changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</link>
+      <pubDate>Wed, 25 Oct 2017 03:00:40 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/10/serverless-meetup-tokyo-6th-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先週の2017/10/16 に開催された以下のイベントで登壇しました。 募集サイト上では Serverless に Azure も含まれて</description>
+    </item>
+    
+    <item>
+      <title>『第37回 TFSUG東京 de:code 2017再演』で講演しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/</link>
+      <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/06/37th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先週、2017/06/14に開催した以下のイベントで講演しました。 最初に、『DevOps でリードタイ</description>
+    </item>
+    
+    <item>
+      <title>『第37回 TFSUG東京 de:code 2017再演』で講演します #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2017/06/37th-tfsug/</link>
+      <pubDate>Tue, 06 Jun 2017 01:00:12 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/06/37th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 来週、2017/06/14 に開催される以下のイベントで講演します。 講演は20:00 - 20:50で、d</description>
+    </item>
+    
+    <item>
+      <title>『de:code 2017』で講演しました #decode17</title>
+      <link>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</link>
+      <pubDate>Mon, 05 Jun 2017 01:00:41 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 de:code 2017 [TL12] &amp;quot;炎上案件ストッパー&amp;quot;はかく語りき 「プロジェ</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Team Services の始め方 #tfsug #vsts</title>
+      <link>https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/</link>
+      <pubDate>Tue, 18 Oct 2016 04:50:57 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/getting-started-with-visual-studio-team-services/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 今回は Visual Studio Team Services の始め方です。 必要なもの Microsoft アカウント。ない場合は無料で作成できるので、作成してください</description>
+    </item>
+    
+    <item>
+      <title>『第36回 TFSUG東京 「アジャイルでやってみた。」出版記念』で講演しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2016/10/36th-tfsug-done/</link>
+      <pubDate>Thu, 06 Oct 2016 21:17:33 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/10/36th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/10/05 に開催された以下のイベントで講演しました。 講演は「全部伝えます、書籍の裏話！」として「アジャイルで</description>
+    </item>
+    
+    <item>
+      <title>アジャイルについて基礎から説明する入門記事を掲載していただきました #BuildInsider</title>
+      <link>https://www.changesworlds.com/blog/2016/09/contributed-to-buildinsider/</link>
+      <pubDate>Tue, 27 Sep 2016 21:40:08 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/contributed-to-buildinsider/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Web メディアの Build Insider にアジャイルについて基礎から説明する入門記事を掲載していただきました。 アジャイルとは</description>
+    </item>
+    
+    <item>
+      <title>『第36回 TFSUG東京 「アジャイルでやってみた。」出版記念』で講演します #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2016/09/36th-tfsug/</link>
+      <pubDate>Mon, 26 Sep 2016 21:40:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/36th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/10/05 に開催される以下のイベントで講演します。 講演は 19:55-20:30 で、『全部伝えます、書籍の裏話！』として「アジャイ</description>
+    </item>
+    
+    <item>
+      <title>突発（自称）首都圏書店ツアー（笑）</title>
+      <link>https://www.changesworlds.com/blog/2016/09/go-around-book-stores/</link>
+      <pubDate>Sun, 25 Sep 2016 20:58:41 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/go-around-book-stores/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 序：某課長氏「週末に首都圏書店ツアーする、とかそういうやんちゃなやつ期待」 ↓ 破：鬼畜のK「ジュンク堂</description>
+    </item>
+    
+    <item>
+      <title>「アジャイルでやってみた。」というアジャイル実践本を出版します</title>
+      <link>https://www.changesworlds.com/blog/2016/09/publish-1st-agile-practice-book/</link>
+      <pubDate>Mon, 12 Sep 2016 12:32:48 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/publish-1st-agile-practice-book/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 「アジャイルでやってみた。ウォーターフォールしか知らなかった僕らSIerのスクラム日記」という SIer でウ</description>
+    </item>
+    
+    <item>
+      <title>Terraform で Azure Resource Manager の操作で困った時に解決する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/</link>
+      <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform から Azure を操作するのはとても簡単です。しかし、残念ながら、HashiCorp の公式ドキュメントはあま</description>
+    </item>
+    
+    <item>
+      <title>Terraform で 複数台の Azure Virtual Machines を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</link>
+      <pubDate>Thu, 08 Sep 2016 11:21:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-plurality-of-azure-virtual-machines-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 クラウドにサーバーを構築する際、負荷分散や可用性を考慮し、複数台構成とする場合があります。 今回はまっ</description>
+    </item>
+    
+    <item>
+      <title>Terraform で Azure Virtual Machines を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/</link>
+      <pubDate>Wed, 07 Sep 2016 10:51:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 HashiCorp の公式サイトにある Terraform の Azure Resource Manager: azurerm_virtual_machine &amp;#8211; Terraform by HashiCorp の通りに Azure Virtual Machines を構築すると Public IP アドレスが関連付けされず、構築</description>
+    </item>
+    
+    <item>
+      <title>Terraform のバージョン問題を Docker で解決する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</link>
+      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法によって、複数人や CI で Terraform の管理ができるようになります。 しか</description>
+    </item>
+    
+    <item>
+      <title>Azure Storage で Terraform の状態管理ファイル terraform.tfstate を管理する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</link>
+      <pubDate>Sun, 04 Sep 2016 20:38:19 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-manage-terraform-tfstate-in-azure-storage/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform でインフラを構築する方法 part.2で書いた通り Atlas を使わずに管理する方法です。 以下は HashiCorp の公式サイト</description>
+    </item>
+    
+    <item>
+      <title>Terraform で Azure を構築する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/</link>
+      <pubDate>Sun, 04 Sep 2016 02:10:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 以下は Terraform でインフラを構築する方法 part.1 Terraform でインフラを構築する方法 part.2 を Azure で実践したものになります。 手順は HashiCorp</description>
+    </item>
+    
+    <item>
+      <title>『JAZUG 6周年総会』で LT しました #jazug</title>
+      <link>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</link>
+      <pubDate>Sat, 03 Sep 2016 14:56:04 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/jazug-6th-anniversary-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/9/3 に開催された『JAZUG 6周年総会』で『Azure LOVE♥ OSS 〜AzureとTerraformを連</description>
+    </item>
+    
+    <item>
+      <title>Terraform でインフラを構築する方法 part.2</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/</link>
+      <pubDate>Fri, 02 Sep 2016 09:51:46 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-2/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回に引き続き Terraform を使ってみたので、その概要をまとめてみました。 以下は HashiCorp の公式サイトにある Terraform の Getting Started を実</description>
+    </item>
+    
+    <item>
+      <title>Terraform でインフラを構築する方法 part.1</title>
+      <link>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/</link>
+      <pubDate>Thu, 01 Sep 2016 14:47:36 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/09/how-to-use-terraform-1/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Terraform を使ってみたので、その概要をまとめてみました。Terraform は CloudFormation よりも定義ファイルが簡潔で、習</description>
+    </item>
+    
+    <item>
+      <title>『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』で講演しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2016/03/33th-tfsug-done/</link>
+      <pubDate>Tue, 22 Mar 2016 00:39:42 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/03/33th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/3/17 に開催された『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』にて『DevOpsの基本</description>
+    </item>
+    
+    <item>
+      <title>『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』で講演します #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2016/03/33th-tfsug/</link>
+      <pubDate>Wed, 09 Mar 2016 22:44:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/03/33th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/3/17 に開催される『第33回 TFSUG東京 Visual Studio Team ServicesでDevOps』にて『DevOpsの基本</description>
+    </item>
+    
+    <item>
+      <title>『Tokyo ComCamp 2016 powered by MVPs』でDevOpsについて講演しました ‪#‎JCCMVP</title>
+      <link>https://www.changesworlds.com/blog/2016/02/tokyo-comcamp-2016-powered-by-mvps-done/</link>
+      <pubDate>Sun, 21 Feb 2016 22:35:44 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/02/tokyo-comcamp-2016-powered-by-mvps-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/2/20 に開催された『Tokyo ComCamp 2016 powered by MVPs』で『そろそろ (おまえらの) DevOps について一言いっておくか』と</description>
+    </item>
+    
+    <item>
+      <title>『Tokyo ComCamp 2016 powered by MVPs』でDevOpsについて講演します ‪#‎JCCMVP</title>
+      <link>https://www.changesworlds.com/blog/2016/01/tokyo-comcamp-2016-powered-by-mvps/</link>
+      <pubDate>Fri, 15 Jan 2016 22:22:25 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/tokyo-comcamp-2016-powered-by-mvps/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2016/2/20 に開催される『Tokyo ComCamp 2016 powered by MVPs』で『そろそろ (おまえらの) DevOps について一言いっておくか』と</description>
+    </item>
+    
+    <item>
+      <title>『第31回 TFSUG東京 VSTSの新機能』で講演しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/12/31th-tfsug-done/</link>
+      <pubDate>Wed, 16 Dec 2015 22:00:05 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/12/31th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/12/16 に開催された『第31回 TFSUG東京 VSTSの新機能』にて講演しました。参加者のみなさん、ご参加い</description>
+    </item>
+    
+    <item>
+      <title>『第31回 TFSUG東京 VSTSの新機能』で講演します #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/12/31th-tfsug/</link>
+      <pubDate>Sun, 13 Dec 2015 22:33:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/12/31th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/12/16 に開催される『第31回 TFSUG東京 VSTSの新機能』にて講演します。 講演は 19:55-20:35 で、『Visual Studio</description>
+    </item>
+    
+    <item>
+      <title>社内 Tech Talk で発表してきました #alm #devopsjp</title>
+      <link>https://www.changesworlds.com/blog/2015/12/m3techtalk-49th-done/</link>
+      <pubDate>Sat, 05 Dec 2015 13:52:20 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/12/m3techtalk-49th-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/12/04 に開催された社内 Tech Talk で発表してきました。 内容は先日(2015/11/28, 2015/11/29)開</description>
+    </item>
+    
+    <item>
+      <title>DevOps ハッカソンに参加してきました #devopsjp</title>
+      <link>https://www.changesworlds.com/blog/2015/11/devops-hackathon-done/</link>
+      <pubDate>Sun, 29 Nov 2015 12:29:57 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/devops-hackathon-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/28, 2015/11/29 にベルサール新宿グランドにて行われた『DevOps ハッカソン』に参加してきました。 タイムスケジュ</description>
+    </item>
+    
+    <item>
+      <title>『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇しました #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/11/30th-tfsug-done/</link>
+      <pubDate>Thu, 26 Nov 2015 22:03:40 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/30th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/26 に開催された『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇しました。参加者のみ</description>
+    </item>
+    
+    <item>
+      <title>『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～』に登壇しました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information-done/</link>
+      <pubDate>Tue, 24 Nov 2015 12:04:49 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 先程開催された『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～1』に登壇しました。参加者の</description>
+    </item>
+    
+    <item>
+      <title>『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～』に登壇します #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information/</link>
+      <pubDate>Tue, 24 Nov 2015 09:43:49 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/connect-2015-latest-information/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/24 に開催される『Visual Studio アプリケーション開発の今 ～ Connect(); // 2015 最新情報 ～1』に登壇します。 登壇は 20:00 以</description>
+    </item>
+    
+    <item>
+      <title>『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇します #alm #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/11/30th-tfsug/</link>
+      <pubDate>Mon, 16 Nov 2015 21:27:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/30th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/26 に開催される『第30回 TFSUG東京 事例で学ぶプロジェクトマネジメント』に登壇します。 登壇は 20:20-20:45 で、</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Cross Platform Build Agent(VSO-Agent)のDockerfile&#43;Serverspecを公開しました #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/11/published-microsoft-cross-platform-build-agent-with-dockerfile-and-serverspec/</link>
+      <pubDate>Sun, 15 Nov 2015 20:13:37 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/published-microsoft-cross-platform-build-agent-with-dockerfile-and-serverspec/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Microsoft Cross Platform Build Agent(VSO-Agent) の Dockerfile + Serverspec を公開しました。リポジトリは以下の通りです。 Source Repository: GitHub Docker Image: Docker Hub 継続的インテグレーション</description>
+    </item>
+    
+    <item>
+      <title>『第29回 #TFSUG東京 Visual Studio OnlineでDevOps』に登壇しました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/10/29th-tfsug-done/</link>
+      <pubDate>Mon, 26 Oct 2015 22:22:19 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/29th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/26 に開催された以下のイベントに登壇しました。参加者のみなさん、ご参加いただき、ありがとうございました</description>
+    </item>
+    
+    <item>
+      <title>マイナビニュースにチーム開発の記事を掲載していただきました #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/10/contribute-to-mynavinews-001/</link>
+      <pubDate>Sun, 18 Oct 2015 04:50:57 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/contribute-to-mynavinews-001/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 マイナビニュースにチーム開発の記事を掲載していただきました。 ツールを活用した“イマドキ”チーム開発の</description>
+    </item>
+    
+    <item>
+      <title>『第29回 #TFSUG東京 Visual Studio OnlineでDevOps』に登壇します #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/10/29th-tfsug/</link>
+      <pubDate>Thu, 08 Oct 2015 04:21:02 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/29th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/26 に開催される以下のイベントで登壇します。 第29回 TFSUG東京 Visual Studio OnlineでDevOps &amp;#8211; TFSUG(Team Foundation</description>
+    </item>
+    
+    <item>
+      <title>『第27回 #TFSUG リリースマネジメントを学ぼう』に登壇しました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/10/27th-tfsug-done/</link>
+      <pubDate>Tue, 06 Oct 2015 20:51:44 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/27th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/1 に開催された以下のイベントに登壇しました。参加者のみなさん、悪天候の中、ご参加いただき、ありがとう</description>
+    </item>
+    
+    <item>
+      <title>『TFSUG (Team Foundation Server User Group) : 現役プロジェクトマネージャーが裏側を語る! イマドキのソフトウェア開発プロジェクトの実践入門』に登壇しました #tfsug #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/09/26-plus-2th-tfsug-done/</link>
+      <pubDate>Wed, 23 Sep 2015 07:00:32 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/09/26-plus-2th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/9/17 に開催された以下のイベントに登壇しました。参加者のみなさん、ご参加ありがとうございました。 TFSUG (Team Foundation Server</description>
+    </item>
+    
+    <item>
+      <title>『第27回 #TFSUG リリースマネジメントを学ぼう』に登壇します #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/09/27th-tfsug/</link>
+      <pubDate>Fri, 04 Sep 2015 14:38:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/09/27th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/1 に開催される以下のイベントに登壇します。 第27回 リリースマネジメントを学ぼう &amp;#8211; TFSUG(Team Foundation Server Users Group) | Doorkeeper 登壇は</description>
+    </item>
+    
+    <item>
+      <title>『TFSUG (Team Foundation Server User Group) 鉄人たちが「本音」で語る Team Foundation Server/Visual Studio Online で実現する今どきの開発プロジェクト管理』に登壇しました #tfsug #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug-done/</link>
+      <pubDate>Thu, 27 Aug 2015 04:08:51 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/8/26 に開催された以下のイベントで登壇いたしました。みなさん、ご参加ありがとうございました。 TFSUG (Team Foundation Server User Group)</description>
+    </item>
+    
+    <item>
+      <title>社内 Tech Talk で LT してきました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/08/m3techtalk45-done/</link>
+      <pubDate>Fri, 21 Aug 2015 03:58:07 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/m3techtalk45-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/08/20 に開催された社内 Tech Talk で LT してきました。スライドは以下になります。 問題が起こった時に、変えるのは人か</description>
+    </item>
+    
+    <item>
+      <title>『TFSUG (Team Foundation Server User Group) : 会社からアジャイル推進担当に任命されても大丈夫! &#34;業務改善の鉄人&#34; (中略)が解説するイマドキのソフトウェア開発プロジェクトの実践入門』に登壇します #tfsug #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/08/26-plus-2th-tfsug/</link>
+      <pubDate>Thu, 20 Aug 2015 13:31:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/26-plus-2th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/9/17 に開催された以下のイベントに登壇します。 TFSUG (Team Foundation Server User Group) : 会社からアジャイル推進担当に任命されても大丈</description>
+    </item>
+    
+    <item>
+      <title>『TFSUG (Team Foundation Server User Group) 鉄人たちが「本音」で語る Team Foundation Server/Visual Studio Online で実現する今どきの開発プロジェクト管理』に豪華ゲストが登壇します #tfsug #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug-additional-information/</link>
+      <pubDate>Mon, 10 Aug 2015 11:52:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug-additional-information/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/8/26 に開催される以下のイベントに豪華ゲストとして私の(勝手に設定している)メンターである牛尾剛さんによ</description>
+    </item>
+    
+    <item>
+      <title>『TFSUG (Team Foundation Server User Group) 鉄人たちが「本音」で語る Team Foundation Server/Visual Studio Online で実現する今どきの開発プロジェクト管理』に登壇します #tfsug #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug/</link>
+      <pubDate>Fri, 07 Aug 2015 11:31:46 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/8/26 に開催される以下のイベントで登壇します。 TFSUG (Team Foundation Server User Group) 鉄人たちが「本音」で語る Team Foundation Server/Visual Studio Online で実現する今</description>
+    </item>
+    
+    <item>
+      <title>『Visual Studio 2015 リリース記念 勉強会』に登壇します #csugjp #tfsug</title>
+      <link>https://www.changesworlds.com/blog/2015/07/visual-studio-2015-release-commemorative-study-session/</link>
+      <pubDate>Wed, 29 Jul 2015 22:29:31 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/visual-studio-2015-release-commemorative-study-session/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/8/8 に開催される以下のイベントで登壇します。 Visual Studio 2015 リリース記念 勉強会 (C#UG) &amp;#8211; 日本C#ユーザー会 | Doorkeeper 内容は Team</description>
+    </item>
+    
+    <item>
+      <title>『第26回 #TFSUG Visual Studio Onlineをクロスプラットフォーム開発で使おう』に登壇しました #alm</title>
+      <link>https://www.changesworlds.com/blog/2015/07/26th-tfsug-done/</link>
+      <pubDate>Wed, 22 Jul 2015 22:32:35 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/26th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/7/22 に開催された以下のイベントに登壇いたしました。みなさん、ご参加ありがとうございました。 7月22日 第</description>
+    </item>
+    
+    <item>
+      <title>『#TFSUG 主催 大好評につきアンコール開催! 業務改善の鉄人が語る、現場に新しい開発プロセス・ツールを導入するためにすべき事』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2015/07/25-plus-1th-tfsug-done/</link>
+      <pubDate>Wed, 22 Jul 2015 14:55:47 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/25-plus-1th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/7/22 に開催された以下のイベントに登壇しました。みなさん、ご参加ありがとうございました。 Team Foundation Server User Group (TFSUG) 主催</description>
+    </item>
+    
+    <item>
+      <title>『#TFSUG 主催 大好評につきアンコール開催! 業務改善の鉄人が語る、現場に新しい開発プロセス・ツールを導入するためにすべき事』に登壇します</title>
+      <link>https://www.changesworlds.com/blog/2015/07/25-plus-1th-tfsug/</link>
+      <pubDate>Wed, 01 Jul 2015 12:13:05 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/07/25-plus-1th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/7/22 に開催される以下のイベントに登壇します。 Team Foundation Server User Group (TFSUG) 主催 大好評につきアンコール開催! 業務改善の鉄人</description>
+    </item>
+    
+    <item>
+      <title>『第26回 #TFSUG Visual Studio Onlineをクロスプラットフォーム開発で使おう』に登壇します</title>
+      <link>https://www.changesworlds.com/blog/2015/06/26th-tfsug/</link>
+      <pubDate>Thu, 18 Jun 2015 20:39:36 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/26th-tfsug/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 @kaorun55(@kaorun55) さんにお声掛けいただき、2015/7/22 に開催される以下のイベントに登壇します。 7月22日 第26</description>
+    </item>
+    
+    <item>
+      <title>『第25回 #TFSUG ノウハウお伝えします! 鉄人から学ぶ TFS セミナー編』に登壇しました</title>
+      <link>https://www.changesworlds.com/blog/2015/06/25th-tfsug-done/</link>
+      <pubDate>Thu, 18 Jun 2015 13:24:45 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/25th-tfsug-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/6/18 に開催された以下のイベントに登壇いたしました。みなさん、ご参加ありがとうございました。 6月18日 第</description>
+    </item>
+    
+    <item>
+      <title>Jenkins による環境変数連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</link>
+      <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズして、Git コマンドを実行(タグ付けなど)→デプロイ→メール通知という具合にかなり継</description>
+    </item>
+    
+    <item>
+      <title>Jenkins による Git 連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</link>
+      <pubDate>Sat, 28 Mar 2015 20:30:11 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ</description>
+    </item>
+    
+    <item>
+      <title>Jenkins によるパラメーター連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/</link>
+      <pubDate>Thu, 26 Mar 2015 20:02:27 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通</description>
+    </item>
+    
+    <item>
+      <title>Jenkins によるメール通知の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
+      <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 デプロイ後にメールで通知しなければならない場合があります。Jenkins で自動デリバリーを実施してい</description>
+    </item>
+    
+  </channel>
+</rss>

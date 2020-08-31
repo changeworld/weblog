@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/git/</link>
+    <description>Recent content in Git on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 07 Jan 2016 22:07:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git でマージ済みブランチを一括削除する方法</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</link>
+      <pubDate>Thu, 07 Jan 2016 22:07:35 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Git のブランチはマージしても消えません。そのため、定期的に掃除しないとマージ済みの不要ブランチが残って</description>
+    </item>
+    
+    <item>
+      <title>Git Boot Camp for Designerを実施しました #git</title>
+      <link>https://www.changesworlds.com/blog/2015/11/git-boot-camp-for-designer-done/</link>
+      <pubDate>Tue, 17 Nov 2015 21:20:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/git-boot-camp-for-designer-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/11/11にデザイナー向けの Git のワークショップである『Git Boot Camp for Designer』を実施</description>
+    </item>
+    
+    <item>
+      <title>Git で fork 元リポジトリの master と同期する方法</title>
+      <link>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</link>
+      <pubDate>Tue, 03 Nov 2015 22:26:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/how-to-merge-upstream-repository-into-your-fork/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 GitHub などで fork(フォーク) した後に fork(フォーク) 元のリポジトリの master と同期する(最新を取り込む</description>
+    </item>
+    
+    <item>
+      <title>git rebase で squash する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</link>
+      <pubDate>Fri, 13 Mar 2015 13:23:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/git-rebase-squash/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Pull Request を送った後の指摘に対応していたところ「 squash してコミットを 1 個にまとめて」と言われたので、手順を調べ</description>
+    </item>
+    
+    <item>
+      <title>Git で一度行った変更をなかったことにする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/01/git-various-undo/</link>
+      <pubDate>Sat, 24 Jan 2015 21:27:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/git-various-undo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 GitHub や GitLab などで間違えて直接 master ブランチにコミットしてしまうことがあります。そんなとき pull requset/merge request を merge したところ</description>
+    </item>
+    
+    <item>
+      <title>Git で commit id を指定して checkout する方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</link>
+      <pubDate>Wed, 26 Nov 2014 04:44:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-checkout-by-specifying-commit-id-in-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 自分以外の人により、master でビルドが失敗するようになった際に必要になったので、調査した手順をメ</description>
+    </item>
+    
+    <item>
+      <title>local を remote で強制上書きし、remote と一致させる方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</link>
+      <pubDate>Sun, 09 Nov 2014 12:55:15 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-reset-local-repository-to-be-just-like-remote-repository/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 自分以外の人によって、remote repository が大量に更新され、git pull(fetch then merge) 時に conflict が起こる場合があります。そう</description>
+    </item>
+    
+    <item>
+      <title>Mac で Visio の内容を表示する方法</title>
+      <link>https://www.changesworlds.com/blog/2014/11/how-to-display-visio-on-mac/</link>
+      <pubDate>Fri, 07 Nov 2014 13:39:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/11/how-to-display-visio-on-mac/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Windows で書かれた Visio ファイルの内容を Mac ユーザーであるエンジニアが参照する必要があり、今まではWindows</description>
+    </item>
+    
+    <item>
+      <title>Ruby, Rails, Git再入門 git remote add の操作を取り消す方法</title>
+      <link>https://www.changesworlds.com/blog/2014/09/reintroduction-to-ruby-rails-git-007/</link>
+      <pubDate>Mon, 08 Sep 2014 02:28:31 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/09/reintroduction-to-ruby-rails-git-007/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 やあ (´・ω・｀) ようこそバーボンハウスへ。 このページはサービスだから、まず見て落ちついて欲しい。 う</description>
+    </item>
+    
+    <item>
+      <title>git commit をやり直し &amp; 取り消し、コメントを修正する方法</title>
+      <link>https://www.changesworlds.com/blog/2012/12/git-reference-undo/</link>
+      <pubDate>Sat, 08 Dec 2012 05:17:11 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2012/12/git-reference-undo/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 git commit を実行後にコミットをやり直したり、コミット自体を取り消す方法を調べたので、調査した手順をメモとし</description>
+    </item>
+    
+  </channel>
+</rss>

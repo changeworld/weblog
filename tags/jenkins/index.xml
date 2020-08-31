@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jenkins on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/jenkins/</link>
+    <description>Recent content in Jenkins on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 01 Apr 2015 20:50:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jenkins による環境変数連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</link>
+      <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/04/automated-environment-variable-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズして、Git コマンドを実行(タグ付けなど)→デプロイ→メール通知という具合にかなり継</description>
+    </item>
+    
+    <item>
+      <title>Jenkins による Git 連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</link>
+      <pubDate>Sat, 28 Mar 2015 20:30:11 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-git-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins をカスタマイズすることで、継続的デリバリーがかなり便利になります。 Jenkins によるメール通知の自動化 Jenkins によ</description>
+    </item>
+    
+    <item>
+      <title>Jenkins によるパラメーター連携の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/</link>
+      <pubDate>Thu, 26 Mar 2015 20:02:27 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-parameter-cooperation-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回の記事で Jenkins でカスタマイズしたメール通知ができるようになりました。では一つの Job でデプロイとメール通</description>
+    </item>
+    
+    <item>
+      <title>Jenkins によるメール通知の自動化</title>
+      <link>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</link>
+      <pubDate>Wed, 25 Mar 2015 19:40:29 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/automated-email-notification-by-jenkins/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 デプロイ後にメールで通知しなければならない場合があります。Jenkins で自動デリバリーを実施してい</description>
+    </item>
+    
+  </channel>
+</rss>

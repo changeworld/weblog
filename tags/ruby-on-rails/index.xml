@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Rails on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/ruby-on-rails/</link>
+    <description>Recent content in Ruby on Rails on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 02 Aug 2017 04:15:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ActiveRecord::Enum の使い方と重複エラーの避け方</title>
+      <link>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</link>
+      <pubDate>Wed, 02 Aug 2017 04:15:11 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 掲題の通り、ActiveRecord::Enum の使い方と重複エラーの避け方をご紹介します。 Environment OS: macOS Sierra</description>
+    </item>
+    
+    <item>
+      <title>Travis CI から Heroku に Rails を継続的デプロイメントする方法 #rails</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-continuous-deployment-for-rails-from-travis-ci-to-heroku/</link>
+      <pubDate>Tue, 19 Jan 2016 22:58:16 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-continuous-deployment-for-rails-from-travis-ci-to-heroku/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Travis CI と GitHub を連携させると継続的インテグレーションが実現できます。しかし、それだけでは Heroku にデプロイするの</description>
+    </item>
+    
+    <item>
+      <title>Rails 向けパフォーマンスプロファイラサービス Skylight の設定方法 #rails</title>
+      <link>https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/</link>
+      <pubDate>Sun, 17 Jan 2016 22:04:47 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2016/01/how-to-setup-skylight/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Rails 向けパフォーマンスプロファイラサービス Skylight を導入したので、導入方法を以下に記載します。 Skylight の導入方法 Skylight</description>
+    </item>
+    
+    <item>
+      <title>錬金術.rb #1に参加してきた #alchemy_rb</title>
+      <link>https://www.changesworlds.com/blog/2015/11/alchemy-rb-01-done/</link>
+      <pubDate>Thu, 12 Nov 2015 21:56:24 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/11/alchemy-rb-01-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 錬金術.rb #1に参加してきました。 タイムスケジュールは、 19:00 スタート 19:05 自己紹介など 19:10 グループ分けして</description>
+    </item>
+    
+    <item>
+      <title>bundle exec は省略ではなく、短縮の方が良い</title>
+      <link>https://www.changesworlds.com/blog/2015/06/bundle-exec-is-better-alias-rather-than-omit/</link>
+      <pubDate>Wed, 03 Jun 2015 20:03:13 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/bundle-exec-is-better-alias-rather-than-omit/</guid>
+      <description>以下で bundle exec の省略方法を書きましたが、省略ではなく、短縮の方が良いなと思うことがありました。 Ruby, Rails, Git再入門 bundle execの省略方法 理由は簡単で省</description>
+    </item>
+    
+    <item>
+      <title>Ruby on Rails で helper メソッドを view 以外で使う方法</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</link>
+      <pubDate>Sun, 10 May 2015 20:10:34 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-use-helper-method-in-model-or-controller-in-the-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Ruby on Rails で helper メソッドを view 以外で使う方法を調査したので、その手順をメモとして残しておきます。 Ruby on Rails 2.1 以降</description>
+    </item>
+    
+    <item>
+      <title>Split を導入した Rails で Redis が落ちていてもエラーにしない方法</title>
+      <link>https://www.changesworlds.com/blog/2015/03/do-not-error-even-if-redis-stop/</link>
+      <pubDate>Fri, 20 Mar 2015 20:02:18 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/do-not-error-even-if-redis-stop/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Split を採用して仮稼働している最中、Redis が落ちていたために Rails がエラーになってしまいました。 本番で発</description>
+    </item>
+    
+    <item>
+      <title>Rails で Split&amp;Bundit Algorithms を実践する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/practice-split-and-bundit-algorithms-in-rails/</link>
+      <pubDate>Thu, 19 Mar 2015 20:25:51 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/practice-split-and-bundit-algorithms-in-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Split に Bundit Algorithms を導入する方法は分かったので、実際に Split&amp;amp;Bundit Algorithms を導入して、実践してみました。 内容 以下のように、ある</description>
+    </item>
+    
+    <item>
+      <title>Rails に Bundit Algorithms を導入する</title>
+      <link>https://www.changesworlds.com/blog/2015/03/introduce-bundit-algorithms-in-rails/</link>
+      <pubDate>Wed, 18 Mar 2015 20:58:20 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/03/introduce-bundit-algorithms-in-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Bundit Algorithms とは何か？ もともとギャンブルに対する最適な戦略を考えることから始まったデータに基づいた意思決定手</description>
+    </item>
+    
+    <item>
+      <title>RSpec で private メソッドをテストする方法</title>
+      <link>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</link>
+      <pubDate>Mon, 02 Feb 2015 21:06:37 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/02/how-to-testing-private-method-in-rspec/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 前回、受けた指摘を直して再度レビューしてもらったら、以下の指摘を受けました。 この関数はprivate</description>
+    </item>
+    
+    <item>
+      <title>RuboCop の Metrics/PerceivedComplexity について</title>
+      <link>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-perceived_complexity/</link>
+      <pubDate>Sun, 18 Jan 2015 20:12:21 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-perceived_complexity/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 コーディング規約に対応していなかった既存の Rails プロジェクトを RuboCop でチェックしています。RuboCop (コ</description>
+    </item>
+    
+    <item>
+      <title>RuboCop の Metrics/CyclomaticComplexity について</title>
+      <link>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</link>
+      <pubDate>Thu, 15 Jan 2015 22:07:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/01/rubocop-metrics-cyclomatic_complexity/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 コーディング規約に対応していなかった既存の Rails プロジェクトを RuboCop でチェックしています。RuboCop (コ</description>
+    </item>
+    
+  </channel>
+</rss>

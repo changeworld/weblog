@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio Code on Change the World!</title>
+    <link>https://www.changesworlds.com/tags/visual-studio-code/</link>
+    <description>Recent content in Visual Studio Code on Change the World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 02 Jun 2015 20:43:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.changesworlds.com/tags/visual-studio-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Code 0.3.0 Release</title>
+      <link>https://www.changesworlds.com/blog/2015/06/visual-studio-code-0-3-0-release/</link>
+      <pubDate>Tue, 02 Jun 2015 20:43:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/06/visual-studio-code-0-3-0-release/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 四月にリリースされたばかりの Visual Studio Code の 0.3.0 がリリースされました。 大幅に機能がアップデートされたようです。</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code で git の branch を変更する方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-change-git-branch-of-the-visual-studio-code/</link>
+      <pubDate>Wed, 27 May 2015 20:18:39 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-change-git-branch-of-the-visual-studio-code/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Code で開発をしている最中に branch の変更などをする際だけターミナルから実行していました。どこからか Git のコ</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code の半角スペースとタブを表示させる方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/</link>
+      <pubDate>Sat, 09 May 2015 20:57:14 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-display-spaces-and-tabs-of-visual-studio-code/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Code は半角スペースやタブがデフォルトだと表示されないので、表示させる方法を調べてみたのでメモとして</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code を Markdown エディタとして利用する方法 #vscode</title>
+      <link>https://www.changesworlds.com/blog/2015/05/how-to-use-the-visual-studio-code-as-markdown-editor/</link>
+      <pubDate>Sat, 02 May 2015 20:12:47 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/05/how-to-use-the-visual-studio-code-as-markdown-editor/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 この blog は Markdown 記法で書いており、エディタには Mou を使っていました。Sublime text も試したのですが、それぞ</description>
+    </item>
+    
+  </channel>
+</rss>
