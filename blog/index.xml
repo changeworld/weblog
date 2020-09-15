@@ -544,10 +544,10 @@
     
     <item>
       <title>Azure Redis Cache と Amazon ElastiCache #Redis</title>
-      <link>https://www.changesworlds.com/blog/2016/10/azure-redis-cache-and-amazon-elasticache.md/</link>
+      <link>https://www.changesworlds.com/blog/2016/10/azure-redis-cache-and-amazon-elasticache/</link>
       <pubDate>Mon, 24 Oct 2016 21:44:52 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/blog/2016/10/azure-redis-cache-and-amazon-elasticache.md/</guid>
+      <guid>https://www.changesworlds.com/blog/2016/10/azure-redis-cache-and-amazon-elasticache/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 セッションストレージの冗長性、可用性を確保すべく、Redis のクラウドサービスを比較検討してみました</description>
     </item>
     
