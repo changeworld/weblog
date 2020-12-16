@@ -1065,6 +1065,15 @@
     </item>
     
     <item>
+      <title>Git で commit/merge commit を revert する方法</title>
+      <link>https://www.changesworlds.com/blog/2015/10/how-to-revert-the-commit-and-merge-commit-in-git/</link>
+      <pubDate>Thu, 01 Oct 2015 04:55:20 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/how-to-revert-the-commit-and-merge-commit-in-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 ここ最近 revert することが多かったので、Git で commit/merge commit を revert する方法を今後のために残しておきます。 revert とは？ ある</description>
+    </item>
+    
+    <item>
       <title>『TFSUG (Team Foundation Server User Group) : 現役プロジェクトマネージャーが裏側を語る! イマドキのソフトウェア開発プロジェクトの実践入門』に登壇しました #tfsug #alm</title>
       <link>https://www.changesworlds.com/blog/2015/09/26-plus-2th-tfsug-done/</link>
       <pubDate>Wed, 23 Sep 2015 07:00:32 +0000</pubDate>

@@ -327,6 +327,15 @@
     </item>
     
     <item>
+      <title>Git で commit/merge commit を revert する方法</title>
+      <link>https://www.changesworlds.com/blog/2015/10/how-to-revert-the-commit-and-merge-commit-in-git/</link>
+      <pubDate>Thu, 01 Oct 2015 04:55:20 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/10/how-to-revert-the-commit-and-merge-commit-in-git/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 ここ最近 revert することが多かったので、Git で commit/merge commit を revert する方法を今後のために残しておきます。 revert とは？ ある</description>
+    </item>
+    
+    <item>
       <title>Visual Studio と GitHub を連携する方法 #tfsug</title>
       <link>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</link>
       <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
