@@ -65,5 +65,14 @@
       <description>このブログをご覧のみなさん、こんにちは。 ほぼ Markdown 記法になっていますが、以下の通りです。 &amp;gt; hogehoge : 引用。文頭に | がつき、インデントされる `hogehoge` : インライ</description>
     </item>
     
+    <item>
+      <title>Team Foundation Service Preview を試してみた</title>
+      <link>https://www.changesworlds.com/blog/2012/09/tried-team-foundation-service-preview/</link>
+      <pubDate>Sat, 01 Sep 2012 14:17:48 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2012/09/tried-team-foundation-service-preview/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Team Foundation Service Preview を試すに至った発端 それは以下の Tweet1 とそれへの長沢@tomohnさんからの mention です。 @changeworlds TFSでいい</description>
+    </item>
+    
   </channel>
 </rss>
