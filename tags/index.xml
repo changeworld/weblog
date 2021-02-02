@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Tags on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure</title>
       <link>https://www.changesworlds.com/tags/azure/</link>
@@ -21,7 +17,7 @@
     </item>
     
     <item>
-      <title>Azure Devops</title>
+      <title>Azure DevOps</title>
       <link>https://www.changesworlds.com/tags/azure-devops/</link>
       <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
       
@@ -30,74 +26,29 @@
     </item>
     
     <item>
-      <title>Azure Web Apps</title>
-      <link>https://www.changesworlds.com/tags/azure-web-apps/</link>
-      <pubDate>Fri, 13 Jul 2018 21:45:21 +0900</pubDate>
+      <title>MVP</title>
+      <link>https://www.changesworlds.com/tags/mvp/</link>
+      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/azure-web-apps/</guid>
+      <guid>https://www.changesworlds.com/tags/mvp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Centos</title>
-      <link>https://www.changesworlds.com/tags/centos/</link>
-      <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
+      <title>Mob programming</title>
+      <link>https://www.changesworlds.com/tags/mob-programming/</link>
+      <pubDate>Tue, 02 Oct 2018 03:00:00 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/centos/</guid>
+      <guid>https://www.changesworlds.com/tags/mob-programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Circleci</title>
-      <link>https://www.changesworlds.com/tags/circleci/</link>
-      <pubDate>Sat, 03 Sep 2016 14:56:04 +0000</pubDate>
+      <title>Visual Studio Team Services</title>
+      <link>https://www.changesworlds.com/tags/visual-studio-team-services/</link>
+      <pubDate>Tue, 11 Sep 2018 08:30:00 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/circleci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://www.changesworlds.com/tags/docker/</link>
-      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extreme Programming</title>
-      <link>https://www.changesworlds.com/tags/extreme-programming/</link>
-      <pubDate>Mon, 14 Sep 2015 04:09:05 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/extreme-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://www.changesworlds.com/tags/git/</link>
-      <pubDate>Thu, 07 Jan 2016 22:07:35 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://www.changesworlds.com/tags/github/</link>
-      <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homebrew</title>
-      <link>https://www.changesworlds.com/tags/homebrew/</link>
-      <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/homebrew/</guid>
+      <guid>https://www.changesworlds.com/tags/visual-studio-team-services/</guid>
       <description></description>
     </item>
     
@@ -111,56 +62,29 @@
     </item>
     
     <item>
-      <title>Infrastructure as Code</title>
-      <link>https://www.changesworlds.com/tags/infrastructure-as-code/</link>
-      <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
+      <title>Azure Web Apps</title>
+      <link>https://www.changesworlds.com/tags/azure-web-apps/</link>
+      <pubDate>Fri, 13 Jul 2018 21:45:21 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/infrastructure-as-code/</guid>
+      <guid>https://www.changesworlds.com/tags/azure-web-apps/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jenkins</title>
-      <link>https://www.changesworlds.com/tags/jenkins/</link>
-      <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
+      <title>Windows Mixed Reality</title>
+      <link>https://www.changesworlds.com/tags/windows-mixed-reality/</link>
+      <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/jenkins/</guid>
+      <guid>https://www.changesworlds.com/tags/windows-mixed-reality/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Macbook Air</title>
-      <link>https://www.changesworlds.com/tags/macbook-air/</link>
-      <pubDate>Sat, 16 Aug 2014 10:01:55 +0000</pubDate>
+      <title>Serverless</title>
+      <link>https://www.changesworlds.com/tags/serverless/</link>
+      <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/macbook-air/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macbook Pro</title>
-      <link>https://www.changesworlds.com/tags/macbook-pro/</link>
-      <pubDate>Mon, 20 Apr 2015 20:54:39 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/macbook-pro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mob Programming</title>
-      <link>https://www.changesworlds.com/tags/mob-programming/</link>
-      <pubDate>Tue, 02 Oct 2018 03:00:00 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/mob-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mvp</title>
-      <link>https://www.changesworlds.com/tags/mvp/</link>
-      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/mvp/</guid>
+      <guid>https://www.changesworlds.com/tags/serverless/</guid>
       <description></description>
     </item>
     
@@ -170,42 +94,6 @@
       <pubDate>Wed, 14 Mar 2018 03:00:55 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/tags/pattern-language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Perl</title>
-      <link>https://www.changesworlds.com/tags/perl/</link>
-      <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/perl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgresql</title>
-      <link>https://www.changesworlds.com/tags/postgresql/</link>
-      <pubDate>Fri, 13 Mar 2015 20:25:58 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redmine</title>
-      <link>https://www.changesworlds.com/tags/redmine/</link>
-      <pubDate>Wed, 07 Nov 2012 13:58:28 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/redmine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://www.changesworlds.com/tags/ruby/</link>
-      <pubDate>Thu, 28 Jan 2016 03:30:38 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/ruby/</guid>
       <description></description>
     </item>
     
@@ -228,11 +116,65 @@
     </item>
     
     <item>
-      <title>Serverless</title>
-      <link>https://www.changesworlds.com/tags/serverless/</link>
-      <pubDate>Sun, 22 Apr 2018 02:32:19 +0000</pubDate>
+      <title>Infrastructure as Code</title>
+      <link>https://www.changesworlds.com/tags/infrastructure-as-code/</link>
+      <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/serverless/</guid>
+      <guid>https://www.changesworlds.com/tags/infrastructure-as-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://www.changesworlds.com/tags/terraform/</link>
+      <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://www.changesworlds.com/tags/docker/</link>
+      <pubDate>Tue, 06 Sep 2016 11:16:22 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CircleCI</title>
+      <link>https://www.changesworlds.com/tags/circleci/</link>
+      <pubDate>Sat, 03 Sep 2016 14:56:04 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/circleci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://www.changesworlds.com/tags/ruby/</link>
+      <pubDate>Thu, 28 Jan 2016 03:30:38 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://www.changesworlds.com/tags/git/</link>
+      <pubDate>Thu, 07 Jan 2016 22:07:35 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Online</title>
+      <link>https://www.changesworlds.com/tags/visual-studio-online/</link>
+      <pubDate>Thu, 26 Nov 2015 22:03:40 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/visual-studio-online/</guid>
       <description></description>
     </item>
     
@@ -246,29 +188,20 @@
     </item>
     
     <item>
-      <title>Slack</title>
-      <link>https://www.changesworlds.com/tags/slack/</link>
-      <pubDate>Thu, 28 May 2015 20:48:33 +0000</pubDate>
+      <title>eXtreme Programming</title>
+      <link>https://www.changesworlds.com/tags/extreme-programming/</link>
+      <pubDate>Mon, 14 Sep 2015 04:09:05 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/slack/</guid>
+      <guid>https://www.changesworlds.com/tags/extreme-programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Team Foundation Service</title>
-      <link>https://www.changesworlds.com/tags/team-foundation-service/</link>
-      <pubDate>Wed, 05 Sep 2012 12:00:07 +0000</pubDate>
+      <title>GitHub</title>
+      <link>https://www.changesworlds.com/tags/github/</link>
+      <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/team-foundation-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terraform</title>
-      <link>https://www.changesworlds.com/tags/terraform/</link>
-      <pubDate>Fri, 09 Sep 2016 11:01:30 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/tags/terraform/</guid>
+      <guid>https://www.changesworlds.com/tags/github/</guid>
       <description></description>
     </item>
     
@@ -291,29 +224,92 @@
     </item>
     
     <item>
-      <title>Visual Studio Online</title>
-      <link>https://www.changesworlds.com/tags/visual-studio-online/</link>
-      <pubDate>Thu, 26 Nov 2015 22:03:40 +0000</pubDate>
+      <title>Slack</title>
+      <link>https://www.changesworlds.com/tags/slack/</link>
+      <pubDate>Thu, 28 May 2015 20:48:33 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/visual-studio-online/</guid>
+      <guid>https://www.changesworlds.com/tags/slack/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Visual Studio Team Services</title>
-      <link>https://www.changesworlds.com/tags/visual-studio-team-services/</link>
-      <pubDate>Tue, 11 Sep 2018 08:30:00 +0900</pubDate>
+      <title>MacBook Pro</title>
+      <link>https://www.changesworlds.com/tags/macbook-pro/</link>
+      <pubDate>Mon, 20 Apr 2015 20:54:39 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/visual-studio-team-services/</guid>
+      <guid>https://www.changesworlds.com/tags/macbook-pro/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Windows Mixed Reality</title>
-      <link>https://www.changesworlds.com/tags/windows-mixed-reality/</link>
-      <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
+      <title>Jenkins</title>
+      <link>https://www.changesworlds.com/tags/jenkins/</link>
+      <pubDate>Wed, 01 Apr 2015 20:50:23 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/tags/windows-mixed-reality/</guid>
+      <guid>https://www.changesworlds.com/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://www.changesworlds.com/tags/postgresql/</link>
+      <pubDate>Fri, 13 Mar 2015 20:25:58 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CentOS</title>
+      <link>https://www.changesworlds.com/tags/centos/</link>
+      <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perl</title>
+      <link>https://www.changesworlds.com/tags/perl/</link>
+      <pubDate>Tue, 28 Oct 2014 14:25:41 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacBook Air</title>
+      <link>https://www.changesworlds.com/tags/macbook-air/</link>
+      <pubDate>Sat, 16 Aug 2014 10:01:55 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/macbook-air/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
+      <link>https://www.changesworlds.com/tags/homebrew/</link>
+      <pubDate>Thu, 03 Jul 2014 23:32:00 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redmine</title>
+      <link>https://www.changesworlds.com/tags/redmine/</link>
+      <pubDate>Wed, 07 Nov 2012 13:58:28 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/redmine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Foundation Service</title>
+      <link>https://www.changesworlds.com/tags/team-foundation-service/</link>
+      <pubDate>Wed, 05 Sep 2012 12:00:07 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/tags/team-foundation-service/</guid>
       <description></description>
     </item>
     

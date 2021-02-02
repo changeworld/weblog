@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 21 Nov 2020 12:24:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Nov 2020 12:24:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>『Android Bazaar and Conference Diverse 2020 Autumn』に登壇しました</title>
       <link>https://www.changesworlds.com/blog/2020/11/abcd2020a-done/</link>
@@ -116,7 +112,7 @@
       <pubDate>Tue, 02 Oct 2018 03:00:00 +0900</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2018/09/29 に開催された『TDDBC Tokyo 2018-09』に TA(Teaching Assistant) として参加しました。 tddbc.connpass.com 午前 やっとむ @yattom さんによる基調</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/09/29 に開催された『TDDBC Tokyo 2018-09』に TA(Teaching Assistant) として参加しました。 午前 やっとむ @yattom さんによる基調講</description>
     </item>
     
     <item>
@@ -197,7 +193,7 @@
       <pubDate>Mon, 17 Oct 2016 03:18:20 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2016/10/write-code-every-day-the-1st-anniversary/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 1年前に見た @t_wada さんの「OSSについてあれこれ」をきっかけに実践し始めた&amp;quot;Write Code Every Da</description>
+      <description>このブログをご覧のみなさん、こんにちは。 きっかけ きっかけの引用元 John Resig – Write Code Every Day ルール(きっかけの引用元より) 毎日コードを書くこと。ブログ、ド</description>
     </item>
     
     <item>
@@ -314,7 +310,7 @@
       <pubDate>Mon, 09 Nov 2015 21:58:02 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/11/tried-to-hack-the-build-task-of-visual-studio-online/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 以下を参考に、Visual Studio Online のビルドタスクをハックしようとしたらハマりました。 VisualStudioOnline &amp;#8211; Visual Studio Online</description>
+      <description>このブログをご覧のみなさん、こんにちは。 以下を参考に、Visual Studio Online のビルドタスクをハックしようとしたらハマりました。 VisualStudioOnline – Visual Studio Online</description>
     </item>
     
     <item>
@@ -341,7 +337,7 @@
       <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Online Supports True Cross-Platform Development &amp;#8211; Microsoft Application Lifecycle Management &amp;#8211; Site Home &amp;#8211; MSDN Blogsに関連して手順を調べたのでメモとして残しておきます。 前提</description>
+      <description>このブログをご覧のみなさん、こんにちは。 Visual Studio Online Supports True Cross-Platform Development – Microsoft Application Lifecycle Management – Site Home – MSDN Blogsに関連して手順を調べたのでメモとして残しておきます。 前提</description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Change the World!</title>
@@ -6,58 +6,9 @@
     <description>Recent content in Categories on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Nov 2020 12:24:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>https://www.changesworlds.com/categories/about-me/</link>
-      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/about-me/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agile</title>
-      <link>https://www.changesworlds.com/categories/agile/</link>
-      <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/agile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book</title>
-      <link>https://www.changesworlds.com/categories/book/</link>
-      <pubDate>Sun, 03 Jan 2016 22:13:23 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://www.changesworlds.com/categories/cloud/</link>
-      <pubDate>Sat, 11 Aug 2018 10:19:32 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Communication</title>
-      <link>https://www.changesworlds.com/categories/communication/</link>
-      <pubDate>Thu, 13 Oct 2016 22:30:03 +0000</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/communication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://www.changesworlds.com/categories/devops/</link>
       <pubDate>Sat, 21 Nov 2020 12:24:00 +0900</pubDate>
       
@@ -75,29 +26,20 @@
     </item>
     
     <item>
-      <title>Gadget</title>
-      <link>https://www.changesworlds.com/categories/gadget/</link>
-      <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
+      <title>Programming</title>
+      <link>https://www.changesworlds.com/categories/programming/</link>
+      <pubDate>Sat, 21 Nov 2020 12:24:00 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/categories/gadget/</guid>
+      <guid>https://www.changesworlds.com/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Management</title>
-      <link>https://www.changesworlds.com/categories/management/</link>
-      <pubDate>Fri, 21 Aug 2015 03:58:07 +0000</pubDate>
+      <title>About me</title>
+      <link>https://www.changesworlds.com/categories/about-me/</link>
+      <pubDate>Tue, 14 Jul 2020 00:43:21 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pattern</title>
-      <link>https://www.changesworlds.com/categories/pattern/</link>
-      <pubDate>Tue, 11 Dec 2018 09:00:00 +0900</pubDate>
-      
-      <guid>https://www.changesworlds.com/categories/pattern/</guid>
+      <guid>https://www.changesworlds.com/categories/about-me/</guid>
       <description></description>
     </item>
     
@@ -111,11 +53,56 @@
     </item>
     
     <item>
-      <title>Programming</title>
-      <link>https://www.changesworlds.com/categories/programming/</link>
-      <pubDate>Sat, 21 Nov 2020 12:24:00 +0900</pubDate>
+      <title>Pattern</title>
+      <link>https://www.changesworlds.com/categories/pattern/</link>
+      <pubDate>Tue, 11 Dec 2018 09:00:00 +0900</pubDate>
       
-      <guid>https://www.changesworlds.com/categories/programming/</guid>
+      <guid>https://www.changesworlds.com/categories/pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translation</title>
+      <link>https://www.changesworlds.com/categories/translation/</link>
+      <pubDate>Mon, 03 Dec 2018 09:00:00 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://www.changesworlds.com/categories/cloud/</link>
+      <pubDate>Sat, 11 Aug 2018 10:19:32 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gadget</title>
+      <link>https://www.changesworlds.com/categories/gadget/</link>
+      <pubDate>Wed, 11 Jul 2018 22:32:54 +0900</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/gadget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile</title>
+      <link>https://www.changesworlds.com/categories/agile/</link>
+      <pubDate>Mon, 19 Jun 2017 04:00:06 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communication</title>
+      <link>https://www.changesworlds.com/categories/communication/</link>
+      <pubDate>Thu, 13 Oct 2016 22:30:03 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/communication/</guid>
       <description></description>
     </item>
     
@@ -129,11 +116,20 @@
     </item>
     
     <item>
-      <title>Translation</title>
-      <link>https://www.changesworlds.com/categories/translation/</link>
-      <pubDate>Mon, 03 Dec 2018 09:00:00 +0900</pubDate>
+      <title>Book</title>
+      <link>https://www.changesworlds.com/categories/book/</link>
+      <pubDate>Sun, 03 Jan 2016 22:13:23 +0000</pubDate>
       
-      <guid>https://www.changesworlds.com/categories/translation/</guid>
+      <guid>https://www.changesworlds.com/categories/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>https://www.changesworlds.com/categories/management/</link>
+      <pubDate>Fri, 21 Aug 2015 03:58:07 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/categories/management/</guid>
       <description></description>
     </item>
     

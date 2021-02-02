@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on Change the World!</title>
+    <title>DevOps on Change the World!</title>
     <link>https://www.changesworlds.com/categories/devops/</link>
-    <description>Recent content in Devops on Change the World!</description>
+    <description>Recent content in DevOps on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 21 Nov 2020 12:24:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Nov 2020 12:24:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>『Android Bazaar and Conference Diverse 2020 Autumn』に登壇しました</title>
       <link>https://www.changesworlds.com/blog/2020/11/abcd2020a-done/</link>
@@ -98,7 +94,7 @@
       <pubDate>Wed, 24 Apr 2019 01:00:00 +0900</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2019/04/around-world-mvps-microsoft-three-musketeers/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2018&amp;frasl;11 - 2018&amp;frasl;12 に中国、韓国、日本の三ヶ国で開催された翻訳ドキュメントの改善プロジェクト「マイクロソフト三銃士</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/11 - 2018/12 に中国、韓国、日本の三ヶ国で開催された翻訳ドキュメントの改善プロジェクト「マイクロソフト三銃士</description>
     </item>
     
     <item>
@@ -269,7 +265,7 @@
       <pubDate>Mon, 05 Jun 2017 01:00:41 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 de:code 2017 [TL12] &amp;quot;炎上案件ストッパー&amp;quot;はかく語りき 「プロジェ</description>
+      <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 トラックオーナーの方から“炎上案件ストッパー”という煽りタイトルを付け</description>
     </item>
     
     <item>
@@ -350,7 +346,7 @@
       <pubDate>Wed, 07 Sep 2016 10:51:03 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-virtual-machines-in-terraform/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 HashiCorp の公式サイトにある Terraform の Azure Resource Manager: azurerm_virtual_machine &amp;#8211; Terraform by HashiCorp の通りに Azure Virtual Machines を構築すると Public IP アドレスが関連付けされず、構築</description>
+      <description>このブログをご覧のみなさん、こんにちは。 HashiCorp の公式サイトにある Terraform の Azure Resource Manager: azurerm_virtual_machine – Terraform by HashiCorp の通りに Azure Virtual Machines を構築すると Public IP アドレスが関連付けされず、構築</description>
     </item>
     
     <item>
@@ -548,7 +544,7 @@
       <pubDate>Thu, 08 Oct 2015 04:21:02 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/10/29th-tfsug/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2015/10/26 に開催される以下のイベントで登壇します。 第29回 TFSUG東京 Visual Studio OnlineでDevOps &amp;#8211; TFSUG(Team Foundation</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/26 に開催される以下のイベントで登壇します。 第29回 TFSUG東京 Visual Studio OnlineでDevOps – TFSUG(Team Foundation</description>
     </item>
     
     <item>
@@ -575,7 +571,7 @@
       <pubDate>Fri, 04 Sep 2015 14:38:23 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/09/27th-tfsug/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2015/10/1 に開催される以下のイベントに登壇します。 第27回 リリースマネジメントを学ぼう &amp;#8211; TFSUG(Team Foundation Server Users Group) | Doorkeeper 登壇は</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/10/1 に開催される以下のイベントに登壇します。 第27回 リリースマネジメントを学ぼう – TFSUG(Team Foundation Server Users Group) | Doorkeeper 登壇は</description>
     </item>
     
     <item>
@@ -593,7 +589,7 @@
       <pubDate>Fri, 21 Aug 2015 03:58:07 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/08/m3techtalk45-done/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2015/08/20 に開催された社内 Tech Talk で LT してきました。スライドは以下になります。 問題が起こった時に、変えるのは人か</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/08/20 に開催された社内 Tech Talk で LT してきました。スライドは以下になります。 内容は本番環境に QA をしていない（＝</description>
     </item>
     
     <item>
@@ -638,7 +634,7 @@
       <pubDate>Wed, 29 Jul 2015 22:29:31 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2015/07/visual-studio-2015-release-commemorative-study-session/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2015/8/8 に開催される以下のイベントで登壇します。 Visual Studio 2015 リリース記念 勉強会 (C#UG) &amp;#8211; 日本C#ユーザー会 | Doorkeeper 内容は Team</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2015/8/8 に開催される以下のイベントで登壇します。 Visual Studio 2015 リリース記念 勉強会 (C#UG) – 日本C#ユーザー会 | Doorkeeper 内容は Team</description>
     </item>
     
     <item>
@@ -783,6 +779,15 @@
       
       <guid>https://www.changesworlds.com/blog/2014/06/22th-tfsug/</guid>
       <description>このブログをご覧のみなさん、こんにちは。 @kaorun55(@kaorun55) さんにお声掛けしまして、2014/06/11 に開催される以下のイベントで登壇します。 第22回 #TFSUG ちぇ</description>
+    </item>
+    
+    <item>
+      <title>『Regional Scrum Gathering® Tokyo 2014』でワークショップをしてきました #sgt2014</title>
+      <link>https://www.changesworlds.com/blog/2014/01/regional-scrum-gathering-tokyo-2014-done/</link>
+      <pubDate>Tue, 21 Jan 2014 21:54:26 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2014/01/regional-scrum-gathering-tokyo-2014-done/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 2014/01/14 - 15 に開催された『Regional Scrum Gathering® Tokyo 2014』でワークショップを行いました。</description>
     </item>
     
     <item>

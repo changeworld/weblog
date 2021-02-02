@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Azure on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 14 Jul 2020 00:43:21 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft MVP for Microsoft Azure を再受賞しました</title>
       <link>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</link>

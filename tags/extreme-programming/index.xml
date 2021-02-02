@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Extreme Programming on Change the World!</title>
+    <title>eXtreme Programming on Change the World!</title>
     <link>https://www.changesworlds.com/tags/extreme-programming/</link>
-    <description>Recent content in Extreme Programming on Change the World!</description>
+    <description>Recent content in eXtreme Programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 14 Sep 2015 04:09:05 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/extreme-programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 14 Sep 2015 04:09:05 +0000</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/extreme-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XP祭り2015で『モデリングもしないでXPとは何事だ』という講演 &#43; ワークショップをしました #xpjug</title>
       <link>https://www.changesworlds.com/blog/2015/09/xpfestival2015-done/</link>

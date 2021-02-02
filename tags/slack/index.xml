@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slack on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Slack on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 28 May 2015 20:48:33 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 28 May 2015 20:48:33 +0000</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/slack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slack の記述方法のチートシート</title>
       <link>https://www.changesworlds.com/blog/2015/05/slack-cheat-sheet/</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Git on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 07 Jan 2016 22:07:35 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 07 Jan 2016 22:07:35 +0000</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git でマージ済みブランチを一括削除する方法</title>
       <link>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</link>

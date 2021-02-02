@@ -1,6 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.changesworlds.com/blog/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/devops/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/event/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/programming/</loc>
+    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.changesworlds.com/blog/2020/11/abcd2020a-done/</loc>
@@ -13,8 +43,33 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/about-me/</loc>
+    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/azure/</loc>
+    <lastmod>2020-09-02T06:47:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/azure-devops/</loc>
+    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2020/07/microsoft-mvp-award-renewal/</loc>
     <lastmod>2020-07-14T00:43:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/mvp/</loc>
+    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/</loc>
+    <lastmod>2020-09-02T06:47:11+09:00</lastmod>
   </url>
   
   <url>
@@ -88,6 +143,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/press-release/</loc>
+    <lastmod>2019-01-15T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2019/01/mimir-inc-expert/</loc>
     <lastmod>2019-01-15T09:00:00+09:00</lastmod>
   </url>
@@ -103,6 +163,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/pattern/</loc>
+    <lastmod>2018-12-11T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</loc>
     <lastmod>2018-12-11T09:00:00+09:00</lastmod>
   </url>
@@ -114,6 +179,11 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/2018/12/how-to-contribute-to-open-source-software-within-1-minute/</loc>
+    <lastmod>2018-12-03T09:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/translation/</loc>
     <lastmod>2018-12-03T09:00:00+09:00</lastmod>
   </url>
   
@@ -158,6 +228,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/mob-programming/</loc>
+    <lastmod>2018-10-02T03:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</loc>
     <lastmod>2018-10-02T03:00:00+09:00</lastmod>
   </url>
@@ -168,6 +243,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/visual-studio-team-services/</loc>
+    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/09/visual-studio-team-services-is-now-azure-devops/</loc>
     <lastmod>2020-09-01T07:59:32+09:00</lastmod>
   </url>
@@ -175,6 +255,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2018/09/dotnetconf-2018-tokyo/</loc>
     <lastmod>2018-09-03T08:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/hugo/</loc>
+    <lastmod>2018-08-21T11:30:00+09:00</lastmod>
   </url>
   
   <url>
@@ -193,8 +278,18 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/cloud/</loc>
+    <lastmod>2020-09-02T06:47:11+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2017/10/write-code-every-day-the-2nd-anniversary/</loc>
     <lastmod>2018-08-05T12:12:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/azure-web-apps/</loc>
+    <lastmod>2018-07-13T21:45:21+09:00</lastmod>
   </url>
   
   <url>
@@ -203,7 +298,17 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/gadget/</loc>
+    <lastmod>2018-07-11T22:32:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/07/surface-meets-windows-mixed-reality/</loc>
+    <lastmod>2018-07-11T22:32:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/windows-mixed-reality/</loc>
     <lastmod>2018-07-11T22:32:54+09:00</lastmod>
   </url>
   
@@ -223,12 +328,22 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/serverless/</loc>
+    <lastmod>2018-04-22T02:32:19+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2018/04/global-azure-bootcamp-2018-at-tokyo-done/</loc>
     <lastmod>2018-04-22T02:32:19+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.changesworlds.com/blog/2018/03/built-a-japanese-website-of-asian-plop-2018/</loc>
+    <lastmod>2018-03-14T03:00:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/pattern-language/</loc>
     <lastmod>2018-03-14T03:00:55+00:00</lastmod>
   </url>
   
@@ -260,6 +375,21 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2017/08/how-to-use-activerecord-enum-and-how-to-avoid-duplicate-errors/</loc>
     <lastmod>2017-08-02T04:15:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/ruby-on-rails/</loc>
+    <lastmod>2017-08-02T04:15:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/agile/</loc>
+    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/scrum/</loc>
+    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
   </url>
   
   <url>
@@ -318,6 +448,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/communication/</loc>
+    <lastmod>2016-10-13T22:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/10/only-on-the-microsoft/</loc>
     <lastmod>2016-10-13T22:30:03+00:00</lastmod>
   </url>
@@ -363,6 +498,16 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/infrastructure-as-code/</loc>
+    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/terraform/</loc>
+    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/09/how-to-solve-when-trouble-with-operation-of-arm-in-terraform/</loc>
     <lastmod>2016-09-09T11:01:30+00:00</lastmod>
   </url>
@@ -378,6 +523,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/docker/</loc>
+    <lastmod>2016-09-06T11:16:22+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/09/how-to-solve-terraform-version-problems-with-docker/</loc>
     <lastmod>2016-09-06T11:16:22+00:00</lastmod>
   </url>
@@ -390,6 +540,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2016/09/how-to-make-azure-resources-in-terraform/</loc>
     <lastmod>2020-09-01T07:59:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/circleci/</loc>
+    <lastmod>2016-09-03T14:56:04+00:00</lastmod>
   </url>
   
   <url>
@@ -438,6 +593,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/ruby/</loc>
+    <lastmod>2016-01-28T03:30:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/01/how-to-continuous-deployment-for-rails-from-travis-ci-to-heroku/</loc>
     <lastmod>2016-01-19T22:58:16+00:00</lastmod>
   </url>
@@ -453,6 +613,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/categories/review/</loc>
+    <lastmod>2016-01-13T22:53:49+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/01/kindle-fire-tablet-8g-black-2015-review/</loc>
     <lastmod>2016-01-13T22:53:49+00:00</lastmod>
   </url>
@@ -463,6 +628,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/git/</loc>
+    <lastmod>2016-01-07T22:07:35+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2016/01/how-to-bulk-delete-merged-branches-with-git/</loc>
     <lastmod>2016-01-07T22:07:35+00:00</lastmod>
   </url>
@@ -470,6 +640,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2016/01/tools-for-teams-002/</loc>
     <lastmod>2016-01-05T22:54:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/book/</loc>
+    <lastmod>2016-01-03T22:13:23+00:00</lastmod>
   </url>
   
   <url>
@@ -518,6 +693,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/visual-studio-online/</loc>
+    <lastmod>2015-11-26T22:03:40+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/11/30th-tfsug-done/</loc>
     <lastmod>2015-11-26T22:03:40+00:00</lastmod>
   </url>
@@ -549,6 +729,11 @@
   
   <url>
     <loc>https://www.changesworlds.com/blog/2015/11/published-microsoft-cross-platform-build-agent-with-dockerfile-and-serverspec/</loc>
+    <lastmod>2015-11-15T20:13:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/serverspec/</loc>
     <lastmod>2015-11-15T20:13:37+00:00</lastmod>
   </url>
   
@@ -603,6 +788,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/extreme-programming/</loc>
+    <lastmod>2015-09-14T04:09:05+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/09/xpfestival2015-done/</loc>
     <lastmod>2015-09-14T04:09:05+00:00</lastmod>
   </url>
@@ -625,6 +815,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2015/08/26-plus-1th-tfsug-done/</loc>
     <lastmod>2015-08-27T04:08:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/management/</loc>
+    <lastmod>2015-08-21T03:58:07+00:00</lastmod>
   </url>
   
   <url>
@@ -665,6 +860,16 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2015/07/25-plus-1th-tfsug-done/</loc>
     <lastmod>2015-07-22T14:55:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/github/</loc>
+    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/visual-studio/</loc>
+    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
   </url>
   
   <url>
@@ -713,8 +918,18 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/visual-studio-code/</loc>
+    <lastmod>2015-06-02T20:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/06/visual-studio-code-0-3-0-release/</loc>
     <lastmod>2015-06-02T20:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/slack/</loc>
+    <lastmod>2015-05-28T20:48:33+00:00</lastmod>
   </url>
   
   <url>
@@ -763,6 +978,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/macbook-pro/</loc>
+    <lastmod>2015-04-20T20:54:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2015/04/newest-model-or-old-model/</loc>
     <lastmod>2015-04-20T20:54:39+00:00</lastmod>
   </url>
@@ -780,6 +1000,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2015/04/how-to-install-fabric-on-xmarvericks/</loc>
     <lastmod>2015-04-03T21:37:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/jenkins/</loc>
+    <lastmod>2015-04-01T20:50:23+00:00</lastmod>
   </url>
   
   <url>
@@ -820,6 +1045,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2015/03/export-and-replace-from-postgresql/</loc>
     <lastmod>2015-03-14T21:08:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/postgresql/</loc>
+    <lastmod>2015-03-13T20:25:58+00:00</lastmod>
   </url>
   
   <url>
@@ -898,13 +1128,28 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/centos/</loc>
+    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2014/10/how-to-install-perl-on-centos/</loc>
+    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/perl/</loc>
     <lastmod>2014-10-28T14:25:41+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.changesworlds.com/blog/2014/09/reintroduction-to-ruby-rails-git-007/</loc>
     <lastmod>2014-09-08T02:28:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/macbook-air/</loc>
+    <lastmod>2014-08-16T10:01:55+00:00</lastmod>
   </url>
   
   <url>
@@ -915,6 +1160,11 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2014/08/macbook-pro-than-macbook-air/</loc>
     <lastmod>2014-08-15T02:09:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/homebrew/</loc>
+    <lastmod>2014-07-03T23:32:00+00:00</lastmod>
   </url>
   
   <url>
@@ -948,6 +1198,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/blog/2014/01/regional-scrum-gathering-tokyo-2014-done/</loc>
+    <lastmod>2014-01-21T21:54:26+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2013/03/18th-tfsug/</loc>
     <lastmod>2013-03-27T14:49:29+00:00</lastmod>
   </url>
@@ -955,6 +1210,16 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2012/12/git-reference-undo/</loc>
     <lastmod>2012-12-08T05:17:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/tags/redmine/</loc>
+    <lastmod>2012-11-07T13:58:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.changesworlds.com/categories/writing/</loc>
+    <lastmod>2012-11-07T13:58:28+00:00</lastmod>
   </url>
   
   <url>
@@ -983,6 +1248,11 @@
   </url>
   
   <url>
+    <loc>https://www.changesworlds.com/tags/team-foundation-service/</loc>
+    <lastmod>2012-09-05T12:00:07+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.changesworlds.com/blog/2012/09/my-team-tried-team-foundation-service-preview/</loc>
     <lastmod>2012-09-05T12:00:07+00:00</lastmod>
   </url>
@@ -1005,324 +1275,6 @@
   <url>
     <loc>https://www.changesworlds.com/blog/2012/01/you-should-all-ask-yourself-what-do-you-feel-when-you-are-defeated/</loc>
     <lastmod>2012-01-19T23:29:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/about-me/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/agile/</loc>
-    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/azure/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/azure-devops/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/azure-web-apps/</loc>
-    <lastmod>2018-07-13T21:45:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/blog/</loc>
-    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/book/</loc>
-    <lastmod>2016-01-03T22:13:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/centos/</loc>
-    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/</loc>
-    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/circleci/</loc>
-    <lastmod>2016-09-03T14:56:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/cloud/</loc>
-    <lastmod>2018-08-11T10:19:32+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/communication/</loc>
-    <lastmod>2016-10-13T22:30:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/devops/</loc>
-    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/docker/</loc>
-    <lastmod>2016-09-06T11:16:22+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/event/</loc>
-    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/extreme-programming/</loc>
-    <lastmod>2015-09-14T04:09:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/gadget/</loc>
-    <lastmod>2018-07-11T22:32:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/git/</loc>
-    <lastmod>2016-01-07T22:07:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/github/</loc>
-    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/homebrew/</loc>
-    <lastmod>2014-07-03T23:32:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/hugo/</loc>
-    <lastmod>2018-08-21T11:30:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/infrastructure-as-code/</loc>
-    <lastmod>2016-09-09T11:01:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/jenkins/</loc>
-    <lastmod>2015-04-01T20:50:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/macbook-air/</loc>
-    <lastmod>2014-08-16T10:01:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/macbook-pro/</loc>
-    <lastmod>2015-04-20T20:54:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/management/</loc>
-    <lastmod>2015-08-21T03:58:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/mob-programming/</loc>
-    <lastmod>2018-10-02T03:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/mvp/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/pattern/</loc>
-    <lastmod>2018-12-11T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/pattern-language/</loc>
-    <lastmod>2018-03-14T03:00:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/perl/</loc>
-    <lastmod>2014-10-28T14:25:41+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/postgresql/</loc>
-    <lastmod>2015-03-13T20:25:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/press-release/</loc>
-    <lastmod>2019-01-15T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/programming/</loc>
-    <lastmod>2020-11-21T12:24:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/redmine/</loc>
-    <lastmod>2012-11-07T13:58:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/review/</loc>
-    <lastmod>2016-01-13T22:53:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/ruby/</loc>
-    <lastmod>2016-01-28T03:30:38+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/ruby-on-rails/</loc>
-    <lastmod>2017-08-02T04:15:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/scrum/</loc>
-    <lastmod>2017-06-19T04:00:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/serverless/</loc>
-    <lastmod>2018-04-22T02:32:19+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/serverspec/</loc>
-    <lastmod>2015-11-15T20:13:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/slack/</loc>
-    <lastmod>2015-05-28T20:48:33+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/</loc>
-    <lastmod>2020-07-14T00:43:21+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/team-foundation-service/</loc>
-    <lastmod>2012-09-05T12:00:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/terraform/</loc>
-    <lastmod>2016-09-09T11:01:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/translation/</loc>
-    <lastmod>2018-12-03T09:00:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/visual-studio/</loc>
-    <lastmod>2015-07-05T05:56:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/visual-studio-code/</loc>
-    <lastmod>2015-06-02T20:43:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/visual-studio-online/</loc>
-    <lastmod>2015-11-26T22:03:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/visual-studio-team-services/</loc>
-    <lastmod>2020-09-01T07:59:32+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/tags/windows-mixed-reality/</loc>
-    <lastmod>2018-07-11T22:32:54+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.changesworlds.com/categories/writing/</loc>
-    <lastmod>2012-11-07T13:58:28+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

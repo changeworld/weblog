@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mob Programming on Change the World!</title>
+    <title>Mob programming on Change the World!</title>
     <link>https://www.changesworlds.com/tags/mob-programming/</link>
-    <description>Recent content in Mob Programming on Change the World!</description>
+    <description>Recent content in Mob programming on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Oct 2018 03:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/mob-programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Oct 2018 03:00:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/mob-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TDDBC Tokyo 2018-09 に TA として参加しました #tddbc</title>
       <link>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</link>
       <pubDate>Tue, 02 Oct 2018 03:00:00 +0900</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2018/09/tddbc-tokyo-2018-09-done/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 2018/09/29 に開催された『TDDBC Tokyo 2018-09』に TA(Teaching Assistant) として参加しました。 tddbc.connpass.com 午前 やっとむ @yattom さんによる基調</description>
+      <description>このブログをご覧のみなさん、こんにちは。 2018/09/29 に開催された『TDDBC Tokyo 2018-09』に TA(Teaching Assistant) として参加しました。 午前 やっとむ @yattom さんによる基調講</description>
     </item>
     
     <item>

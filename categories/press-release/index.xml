@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Press Release on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Press Release on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 15 Jan 2019 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/press-release/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Jan 2019 09:00:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/press-release/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ミーミル社 エキスパートに指名されました</title>
       <link>https://www.changesworlds.com/blog/2019/01/mimir-inc-expert/</link>

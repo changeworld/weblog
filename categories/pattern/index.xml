@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pattern on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Pattern on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Dec 2018 09:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 11 Dec 2018 09:00:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一人でもハンズオン形式で学べる Microsoft Learn</title>
       <link>https://www.changesworlds.com/blog/2018/12/microsoft-hands-on-learning/</link>
@@ -107,7 +103,7 @@
       <pubDate>Tue, 17 Jun 2014 23:18:16 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2014/06/dont-ask-for-permission-beg-for-forgiveness-misuse/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 『許可を求めるな謝罪せよ』のフレーズを Google で検索するとたくさんでてきます。 許可を求めるな謝罪せよ &amp;#8211; Google 検</description>
+      <description>このブログをご覧のみなさん、こんにちは。 『許可を求めるな謝罪せよ』のフレーズを Google で検索するとたくさんでてきます。 許可を求めるな謝罪せよ – Google 検</description>
     </item>
     
     <item>

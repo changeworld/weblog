@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visual Studio Team Services on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Visual Studio Team Services on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Sep 2018 08:30:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/visual-studio-team-services/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 11 Sep 2018 08:30:00 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/visual-studio-team-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Studio Team Services から Azure DevOps にリブランディング</title>
       <link>https://www.changesworlds.com/blog/2018/09/visual-studio-team-services-is-now-azure-devops/</link>
@@ -53,7 +49,7 @@
       <pubDate>Mon, 05 Jun 2017 01:00:41 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2017/06/decode-2017-done/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 de:code 2017 [TL12] &amp;quot;炎上案件ストッパー&amp;quot;はかく語りき 「プロジェ</description>
+      <description>このブログをご覧のみなさん、こんにちは。 de:code 2017で登壇してきました。 トラックオーナーの方から“炎上案件ストッパー”という煽りタイトルを付け</description>
     </item>
     
     <item>

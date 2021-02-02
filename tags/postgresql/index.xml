@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Postgresql on Change the World!</title>
+    <title>PostgreSQL on Change the World!</title>
     <link>https://www.changesworlds.com/tags/postgresql/</link>
-    <description>Recent content in Postgresql on Change the World!</description>
+    <description>Recent content in PostgreSQL on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 13 Mar 2015 20:25:58 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 13 Mar 2015 20:25:58 +0000</lastBuildDate><atom:link href="https://www.changesworlds.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PostgreSQL からカンマ区切り or タブ区切りでデータを export する</title>
       <link>https://www.changesworlds.com/blog/2015/03/export-from-postgresql/</link>

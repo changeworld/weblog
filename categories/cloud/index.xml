@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Change the World!</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Cloud on Change the World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 11 Aug 2018 10:19:32 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.changesworlds.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 11 Aug 2018 10:19:32 +0900</lastBuildDate><atom:link href="https://www.changesworlds.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog を WordPress から Hugo に移行しました</title>
       <link>https://www.changesworlds.com/blog/2018/08/migrate-from-wordpress-to-hugo/</link>
@@ -35,7 +31,7 @@
       <pubDate>Thu, 20 Apr 2017 07:05:44 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2017/04/how-to-access-elasticache-resources-using-haproxy-from-outside-aws/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する &amp;#8211; Amazon ElastiCache そのた</description>
+      <description>このブログをご覧のみなさん、こんにちは。 Amazon ElastiCache は同一 VPC 内の EC2 からしかアクセスができない制限があります。 ステップ 4: アクセスを許可する – Amazon ElastiCache そのた</description>
     </item>
     
     <item>
@@ -80,7 +76,7 @@
       <pubDate>Sat, 01 Sep 2012 14:17:48 +0000</pubDate>
       
       <guid>https://www.changesworlds.com/blog/2012/09/tried-team-foundation-service-preview/</guid>
-      <description>このブログをご覧のみなさん、こんにちは。 Team Foundation Service Preview を試すに至った発端 それは以下の Tweet1 とそれへの長沢@tomohnさんからの mention です。 @changeworlds TFSでいい</description>
+      <description>このブログをご覧のみなさん、こんにちは。 Team Foundation Service Preview を試すに至った発端 それは以下の Tweet1 とそれへの[長沢@tomohnさん][2]からの mention です。 Redmine Backlogs</description>
     </item>
     
   </channel>
