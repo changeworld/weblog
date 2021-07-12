@@ -377,6 +377,15 @@
     </item>
     
     <item>
+      <title>Rails アプリの Jenkins のジョブのログの肥大化を防ぐ方法</title>
+      <link>https://www.changesworlds.com/blog/2015/08/how-to-prevent-the-enlargement-of-the-jenkins-job-log-of-rails/</link>
+      <pubDate>Wed, 26 Aug 2015 05:27:58 +0000</pubDate>
+      
+      <guid>https://www.changesworlds.com/blog/2015/08/how-to-prevent-the-enlargement-of-the-jenkins-job-log-of-rails/</guid>
+      <description>このブログをご覧のみなさん、こんにちは。 Jenkins ジョブのログが肥大化していた困っており、その解決策がわかったので、以下に記載します。 Rails アプリの Jenkins の</description>
+    </item>
+    
+    <item>
       <title>Visual Studio と GitHub を連携する方法 #tfsug</title>
       <link>https://www.changesworlds.com/blog/2015/07/how-to-cooperation-of-visual-studio-and-github/</link>
       <pubDate>Sun, 05 Jul 2015 05:56:58 +0000</pubDate>
